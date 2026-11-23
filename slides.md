@@ -126,6 +126,7 @@ Une journée · deux outils · un écran vérifié
 
 Levez la main.
 </div>
+
 ---
 
 <!-- _class: lead -->
