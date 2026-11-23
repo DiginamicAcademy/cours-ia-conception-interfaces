@@ -1,0 +1,27 @@
+# Déclaration du cours, en deux sections. Vérifiée à chaque push qui la modifie
+# (workflow « Vérifier »). Voir le chapitre 00-Creer-un-depot-de-cours.md.
+#
+# - course : ce que vise le cours. Recopiée à chaque version dans sa partie
+#   pédagogique, le dépôt privé <ce-dépôt>-Peda, où elle sert à produire
+#   RNCP.yaml et le syllabus (chapitre 05-Partie-pedagogique.md).
+# - credits : qui signe le cours, et avec quels comptes GitHub. Reprise
+#   par le support de cours, elle reste dans ce dépôt (chapitre
+#   04-Auteurs-et-contributeurs.md).
+course:
+  name: "Concevoir des interfaces avec l'IA : du besoin au prototype"
+  RNCP:     ## titres RNCP visés — les deux publics de la journée.
+    ## Les deux fiches nomment textuellement la réalisation des maquettes
+    ## d'interfaces, leur enchaînement, et le RGAA (fiches lues le
+    ## 23/11/2026 sur francecompetences.fr).
+    - RNCP37873
+    - RNCP37674
+  RNCPBloc: ## aucun bloc unique revendiqué : la journée sert deux titres à
+            ## la fois, en revendiquer un seul la réduirait.
+    []
+  timing: 1 ## durée prévue en jours
+
+credits:
+  authors: ## signataires du cours, dans l'ordre où ils doivent apparaître
+    - name: Robin Hotton
+      github: ## comptes GitHub avec lesquels il commite, pour reconnaître ses commits
+        - robinhotton
