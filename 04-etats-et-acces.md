@@ -400,4 +400,6 @@ Tout ceci est facultatif, et ne change rien aux livrables de la journée.
 
 </details>
 
+---
+
 [← Chapitre précédent](02-ecrire-spec-ecran.md) · [Sommaire](Readme.md) · [Chapitre suivant →](05-prototype-qui-devient-code.md)

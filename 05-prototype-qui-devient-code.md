@@ -1,4 +1,4 @@
-[← Chapitre précédent](02-ecrire-spec-ecran.md) · [Sommaire](Readme.md) · [Chapitre suivant →](06-tenez-ecran.md)
+[← Chapitre précédent](04-etats-et-acces.md) · [Sommaire](Readme.md) · [Chapitre suivant →](06-tenez-ecran.md)
 
 # 05 - Le prototype qui devient du code
 
@@ -295,4 +295,4 @@ Pourquoi pas les autres : l'envoi unique, même parfaitement documenté, est pr�
 
 ---
 
-[← Chapitre précédent](02-ecrire-spec-ecran.md) · [Sommaire](Readme.md) · [Chapitre suivant →](06-tenez-ecran.md)
+[← Chapitre précédent](04-etats-et-acces.md) · [Sommaire](Readme.md) · [Chapitre suivant →](06-tenez-ecran.md)
