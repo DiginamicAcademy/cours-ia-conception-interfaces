@@ -17,6 +17,14 @@
 - **Formuler** les critères d'acceptation d'un écran et une « définition de fini » dont au moins un critère s'évalue par une commande.
 - **Comparer** deux rendus obtenus sur la même demande, et nommer ligne par ligne ce qui a été inventé.
 
+## Sommaire
+
+- [I. Le triptyque : ce que votre demande doit couvrir](#i-le-triptyque--ce-que-votre-demande-doit-couvrir)
+- [II. Ce qu'une contrainte interdit d'inventer](#ii-ce-quune-contrainte-interdit-dinventer)
+- [III. Un artefact vaut mieux qu'un adjectif](#iii-un-artefaut-vaut-mieux-quun-adjectif)
+- [IV. Les critères d'acceptation d'un écran, et une définition de fini](#iv-les-critères-dacceptation-dun-écran-et-une-définition-de-fini)
+- [V. La spec est un fichier versionné, pas un message](#v-la-spec-est-un-fichier-versionné-pas-un-message)
+
 **Accroche (sondage) :** levez la main si vous avez déjà reçu d'un générateur un écran qui avait l'air juste et qui ne l'était pas. Gardez-la levée si, ensuite, vous avez passé plus de temps à réparer le résultat qu'à écrire la demande. La mesure du § II porte exactement sur ce couple de durées.
 
 ## I. Le triptyque : ce que votre demande doit couvrir
@@ -171,11 +179,11 @@ Une spec qui couvre les cinq familles se termine par une **définition de fini**
 
 ```bash
 # 1. Le rendu passe le validateur HTML (capteur installé au chapitre 06)
-npx html-validate rendu/index.html      # attendu : aucune erreur
+npx html-validate rendus/02-recherche-produits/index.html      # attendu : aucune erreur
 
 # 2. Toute image porte une alternative textuelle
-grep -o '<img' rendu/index.html | wc -l   # nombre d'images
-grep -o 'alt='  rendu/index.html | wc -l   # nombre d'alternatives
+grep -o '<img' rendus/02-recherche-produits/index.html | wc -l   # nombre d'images
+grep -o 'alt='  rendus/02-recherche-produits/index.html | wc -l   # nombre d'alternatives
 # attendu : les deux nombres sont égaux
 ```
 

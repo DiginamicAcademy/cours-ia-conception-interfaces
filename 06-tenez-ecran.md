@@ -14,6 +14,14 @@
 - **Séparer** dans l'historique ce qui vient de la machine de ce que vous avez fait, et le dater.
 - **Faire survivre** votre travail à l'outil qui l'a produit : dater, épingler, garder les sorties.
 
+## Sommaire
+
+- [I. Vous surveillez le code. Qui surveille l'écran ?](#i-vous-surveillez-le-code-qui-surveille-lécran-)
+- [II. Deux capteurs, et voici pourquoi deux](#ii-deux-capteurs-et-voici-pourquoi-deux)
+- [III. La dette immédiate d'une interface générée](#iii-la-dette-immédiate-dune-interface-générée)
+- [IV. Déclarer l'usage, tenir les traces](#iv-déclarer-lusage-tenir-les-traces)
+- [V. Et si l'outil disparaît](#v-et-si-loutil-disparaît)
+
 ## I. Vous surveillez le code. Qui surveille l'écran ?
 
 **Accroche (sondage) :** levez la main si vous avez déjà écrit `npm test`, `mypy` ou `eslint`, ou laissé un pipeline rouge vous rattraper. Gardez la main levée si vous avez déjà lancé *quelque chose* sur un écran — une commande, un rapport, n'importe quoi qui ne soit pas vos yeux. L'écart entre les deux mains, c'est ce chapitre.
@@ -75,9 +83,9 @@ La question « quels capteurs d'interface choisir ? » a une réponse par défau
 **html-validate** est l'autre versant : une ligne de commande, environ 11 mégaoctets, qui lit le fichier et rend `fichier:ligne:colonne`. Il ne voit pas le rendu, il voit la structure — et il la voit **à la ligne où vous devez taper**, ce qui change tout quand on corrige.
 
 ```bash
-npx html-validate panier.html
+npx html-validate rendus/02-recherche-produits/index.html
 
-panier.html
+rendus/02-recherche-produits/index.html
   14:7  error  Form field requires an associated label  input-req-label
   21:9  error  Element "img" requires alternative text  wcag/h37
 
@@ -99,7 +107,7 @@ Lighthouse · Accessibilité
   Hiérarchie des titres        Réussite
 ```
 
-Un point de salle, sans lequel l'atelier ne démarre pas : **Lighthouse se lance sur une page servie en HTTP**, pas sur un fichier ouvert en `file://`. Servez le dossier de votre rendu avec n'importe quel serveur HTTP local (`python -m http.server` suffit si Python est sur le poste) et lancez l'audit sur l'adresse `http://localhost:...` obtenue. En `file://`, le navigateur refuse une partie des ressources : Lighthouse travaille alors sur une page qui ne s'affiche pas comme elle s'affichera une fois hébergée, et un rapport faux est pire qu'aucun rapport.
+Un point de salle, sans lequel l'atelier ne démarre pas : **Lighthouse se lance sur une page servie en HTTP**, pas sur un fichier ouvert en `file://`. Une commande : `cd rendus/02-recherche-produits && python -m http.server 8000`, et la page s'ouvre à `http://localhost:8000` — sous Windows, `py -m http.server 8000` si `python` ne répond pas ; prenez un autre port si le 8000 est déjà pris et ouvrez l'adresse qui va avec. Le kit distribué en salle dit ce qui est installé sur les postes. En `file://`, le navigateur refuse une partie des ressources : Lighthouse travaille alors sur une page qui ne s'affiche pas comme elle s'affichera une fois hébergée, et un rapport faux est pire qu'aucun rapport.
 
 > ⚠️ **Un rapport vert n'est pas un écran accessible.** Les outils automatiques laissent passer environ 30 % des barrières d'accessibilité : donnée du Government Digital Service (le service numérique du gouvernement britannique), reprise par le README de `jest-axe`. Un capteur qui ne trouve rien n'a pas prouvé qu'il n'y a rien — il a épuisé ce qu'il sait voir. C'est la raison pour laquelle ce chapitre ne vous demande pas un rapport à coller, mais une **correction à justifier**.
 

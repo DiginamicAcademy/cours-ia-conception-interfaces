@@ -26,9 +26,6 @@
 - [IV. Le premier audit, et ses angles morts](#iv-le-premier-audit-et-ses-angles-morts)
 - [V. La relance change le résultat](#v-la-relance-change-le-résultat)
 - [VI. L'atelier — deux passes sur l'écran d'un autre](#vi-latelier--deux-passes-sur-lécran-dun-autre)
-- [Aller plus loin](#aller-plus-loin)
-- [Points clés](#points-clés)
-- [Vérifiez vos acquis](#-vérifiez-vos-acquis)
 
 ## I. Un écran n'est pas un écran, c'est quatre
 

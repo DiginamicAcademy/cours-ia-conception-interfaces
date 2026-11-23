@@ -18,6 +18,14 @@
 - **Organiser** le passage de l'écran à ceux qui vont le coder : jetons de style, noms de composants, outillage, gouvernance.
 - **Trier** ce qui survit au passage et ce qui meurt.
 
+## Sommaire
+
+- [I. Un prototype est une hypothèse](#i-un-prototype-est-une-hypothèse)
+- [II. Le clic : relier les écrans](#ii-le-clic--relier-les-écrans)
+- [III. Récupérer le dossier, et le relire](#iii-récupérer-le-dossier-et-le-relire)
+- [IV. Le handoff n'est pas un envoi](#iv-le-handoff-nest-pas-un-envoi)
+- [V. Ce qui survit, ce qui meurt](#v-ce-qui-survit-ce-qui-meurt)
+
 ## I. Un prototype est une hypothèse
 
 Une hypothèse se formule **avant** l'expérience. C'est ce qui la distingue d'un brouillon : un brouillon attend qu'on le regarde pour savoir s'il est bon ; une hypothèse sait déjà ce qui la contredira.
@@ -73,7 +81,7 @@ Ce que vous notez ici n'est pas une liste de défauts : c'est la liste des **dé
 ### B. Relier sans retravailler
 
 - Ne reliez que le **chemin principal** : le chemin que la spec a écrit, pas les variantes de confort. Un prototype qui a toutes les sorties possibles ne teste plus l'ordre, il décore.
-- Annoncez à l'outil ce que vous voulez obtenir en **termes d'écrans**, pas en termes d'effets : « d'ici, un clic sur le producteur mène à sa fiche, et de là on revient à cette liste ».
+- Annoncez à l'outil de maquette — Google Stitch — ce que vous voulez obtenir en **termes d'écrans**, pas en termes d'effets : « d'ici, un clic sur le producteur mène à sa fiche, et de là on revient à cette liste ».
 - Repérez, à chaque lien, **l'état de départ** de l'écran d'arrivée : vide ou plein ? c'est la réponse du chapitre précédent, et c'est elle qui casse en premier.
 - Faites le trajet **à l'envers** une fois sur deux, et une fois **au clavier** seulement. Ce que la souris pardonne, la tabulation le note.
 
@@ -86,7 +94,7 @@ Ce que vous notez ici n'est pas une liste de défauts : c'est la liste des **dé
 | Ce que vous récupérez | Ce que ça contient | Ce que ça ne contient pas | Ce qu'on vérifie à la réception |
 | --- | --- | --- | --- |
 | L'archive de l'outil de maquette | par écran, un document HTML avec ses styles (Tailwind) et une capture | serveur, dépendances, liens entre écrans durables | les liens entre écrans tiennent-ils hors de l'outil ? |
-| L'archive de l'outil d'application | un projet : entrée HTML, dossier de code source, fichier de dépendances et de scripts, petit serveur | vos décisions, vos données, vos clés | ce que le fichier de scripts sait lancer — et ce qui lui manque pour ça |
+| L'archive de l'outil d'application (Google AI Studio, mode Build) | un projet : entrée HTML, dossier de code source, fichier de dépendances et de scripts, petit serveur | vos décisions, vos données, vos clés | ce que le fichier de scripts sait lancer — et ce qui lui manque pour ça |
 | Le dépôt Git | le projet **et son historique**, donc ses reprises | ce qui n'a jamais été commité : commentaires de l'outil, captures, discussions | la branche et le commit que vous avez sous les yeux, et qui les a écrits |
 
 Deux points de méthode, parce que ces surfaces bougent :
@@ -225,8 +233,6 @@ Le passage de la maquette au code n'est ni une perte ni un gain : c'est un **tri
 | Les liens entre écrans | ils sont devenus du code de navigation | ils vivaient dans la fonction « lecture » de l'outil |
 
 Ce qui meurt n'est pas un accident : c'est ce que la maquette **simulait**. Une transition, un chargement, un panier qui se remplit, une donnée qui change — la maquette les joue, le code doit les faire. C'est tout le chapitre, dit en une phrase : **le code ne récupère pas une apparence, il récupère des engagements**.
-
----
 
 ## Aller plus loin
 

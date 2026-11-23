@@ -17,6 +17,14 @@
 - **Classer** les défauts d'une interface en quatre familles, avec des mots que deux personnes peuvent s'échanger.
 - **Anticiper** les quatre choses qu'une interface générée ne produira jamais d'elle-même.
 
+## Sommaire
+
+- [I. Un écran, un vote](#i-un-écran-un-vote)
+- [II. Ce qu'un modèle remplit en silence](#ii-ce-quun-modèle-remplit-en-silence)
+- [III. La fidélité est un niveau de question](#iii-la-fidélité-est-un-niveau-de-question)
+- [IV. Quatre classes de défaut que la finition n'efface pas](#iv-quatre-classes-de-défaut-que-la-finition-nefface-pas)
+- [V. Ce qu'une interface générée rate par construction](#v-ce-quune-interface-générée-rate-par-construction)
+
 ## I. Un écran, un vote
 
 **Accroche (sondage) :** la journée commence sans annonce de plan ni présentation de logiciel. Un écran est projeté, et c'est tout.

@@ -20,11 +20,15 @@ function rendre(ligne, ok, detail) {
   resultats.push({ ligne, ok, detail });
 }
 
-// 1. La version de Node. Le validateur exige ^22.22.0 ou >= 24.8.0 — relevé sur le
-//    registre npm le 23/11/2026. Notez que Node 23 et Node 24.0 à 24.7 ne passent pas.
+// 1. La version de Node. Le validateur exige `^22.22.0 || >= 24.8.0` — relevé sur le registre
+//    npm le 23/11/2026. Notez ce que cette écriture refuse : toute la branche 23, et la 24
+//    jusqu'à 24.7. Un poste « récent mais pas assez » est le cas le plus fréquent en salle.
 const [majeur, mineur] = process.versions.node.split(".").map(Number);
-const nodeConvient =
-  (majeur === 22 && mineur >= 22) || (majeur > 22 && majeur < 24 ? false : majeur >= 24 && (majeur > 24 || mineur >= 8));
+let nodeConvient;
+if (majeur === 22) nodeConvient = mineur >= 22;
+else if (majeur === 23) nodeConvient = false;
+else if (majeur === 24) nodeConvient = mineur >= 8;
+else nodeConvient = majeur > 24;
 rendre(
   `Node ${process.versions.node}`,
   nodeConvient,
