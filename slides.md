@@ -35,7 +35,7 @@ style: |
   .split img {max-width: 100%; max-height: 58vh}
 paginate: true
 header: "Concevoir des interfaces avec l'IA — du besoin au prototype"
-footer: "![height:20px](https://raw.githubusercontent.com/DiginamicInternal/PublicAssets/refs/heads/main/Logo-diginamic-color-blk.png)"
+footer: "![height:20px](assets/Logo-diginamic-color-blk.png)"
 ---
 
 <!-- _class: lead -->
@@ -228,6 +228,7 @@ Levez la main.
 
 - L'écran projeté à l'ouverture, remis dans un fichier distribué aux binômes.
 - Quatre défauts, un par famille, sur quatre lignes.
+- Les quatre familles — hiérarchie et groupement · couleur et contraste · rythme des espacements · parcours.
 
 ```text
 famille — ce que je vois (à quel endroit) — ce que ça empêche
@@ -270,7 +271,7 @@ La qualité ne se juge pas au nombre de défauts trouvés mais à la **forme** d
 | Les états : vide, chargement, erreur, cas limites | l'état « tout va bien, quatre articles avec photo » | le panier vide affiche une page blanche |
 | La validation | un formulaire qui ne refuse rien | un code postal de onze caractères passe |
 | La persistance | un écran qui a l'air de retenir | on revient : tout est perdu |
-| Le comportement | une position de bouton, une ombre au survol | le bouton « Suivant » ne fait rien |
+| Le comportement | une position de bouton, une ombre au survol | le bouton « Valider le panier » ne fait rien |
 
 **Une image de logiciel, pas un logiciel :** ces absences ne se devinent pas, elles se décident.
 
@@ -862,6 +863,12 @@ Un seul écran : celui de la fiche *Panier Local*. La consigne qui règle tout�
 - **7 min — les trois relances** : chacune **une seule chose**, et ce que vous regarderez après ; fiche remplie au fil de l'eau.
 - **5 min — débrief** avec le binôme d'à côté, puis la trace.
 
+---
+
+<!-- _class: exercise -->
+
+## EX-03 — Repli, rendu, dossier
+
 **Poste bloqué à l'étape 1 ?** Vous prenez la sortie du binôme d'à côté et vous faites tout le reste avec lui.
 
 **Rendu en fin d'atelier :** la fiche et ses verdicts, les trois relances, la capture datée de la troisième sortie, la ligne « reste à redemander ».
@@ -1234,6 +1241,14 @@ Vous n'auditez pas votre écran : vous auditez **celui du binôme d'à côté**
 1. **4 min — échange.** Chacun ouvre le rendu du voisin ; on note quelle donnée on a sous les yeux, le rendu n'est peut-être pas l'écran vide.
 2. **7 min — passe 1, sans capteur.** À l'œil, au clavier, avec les quatre états autant que possible : vous produisez une liste numérotée de défauts.
 3. **7 min — passe 2, avec capteur.** Même écran, audit lancé : vous ajoutez ce qu'elle signale, vous **barrez** ce que vous aviez écrit et qu'elle ne confirme pas, vous **entourez** ce qu'elle ne dit pas.
+---
+
+<!-- _class: exercise -->
+
+# EX-04 — Relance, re-mesure, débrief
+
+Même écran, même état — on compare des listes, pas des impressions.
+
 4. **6 min — la relance.** Un item par violation : valeur mesurée, critère, correction attendue, phrase de périmètre figé. Vous la donnez à l'outil qui a produit l'écran, ou à celui que le formateur indique.
 5. **3 min — re-mesure.** Nouvel audit sur la nouvelle sortie, même écran, même état ; vous reportez les trois colonnes.
 6. **8 min — débrief** commun : qui a trouvé quoi sans le capteur, combien de violations restaient, quelle formulation a le mieux marché.

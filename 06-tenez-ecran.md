@@ -218,8 +218,9 @@ Ce qui ne se garde pas : les chiffres de l'offre, les noms de modes, les quotas
 ## Points clés
 
 - Un écran que rien ne surveille est du code non surveillé qui se donne pour un livrable : le remède est le même geste que pour le code, pas un regard plus attentif.
-- Deux capteurs choisis pour ce qu'ils mesurent, ce qu'ils pèsent et ce qu'ils installent valent mieux que dix qui partagent le même moteur et saturent le réseau de la salle.
+- Deux capteurs choisis pour ce qu'ils mesurent, ce qu'ils pèsent et ce qu'ils installent valent mieux que le reste des dix candidats examinés, dont quatre partagent le même moteur et six téléchargent un navigateur de 150 à 300 Mo.
 - **Un rapport vert n'est pas un écran accessible** : les outils automatiques laissent passer environ 30 % des barrières d'accessibilité. Ce qu'ils ne trouvent pas reste votre responsabilité.
+- **Un audit ne juge que l'état affiché.** Lancé sur l'écran plein, il ne dit rien de l'écran vide ni de l'écran de chargement : les quatre états du chapitre 04 sont quatre occasions de lancer le même rapport.
 - La dette d'une interface générée est là dès la sortie de la machine : valeurs qui dérivent, composants dupliqués, fonctionnalités fantaisie. Elle se règle à l'heure où elle coûte peu.
 - Un commit pour la machine, un commit pour vous : c'est une preuve, pas une politesse. Datez, épinglez, gardez les sorties — le seul avenir de l'outil en ligne, c'est votre dépôt.
 
