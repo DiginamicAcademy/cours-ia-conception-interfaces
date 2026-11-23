@@ -5,53 +5,34 @@
   </picture>
 </p>
 
-# Template de cours public
+# Concevoir des interfaces avec l'IA : du besoin au prototype
 
-Ce dépôt est le modèle des cours Diginamic. On n'y rédige pas de cours : on
-s'en sert pour créer le dépôt de chaque cours, qui hérite de tout l'outillage :
+**Une journée pour apprendre à produire des écrans avec l'IA — et à savoir si ce qu'elle produit est juste.**
 
-- le **support de cours** en PDF, assemblé à partir du Readme et des chapitres ;
-- les **diapositives**, en PDF et PPTX, sur fond sombre et sur fond clair ;
-- une **release** GitHub par version, qui porte ces documents ;
-- la **partie pédagogique** du cours : un dépôt privé `<cours>-Peda`, où sont
-  produits la déclaration RNCP et le syllabus.
+## L'idée qui tient tout le cours
 
-Les fichiers du template servent à la fois de documentation et d'exemple : ce
-Readme montre comment ouvrir un cours, les chapitres comment les écrire.
+> **Une interface générée par une machine n'est pas un livrable : c'est un brouillon de haute finition.**
 
-## 1. Créer le dépôt d'un cours
+Sa finition tient lieu de substance, et c'est ce qui la rend plus dangereuse qu'un croquis : un croquis ne persuade personne, une maquette bien typographiée persuade son auteur. Dans cette journée, vous n'apprenez pas un outil, vous apprenez à **rendre l'écran vérifiable** : écrire ce qui doit être vrai, le faire contrôler par la machine, itérer avec des preuves, puis transmettre en code.
 
-1. **Créer le dépôt** : sur GitHub, *Use this template* → *Create a new
-   repository*, propriétaire `DiginamicAcademy`, nom du cours sans espace ni
-   accent (`Angular-22`), visibilité *Public*.
-2. **Déclarer le cours** dans `config.yaml` : ce qu'il vise (`course`) et qui
-   le signe (`credits`).
-3. **Faire place nette** : réécrire ce Readme, remplacer les chapitres `00-` à
-   `05-` et `slides.md` par ceux du cours.
-4. **Rédiger**, en poussant au fil de l'eau.
-5. **Publier une version** : `git tag v1.0 && git push origin v1.0`.
+## Objectifs pédagogiques
 
-Chaque étape est détaillée au [chapitre 00](00-Creer-un-depot-de-cours.md).
+À l'issue du cours, vous saurez : rédiger une spec d'écran en trois blocs, vérifiable ; piloter un outil de design par IA en surveillant ce qu'il coûte et ce qu'il cache ; compléter les quatre états d'un écran que personne ne dessine — vide, chargement, erreur, cas limites ; auditer l'accessibilité d'un rendu et mesurer l'effet d'une relance ; relier des écrans en prototype cliquable ; récupérer le code généré et le relire avant de dire « c'est bon » ; tenir la qualité d'une interface dans le temps avec deux capteurs gratuits.
 
-## 2. Comment rédiger le cours ?
+## Prérequis
 
-### 2.1 Parties conseillées
+Bases du HTML et du CSS, bases de Git et de GitHub. C'est tout — aucune connaissance en design graphique n'est attendue. Aucun logiciel à installer, aucune licence payante : deux outils gratuits suffisent, et les capteurs sont déjà dans le navigateur ou tiennent sur une ligne de commande.
 
-Commencer par une section "Objectifs pédagogiques" rappelant / dévoilant les objectifs du cours.
+## La journée, chapitre par chapitre
 
-Continuer avec un phasage : quelles sont les étapes du cours ?
+On repart d'une fiche persona fournée — celle de *Panier Local*, la plateforme de commande auprès de producteurs locaux — et on passe la journée sur l'écran : de la spec au code, dans cet ordre.
 
-## 3. Le parcours
-
-Chaque étape est un fichier. On les suit **dans l'ordre** : chacune s'appuie sur la base laissée par la précédente.
-
-| # | Étape | Durée | Ce qu'on y fait |
+| # | Chapitre | Repère | Ce qu'on y fait |
 |---|---|---|---|
-| [00](00-Creer-un-depot-de-cours.md) | Créer le dépôt d'un cours | 15 min | le bouton *Use this template*, ce qu'on garde et ce qu'on remplace, la première version |
-| [01](01-Exemple%20de%20cours%20en%20un%20seul%20fichier.md) | Un cours en un seul fichier | 20 min | la structure type d'un chapitre : objectifs, schémas Mermaid, images, code, parties escamotables |
-| [02](02-Exemple%20de%20cours%20en%20multi-fichier.md) | Organiser un cours en plusieurs fichiers | 20 min | nommage et ordre des chapitres, intercalaires, liens entre fichiers, pièges de génération |
-| [03](03-Slides.md) | Faire les diapositives avec Marp | 20 min | en-tête du diaporama, séparation des diapositives, images, duo sombre / clair, prévisualisation |
-| [04](04-Auteurs-et-contributeurs.md) | Créditer l'auteur et les contributeurs | 10 min | la section `credits` de `config.yaml`, la liste tirée de l'historique git, la section « Crédits » |
-| [05](05-Partie-pedagogique.md) | Déclarer le cours et sa partie pédagogique | 15 min | la section `course` de `config.yaml`, sa vérification, le dépôt privé `-Peda` créé et régénéré à chaque version |
-
-Ce tableau est le sommaire du cours : il tient lieu de plan et donne au lecteur une idée du temps à prévoir. Les liens pointent vers les fichiers du dépôt ; à la génération du support, ils deviennent des liens internes vers le chapitre correspondant.
+| 01 | Une maquette finie est un risque | 35 min | Juger un écran généré sans se laisser impressionner par sa finition |
+| 02 | Écrire une spec d'écran | 50 min | Formuler la même demande en vague et en trois blocs, et comparer |
+| 03 | L'écran par la machine | 50 min | Générer des écrans en surveillant crédits, design system et exports |
+| 04 | Les états et l'accès | 70 min | Les quatre états oubliés ; l'audit d'accessibilité, puis la relance mesurée |
+| 05 | Le prototype qui devient du code | 60 min | Relier les écrans, télécharger le dossier, relire le code généré |
+| 06 | Tenez l'écran | 55 min | Deux capteurs, la dette immédiate d'une interface générée, les traces |
+| A | Vocabulaire, outils et ressources | — | Tout le vocabulaire du cours, défini ici |
