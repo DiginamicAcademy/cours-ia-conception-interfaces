@@ -1,4 +1,4 @@
-[← Chapitre précédent](06-tenez-ecran.md) · [Sommaire](Readme.md) · [Annexe suivante →](B-Persona-Panier-Local.md)
+[← Chapitre précédent](06-tenez-ecran.md) · [Sommaire](Readme.md) · [Chapitre suivant →](B-Persona-Panier-Local.md)
 
 # A - Vocabulaire, outils et ressources
 
@@ -270,4 +270,4 @@ capteurs (chapitre 06, IV. Déclarer l'usage, tenir les traces).
 
 ---
 
-[← Chapitre précédent](06-tenez-ecran.md) · [Sommaire](Readme.md) · [Annexe suivante →](B-Persona-Panier-Local.md)
+[← Chapitre précédent](06-tenez-ecran.md) · [Sommaire](Readme.md) · [Chapitre suivant →](B-Persona-Panier-Local.md)

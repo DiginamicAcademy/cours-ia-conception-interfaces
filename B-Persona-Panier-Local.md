@@ -1,4 +1,4 @@
-[← Annexe précédente](A-Vocabulaire-outils-et-ressources.md) · [Sommaire](Readme.md)
+[← Chapitre précédent](A-Vocabulaire-outils-et-ressources.md) · [Sommaire](Readme.md)
 
 # B - Panier Local, le sujet d'étude
 
@@ -182,4 +182,6 @@ Une dernière chose, qui ne se coche pas. Si tout ce qui précède est vrai et q
 joli, vous n'avez pas échoué : la finition n'a jamais été le critère. Elle est seulement ce qui
 vous a empêché de voir, au chapitre 01, que rien n'était vérifié.
 
-[← Annexe précédente](A-Vocabulaire-outils-et-ressources.md) · [Sommaire](Readme.md)
+---
+
+[← Chapitre précédent](A-Vocabulaire-outils-et-ressources.md) · [Sommaire](Readme.md)
