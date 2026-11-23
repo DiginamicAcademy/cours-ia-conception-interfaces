@@ -1,4 +1,4 @@
-[← Chapitre précédent](02-ecrire-spec-ecran.md) · [Sommaire](Readme.md) · [Chapitre suivant →](05-prototype-qui-devient-code.md)
+[← Chapitre précédent](03-ecran-par-la-machine.md) · [Sommaire](Readme.md) · [Chapitre suivant →](05-prototype-qui-devient-code.md)
 
 # 04 - Les états et l'accès
 
@@ -399,4 +399,4 @@ Tout ceci est facultatif, et ne change rien aux livrables de la journée.
 
 ---
 
-[← Chapitre précédent](02-ecrire-spec-ecran.md) · [Sommaire](Readme.md) · [Chapitre suivant →](05-prototype-qui-devient-code.md)
+[← Chapitre précédent](03-ecran-par-la-machine.md) · [Sommaire](Readme.md) · [Chapitre suivant →](05-prototype-qui-devient-code.md)

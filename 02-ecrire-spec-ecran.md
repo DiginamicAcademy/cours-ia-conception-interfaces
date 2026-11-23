@@ -1,4 +1,4 @@
-[← Chapitre précédent](01-maquette-finie-risque.md) · [Sommaire](Readme.md) · [Chapitre suivant →](04-etats-et-acces.md)
+[← Chapitre précédent](01-maquette-finie-risque.md) · [Sommaire](Readme.md) · [Chapitre suivant →](03-ecran-par-la-machine.md)
 
 # 02 - Écrire une spec d'écran
 
@@ -354,4 +354,4 @@ Une dernière chose, qui relie ce chapitre à la thèse de la journée. La spec 
 
 ---
 
-[← Chapitre précédent](01-maquette-finie-risque.md) · [Sommaire](Readme.md) · [Chapitre suivant →](04-etats-et-acces.md)
+[← Chapitre précédent](01-maquette-finie-risque.md) · [Sommaire](Readme.md) · [Chapitre suivant →](03-ecran-par-la-machine.md)
