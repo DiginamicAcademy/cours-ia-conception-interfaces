@@ -29,6 +29,10 @@ style: |
   .cols-2 > div, .cols-3 > div {min-width: 0}
   .flex {display: flex}
   .justify-center {justify-content: center; align-items: center}
+  .split {display: flex; align-items: center; gap: 1.2em}
+  .split-media {flex: 0 0 62%; min-width: 0}
+  .split p {flex: 1 1 auto; min-width: 0; font-size: 0.95em}
+  .split img {max-width: 100%; max-height: 58vh}
 paginate: true
 header: "Concevoir des interfaces avec l'IA — du besoin au prototype"
 footer: "![height:20px](https://raw.githubusercontent.com/DiginamicInternal/PublicAssets/refs/heads/main/Logo-diginamic-color-blk.png)"
@@ -115,13 +119,13 @@ Une journée · deux outils · un écran vérifié
 
 ---
 
-<!-- _class: statement -->
-
 # Livrable, ou pas livrable ?
 
-<img src="assets/ecran-panier-vote.svg" alt="Écran de panier de Panier Local : quatre lignes de produit avec photo, prix, badge « En stock », note en étoiles et producteur souligné comme un lien, un sélecteur de quantité, et à droite un récapitulatif avec un total en gris pâle et deux boutons côte à côte" style="max-width:92%; max-height:78vh">
+<div class="split">
+<div class="split-media"><img src="assets/ecran-panier-vote.svg" alt="Écran de panier de Panier Local : quatre lignes de produit avec photo, prix, badge « En stock », note en étoiles et producteur souligné comme un lien, un sélecteur de quantité, et à droite un récapitulatif avec un total en gris pâle et deux boutons côte à côte"></div>
 
 Levez la main.
+</div>
 ---
 
 <!-- _class: lead -->
