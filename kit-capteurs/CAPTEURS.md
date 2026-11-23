@@ -1,7 +1,7 @@
 # Les deux capteurs
 
 Un kit déjà installé, pour ne rien faire télécharger en salle. Il contient les deux capteurs de la
-journée : **html-validate**, qui lit vos fichiers HTML à la ligne de commande, et **Lighthouse**,
+journée : **html-validate**, qui lit vos fichiers HTML à la ligne de commande, et **Lighthouse**,
 qui n'est pas un paquet — il est déjà dans les outils de développement du navigateur, et c'est le
 seul des deux à juger ce que la page donne à l'écran.
 
@@ -22,13 +22,13 @@ npm run docteur
 ```
 
 `node -v` doit répondre **22.22 ou plus** dans la branche 22, ou **24.8 ou plus** dans la 24. Le
-validateur est écrit pour ces versions : un poste plus ancien installe quand même — npm se
+validateur est écrit pour ces versions : un poste plus ancien installe quand même — npm se
 contente d'un avertissement — puis échoue sur une erreur de syntaxe qui ne veut rien dire pour
-vous. `npm run docteur` règle ce malentendu : il répond si Node convient, si le validateur est
+vous. `npm run docteur` règle ce malentendu : il répond si Node convient, si le validateur est
 bien là, et s'il y a une page à valider.
 
 Copiez le dossier **en entier**, avec son `node_modules`. Un `node_modules` recopié d'un système
-d'exploitation à l'autre perd ses lanceurs : c'est pourquoi les commandes d'ici appellent le
+d'exploitation à l'autre perd ses lanceurs : c'est pourquoi les commandes d'ici appellent le
 fichier d'entrée directement, avec `node`, et passent sur Windows comme sur Linux.
 
 ## Les deux commandes
@@ -38,9 +38,9 @@ npm run valider      passe rendus/ au crible, répond fichier:ligne:colonne
 npm run servir       sert le dossier, puis http://localhost:8000/rendus/
 ```
 
-Lighthouse s'utilise dans le navigateur : outils de développement (F12), onglet *Lighthouse*,
-« Analyser la page ». L'adresse doit être en `http://` — une page ouverte en `file://` n'est pas
-auditable, et le résultat serait de toute façon faux : beaucoup de règles ne s'évaluent que sur une
+Lighthouse s'utilise dans le navigateur : outils de développement (F12), onglet *Lighthouse*,
+« Analyser la page ». L'adresse doit être en `http://` — une page ouverte en `file://` n'est pas
+auditable, et le résultat serait de toute façon faux : beaucoup de règles ne s'évaluent que sur une
 page réellement servie.
 
 ## Ce que chacun voit, et ce qu'il ne verra jamais
@@ -52,16 +52,16 @@ page réellement servie.
 | Ne voit pas | ce qui n'apparaît qu'à l'exécution | ce qui n'est pas à l'écran au moment du clic |
 
 Cette dernière ligne est la plus importante du fichier. **Un audit ne juge que l'état affiché.**
-Votre écran a quatre états : lancez l'audit quatre fois, un par état, sinon vous avez audité une
-photo de l'état par défaut et vous l'appelez « l'écran ».
+Votre écran a quatre états : lancez l'audit quatre fois, un par état, sinon vous avez audité une
+photo de l'état par défaut et vous l'appelez « l'écran ».
 
 Et un rapport vert n'est pas un écran accessible. Ce que les deux capteurs réunis laissent passer,
-vous le trouverez à la main : l'ordre de tabulation suit-il le sens de lecture, que dit un lecteur
+vous le trouverez à la main : l'ordre de tabulation suit-il le sens de lecture, que dit un lecteur
 d'écran de ce bouton, l'information est-elle portée par la couleur seule.
 
 ## Ce que vous gardez
 
-Un capteur qui n'a pas servi à quelque chose n'a pas servi. Après chaque passe :
+Un capteur qui n'a pas servi à quelque chose n'a pas servi. Après chaque passe :
 
 ```
 node node_modules/html-validate/bin/html-validate.mjs --version
@@ -73,8 +73,8 @@ ce qui vous permet, la semaine prochaine, de dire ce qui a changé et ce qui n'a
 
 ## Désactiver une règle
 
-Le jeu « recommandé » est exigeant, et certaines de ses règles ne vous concernent pas. Dans
-`.htmlvalidate.json`, ajoutez :
+Le jeu « recommandé » est exigeant, et certaines de ses règles ne vous concernent pas. Dans
+`.htmlvalidate.json`, ajoutez :
 
 ```json
 {
@@ -86,5 +86,5 @@ Le jeu « recommandé » est exigeant, et certaines de ses règles ne vous conce
 ```
 
 Copiez le **nom exact** depuis la ligne du rapport que vous voulez faire taire — ne le devinez
-pas, une règle inconnue fait échouer le validateur. Et sachez ce que vous éteignez : désactiver une
+pas, une règle inconnue fait échouer le validateur. Et sachez ce que vous éteignez : désactiver une
 règle doit être un choix écrit, pas un soulagement.
