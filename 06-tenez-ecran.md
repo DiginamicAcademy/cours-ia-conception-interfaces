@@ -1,4 +1,4 @@
-[← Chapitre précédent](05-prototype-qui-devient-code.md) · [Sommaire](Readme.md) · [Chapitre suivant →](A-Vocabulaire-outils-et-ressources.md)
+[← Chapitre précédent](05-prototype-qui-devient-code.md) · [Sommaire](Readme.md)
 
 # 06 - Tenez l'écran
 
@@ -273,4 +273,4 @@ Ce qui ne se garde pas : les chiffres de l'offre, les noms de modes, les quotas.
 
 ---
 
-[← Chapitre précédent](05-prototype-qui-devient-code.md) · [Sommaire](Readme.md) · [Chapitre suivant →](A-Vocabulaire-outils-et-ressources.md)
+[← Chapitre précédent](05-prototype-qui-devient-code.md) · [Sommaire](Readme.md)
