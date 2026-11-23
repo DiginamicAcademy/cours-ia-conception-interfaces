@@ -148,7 +148,7 @@ Levez la main.
 
 <!-- Le vote a eu lieu à l'ouverture, sur l'écran projeté. On ne le relance pas ici : on révèle, en montrant l'endroit précis. -->
 
-- **Aucune donnée affichée n'existe** : prix, stock, note et ville inventés pour remplir le cadre.
+- **La moitié de ce que vous lisez n'existe pas** : les prix viennent du catalogue, mais le stock, la note, le nombre d'avis et la ville du producteur, personne ne les a écrits.
 - **Les deux boutons** : la forme de l'action, pas l'action.
 - **Aucun état vide, erreur ni chargement** ; une seule largeur.
 - **Aucun mot affiché ne vient de vous** : deux verbes, deux contrats.
@@ -171,7 +171,7 @@ Levez la main.
 
 | Ce que vous n'aviez pas dit | Ce que l'écran affiche | À qui la décision |
 |---|---|---|
-| Quelles données afficher | quatre articles, 12,50 €, « en stock », « depuis 1987 » | la machine |
+| Quelles données afficher | quatre articles, 20,20 €, « en stock », « depuis 1987 » | la machine |
 | Combien de choses à la fois | quatre lignes, un panier habituel en fait deux | la machine |
 | L'ordre des informations | le prix avant le nom | la machine |
 | Les mots | « Valider » à côté de « Continuer » | la machine |
