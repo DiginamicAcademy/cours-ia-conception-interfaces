@@ -1,0 +1,18 @@
+{
+  "name": "kit-capteurs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Les deux capteurs du cours : html-validate en ligne de commande, et Lighthouse qui est déjà dans les outils de développement du navigateur. Livré déjà installé — rien à installer en salle.",
+  "type": "module",
+  "engines": {
+    "node": "^22.22.0 || >=24.8.0"
+  },
+  "scripts": {
+    "docteur": "node verifier.mjs",
+    "valider": "node node_modules/html-validate/bin/html-validate.mjs rendus",
+    "servir": "node servir.mjs"
+  },
+  "devDependencies": {
+    "html-validate": "11.21.1"
+  }
+}
