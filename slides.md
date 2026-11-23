@@ -119,11 +119,9 @@ Une journée · deux outils · un écran vérifié
 
 # Livrable, ou pas livrable ?
 
-Un écran de panier s'affiche. Rien ne dit d'où il vient, ni s'il est provisoire.
+<img src="assets/ecran-panier-vote.svg" alt="Écran de panier de Panier Local : quatre lignes de produit avec photo, prix, badge « En stock », note en étoiles et producteur souligné comme un lien, un sélecteur de quantité, et à droite un récapitulatif avec un total en gris pâle et deux boutons côte à côte" style="max-width:92%; max-height:78vh">
 
-- Une question, une main levée par personne, sans discuter d'abord.
-- Le nombre est écrit au tableau. Il n'y sera pas touché de la journée.
-- Le but n'est pas de se tromper : c'est de savoir sur quoi vous avez de l'assurance.
+Levez la main.
 ---
 
 <!-- _class: lead -->

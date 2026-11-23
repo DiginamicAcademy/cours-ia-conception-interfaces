@@ -32,17 +32,20 @@
 > 🎯 **Le vote.** Une question, une consigne : « **Livrable, ou pas livrable ?** » On lève la main.
 > Le nombre est écrit au tableau, et il n'y sera pas touché de la journée.
 
+![Écran de panier de Panier Local projeté en ouverture du cours : quatre lignes de produit avec photo, prix, badge « En stock », note en étoiles et producteur souligné comme un lien, un sélecteur de quantité, et à droite un récapitulatif avec un total en gris pâle et deux boutons côte à côte](assets/ecran-panier-vote.svg)
+
 **Le déroulé, dans l'ordre.**
 
 1. **L'écran arrive sans explication.** Un écran de panier de *Panier Local*, la plateforme de commande auprès de producteurs locaux sur laquelle toute la journée travaille : photos, noms, quantités, un total, deux boutons, des avis, un pied de page. Rien ne le signale comme provisoire — il a la densité et la tenue d'un écran qu'on mettrait en ligne.
 2. **La salle vote**, une main levée par personne, sans discussion d'abord.
 3. **Le résultat est écrit au tableau** : un nombre, pas un palmarès. Personne n'est renvoyé à une erreur, le but n'est pas de se tromper mais de savoir sur quoi l'on a de l'assurance.
 4. **Le formateur révèle alors, point par point**, en montrant à chaque fois l'endroit précis de l'écran :
-   - **aucune donnée affichée n'existe** : le prix de chaque article, le stock, la note et la ville du producteur ont été inventés pour remplir le cadre ; personne ne les a relus, parce que personne ne les a écrits ;
+   - **la moitié de ce que vous lisez n'existe pas** : les prix viennent du catalogue que vous avez en main, et c'est précisément ce qui rend l'écran crédible ; le stock, la note, le nombre d'avis, la ville du producteur et son année de création n'y figurent pas ; personne ne les a relus, parce que personne ne les a écrits ;
+   - **le catalogue de la fiche ne contient aucune quantité** : ce panier en a pourtant, donc un total, et rien à l'écran ne distingue les nombres qui viennent de la base de ceux qui ont été ajoutés pour remplir le cadre ;
    - **les deux boutons ne déclenchent rien** : ils ont la forme de l'action, pas l'action ;
    - **l'écran n'a pas d'état vide** — panier à zéro article, rien n'est prévu — **ni d'état d'erreur ni de chargement** : le réseau qui traîne et le paiement qui refusent n'apparaissent nulle part ;
    - **il n'existe qu'à une largeur**, celle du projecteur ;
-   - **aucun mot affiché ne vient de vous** : « Valider » et « Commander » ne s'écrivent pas pour la même raison, l'un ferme une fenêtre, l'autre engage un paiement ;
+   - **aucun mot affiché ne vient de vous** : « Valider » et « Continuer » ne s'écrivent pas pour la même raison, l'un engage un paiement, l'autre remet la commande à demain ;
    - enfin la question qui fait tout le travail : **« qui, dans cette salle, aurait pu dire à l'avance ce que cet écran affiche ? »** Normalement, plus aucune main levée.
 5. **On reprend le vote tel quel**, sans rien changer à l'écran. Les mains bougent à peine.
 
@@ -58,7 +61,7 @@ Une demande d'écran n'est jamais complète : vous décrivez une intention, que
 
 | Ce que vous n'aviez pas dit | Ce que l'écran affiche | À qui appartient la décision |
 | --- | --- | --- |
-| Quelles données afficher | quatre articles, 12,50 €, « en stock », un producteur « depuis 1987 » | la machine |
+| Quelles données afficher | quatre articles, 20,20 €, « en stock », un producteur « depuis 1987 » | la machine |
 | Combien de choses à la fois | quatre lignes de produit, alors qu'un panier habituel en fait deux | la machine |
 | L'ordre des informations | le prix avant le nom, l'image avant les deux | la machine |
 | Les mots | « Valider » à côté de « Continuer » : deux verbes, deux contrats | la machine |
