@@ -261,6 +261,8 @@ Nous ne gardons de ces chiffres que ce qu'ils disent sur le geste, pas leur vale
 > 5. Le titre de section est un paragraphe en gras : remplace-le par un titre de niveau 2, sans sauter de niveau.
 > 6. Une image de producteur est sans texte alternatif : décris ce qu'elle montre, ou décris son rôle. »
 
+![Le couple de l'item 2 mesuré : le texte #9ca3af, le fond #f9fafb, le couple rendu tel qu'il s'affiche, puis le calcul — ratio des deux valeurs 2,43:1 contre 4,5:1 exigé en texte courant, verdict échoue. La mesure porte sur les deux valeurs, pas sur ce tirage.](assets/contraste-mesure.svg)
+
 Six items, six verdicts. Après la sortie, vous ne demandez pas « as-tu tout corrigé ? » : **vous relancez l'audit**. C'est la seconde passe, et c'est elle qui décide.
 
 ### D. Mesurer la différence

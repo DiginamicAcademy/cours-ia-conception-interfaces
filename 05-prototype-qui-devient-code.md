@@ -65,6 +65,8 @@ Le mot du référentiel est exactement le nôtre. Le titre sur lequel ce cours s
 
 Le lien entre deux écrans est donc une matière de travail, au même titre qu'un écran. Le relier, c'est répondre à une question que l'écran n'a jamais eue à traiter.
 
+![Trois écrans reliés dans les deux sens — recherche, résultats, panier — avec l'impasse muette du panier vide et le retour qui n'existe nulle part](assets/enchainement-trois-ecrans.svg)
+
 ### A. Ce que la navigation révèle
 
 | Ce que l'écran seul laissait croire | Ce que l'enchaînement montre |

@@ -253,6 +253,8 @@ Trois règles d'écriture, qui sont l'exercice entier :
 - **ce que vous ne pouvez pas regarder n'est pas une ligne.** « Que ce soit plus clair » ne se remplit pas dans la colonne *Obtenu* ;
 - **on vérifie le rendu, pas la réponse.** La machine peut annoncer une correction qu'elle n'a pas faite : ce qui décide est ce que l'écran affiche après, pas ce qu'elle écrit à propos de ce qu'elle a fait (chapitre 04, V.E).
 
+![En haut, trois relances adressées ensemble aboutissent à un seul rendu et à une cellule Verdict marquée d'un point d'interrogation : impossible de dire laquelle n'a pas pris. En bas, une relance d'une seule chose aboutit à un verdict lisible : « non pris » — qui dit quoi.](assets/une-ligne-une-chose.svg)
+
 ### C. Une capture prouve, ou elle décore
 
 Une capture n'est pas une preuve parce qu'elle montre quelque chose. Elle en est une si elle répond à trois questions :

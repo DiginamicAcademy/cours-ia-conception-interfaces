@@ -21,7 +21,7 @@ Sa finition tient lieu de substance, et c'est ce qui la rend plus dangereuse qu'
 
 ## Prérequis
 
-**Un compte Google à vous.** Le centre n'en fournit pas et l'outil de maquettage refuse les adresses qui ne sont pas sur `gmail.com` : prenez un compte personnel que vous pouvez ouvrir en salle, vérifié la veille.
+**Un compte Google à vous.** Le centre n'en fournit pas et l'outil de maquettage refuse les adresses qui ne sont pas sur `gmail.com` : prenez un compte personnel que vous pouvez ouvrir en salle, vérifié la veille.
 
 Bases du HTML et du CSS, bases de Git et de GitHub. C'est tout — aucune connaissance en design graphique n'est attendue. Aucun logiciel à installer, aucune licence payante : deux outils gratuits suffisent, et les capteurs sont déjà dans le navigateur ou tiennent sur une ligne de commande.
 

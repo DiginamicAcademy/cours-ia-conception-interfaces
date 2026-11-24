@@ -130,6 +130,8 @@ La dernière ligne mérite un arrêt : c'est la seule du tableau qui ne limite 
 
 « Moderne », « épuré », « aéré », « propre », « dans l'air du temps » : ces mots ne sont pas de l'information, ce sont des **directions**. Chacun les résout avec sa propre moyenne, et vous n'avez aucun moyen de savoir avec laquelle la machine l'a résolue. Le tableau suivant montre le même mot, reçu par trois personnes différentes.
 
+![Le mot « épuré » reçu par trois personnes différentes : trois fenêtres en blocs gris, l'une avec six lignes amputées de leurs informations, l'autre avec deux lignes puis quatre en pointillés, la troisième avec quatre lignes et deux zones en pointillés. Le pointillé marque ce qui est sorti du champ de vision.](assets/un-adjectif-trois-ecrans.svg)
+
 | Adjectif | Ce que la machine entend le plus souvent | L'artefact qui remplace le mot |
 | --- | --- | --- |
 | « moderne » | grands blancs, coins arrondis, ombres douces, une seule police | une capture d'un écran que vous trouvez réussi, datée, avec ce que vous en gardez |

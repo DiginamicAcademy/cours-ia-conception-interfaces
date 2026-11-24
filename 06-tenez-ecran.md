@@ -109,6 +109,8 @@ Lighthouse · Accessibilité
 
 Un point de salle, sans lequel l'atelier ne démarre pas : **Lighthouse se lance sur une page servie en HTTP**, pas sur un fichier ouvert en `file://`. Une commande : `cd rendus/02-recherche-produits && python -m http.server 8000`, et la page s'ouvre à `http://localhost:8000` — sous Windows, `py -m http.server 8000` si `python` ne répond pas ; prenez un autre port si le 8000 est déjà pris et ouvrez l'adresse qui va avec. Le kit distribué en salle dit ce qui est installé sur les postes. En `file://`, le navigateur refuse une partie des ressources : Lighthouse travaille alors sur une page qui ne s'affiche pas comme elle s'affichera une fois hébergée, et un rapport faux est pire qu'aucun rapport.
 
+![Deux chemins depuis le même fichier index.html : servi en HTTP, la page s'affiche en entier et le capteur est vert ; ouvert en file://, deux ressources manquent et le capteur est pourtant vert de même.](assets/servir-la-page-ou-nimporte-quoi-dautre.svg)
+
 > ⚠️ **Un rapport vert n'est pas un écran accessible.** Les outils automatiques laissent passer environ 30 % des barrières d'accessibilité : donnée du Government Digital Service (le service numérique du gouvernement britannique), reprise par le README de `jest-axe`. Un capteur qui ne trouve rien n'a pas prouvé qu'il n'y a rien — il a épuisé ce qu'il sait voir. C'est la raison pour laquelle ce chapitre ne vous demande pas un rapport à coller, mais une **correction à justifier**.
 
 ### C. Trois pièges consignés
@@ -172,6 +174,8 @@ La dette technique classique s'accumule avec le temps : on repousse, le code s'
 
 Ce triptyque a un point commun : il ne casse rien aujourd'hui. C'est précisément pourquoi il se règle maintenant, à l'heure où vous pouvez encore tout relire et où vous savez ce que vous avez demandé.
 
+![Les trois postes de la dette immédiate : dix bleus presque identiques dont un seul est le contrat posé, trois fiches produit recopiées inégalement corrigées, trois boutons que rien ne commande — Favoris, Code promo, Voir plus. À l'écran, personne ne voit la dérive.](assets/dette-immediate.svg)
+
 ## IV. Déclarer l'usage, tenir les traces
 
 Au bout de la journée, vous tenez un dossier de code dont une partie n'est pas de vous. Cela se traite, et cela s'écrit — pas pour la forme, pour que quelqu'un sache où poser ses questions dans quelques mois.
@@ -206,6 +210,8 @@ Tout ce que vous avez utilisé aujourd'hui pour produire est **hébergé** chez 
 **Gardez les sorties.** Le `.zip` téléchargé est copié et versionné, pas laissé dans le dossier Téléchargements « au cas où ». La règle tient en une phrase : **ce qui ne survivrait pas à la disparition de l'outil doit être dans votre dépôt.** Une maquette qui n'existe que chez l'éditeur n'est pas à vous, elle est empruntée.
 
 Ce qui ne se garde pas : les chiffres de l'offre, les noms de modes, les quotas. Ils bougent, et un support qui les recopie est faux dans un trimestre. Ce qui se garde : le geste — demander, vérifier ce que ça coûte, relire, faire contrôler, dater, transférer. Un support dont on peut retrouver les gestes dans un an a de la valeur ; un support dont on peut seulement relire les noms de boutons n'en a pas.
+
+![Ce qui survit à l'outil, et où cela se pose : chez l'éditeur, une maquette empruntée qui change ou ferme ; dans votre dépôt, les trois temps du commit, les sorties de capteurs datées et l'export versionné, la déclaration de ce qui est généré et de ce qui reste non vérifié. Le lien entre les deux est la copie, versionnée et datée.](assets/ce-qui-survit-a-l-outil.svg)
 
 ## Aller plus loin
 
