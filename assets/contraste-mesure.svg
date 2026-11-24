@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="800" height="320" role="img" aria-labelledby="t1 d1" font-family="DejaVu Sans, Arial, sans-serif">
+  <title id="t1">Le couple de couleurs #9ca3af sur #f9fafb, mesuré</title>
+  <desc id="d1">Trois panneaux alignés : un aplat de la couleur de texte #9ca3af, un aplat de la couleur de fond #f9fafb, puis le même couple rendu tel qu'il s'affiche, c'est-à-dire le texte « #9ca3af sur #f9fafb » écrit en #9ca3af sur fond #f9fafb. Sous les panneaux, la mesure : le ratio calculé sur ces deux valeurs est de 2,43:1, là où le référentiel exige 4,5:1 en texte courant (WCAG 2.2, critère 1.4.3) ; le verdict est « échoue ». La dernière ligne précise que la mesure porte sur les deux valeurs et non sur ce tirage.</desc>
+
+  <rect x="0.5" y="0.5" width="799" height="319" rx="8" fill="#ffffff" stroke="#d5d8de"/>
+
+  <rect x="28" y="52" width="224" height="92" rx="4" fill="#9ca3af"/>
+  <rect x="288" y="52" width="224" height="92" rx="4" fill="#f9fafb" stroke="#c9ced6" stroke-width="1.2"/>
+  <rect x="548" y="52" width="224" height="92" rx="4" fill="#f9fafb" stroke="#c9ced6" stroke-width="1.2"/>
+  <text x="660" y="95" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="17" fill="#9ca3af" text-anchor="middle">#9ca3af sur</text>
+  <text x="660" y="120" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="17" fill="#9ca3af" text-anchor="middle">#f9fafb</text>
+
+  <text x="140" y="164" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="16" fill="#1f2328" text-anchor="middle">#9ca3af</text>
+  <text x="140" y="184" font-size="15" fill="#4b5563" text-anchor="middle">le texte</text>
+  <text x="400" y="164" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="16" fill="#1f2328" text-anchor="middle">#f9fafb</text>
+  <text x="400" y="184" font-size="15" fill="#4b5563" text-anchor="middle">le fond</text>
+  <text x="660" y="164" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">le couple, rendu</text>
+  <text x="660" y="184" font-size="15" fill="#4b5563" text-anchor="middle">tel qu'il s'affiche</text>
+
+  <line x1="28" y1="206" x2="772" y2="206" stroke="#eceef0"/>
+
+  <text x="28" y="236" font-size="15" fill="#4b5563">Ratio des deux valeurs</text>
+  <text x="28" y="278" font-size="34" font-weight="700" fill="#b42318">2,43:1</text>
+
+  <text x="250" y="236" font-size="15" fill="#4b5563">exigé en texte courant</text>
+  <text x="250" y="278" font-size="34" font-weight="700" fill="#1f2328">4,5:1</text>
+
+  <text x="478" y="236" font-size="15" fill="#4b5563">verdict</text>
+  <text x="478" y="278" font-size="22" font-weight="700" fill="#b42318">échoue</text>
+
+  <text x="28" y="304" font-size="15" fill="#4b5563">La mesure porte sur les deux valeurs, pas sur ce tirage.</text>
+  <text x="772" y="304" font-size="15" fill="#4b5563" text-anchor="end">WCAG 2.2, critère 1.4.3</text>
+</svg>

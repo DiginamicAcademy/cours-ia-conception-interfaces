@@ -1,0 +1,75 @@
+<!-- Visuel de cours — écrit à la main, canevas 800x450, texte 15 px minimum.
+     Jumeau SVG du Mermaid de 06-tenez-ecran.md § I (l. 42-55) : mêmes nœuds, mêmes libellés, même
+     géométrie, pour que le PDF et la salle voient la même figure (plan 06-plan-visuels.md § XIII,
+     règle 5 — un Mermaid qui porte un argument à projeter a son jumeau SVG, le Mermaid ne survit
+     pas à l'export PPTX). Palette reprise du %%{init}%% du chapitre : primaire #eef2f9, secondaire
+     #dbe6f5, bordure et liens #3b5b8d. Définition du capteur, l. 57. Passe 5 (chapitre 05, posé au
+     chapitre 06). -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img" aria-labelledby="t1 d1" font-family="DejaVu Sans, Arial, sans-serif">
+  <title id="t1">Deux entonnoirs : le code est surveillé, l'écran ne l'est pas, et le même geste peut l'atteindre</title>
+  <desc id="d1">À gauche, trois boîtes — Tests, Typage, Linter — convergent par un fuseau vers un cadre plus épais intitulé « Ce que vous surveillez déjà : le code ». En dessous, six boîtes — Contraste des textes, Focus et tabulation, Libellés de formulaire, Ce qui déborde en petit écran, Lighthouse (juge le rendu réel), html-validate (juge le fichier) — convergent vers un second cadre, « Ce que rien ne surveille : l'écran ». Une liaison pointillée part du premier cadre, descend au-dessus du second, et porte l'étiquette « le même geste sur l'autre objet ».</desc>
+
+  <defs>
+    <marker id="fleche" viewBox="0 0 10 10" markerWidth="12" markerHeight="12" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#3b5b8d"/>
+    </marker>
+    <style>
+      .capteur { fill: #eef2f9; stroke: #3b5b8d; stroke-width: 1.5; }
+      .noeud { fill: #dbe6f5; stroke: #3b5b8d; stroke-width: 3; }
+      .etiq { font-size: 15px; fill: #16283d; }
+      .hub { font-size: 16px; font-weight: 700; fill: #1f3f6b; }
+      .lien { stroke: #3b5b8d; stroke-width: 3; fill: none; }
+    </style>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="799" height="449" rx="6" fill="#ffffff" stroke="#c9ced6" stroke-width="1"/>
+
+  <!-- versant code : trois surveillants -->
+  <rect class="capteur" x="16" y="24" width="130" height="40" rx="6"/>
+  <text class="etiq" x="81" y="49.5" text-anchor="middle">Tests</text>
+  <rect class="capteur" x="16" y="76" width="130" height="40" rx="6"/>
+  <text class="etiq" x="81" y="101.5" text-anchor="middle">Typage</text>
+  <rect class="capteur" x="16" y="128" width="130" height="40" rx="6"/>
+  <text class="etiq" x="81" y="153.5" text-anchor="middle">Linter</text>
+  <line class="lien" x1="146" y1="44" x2="170" y2="44"/>
+  <line class="lien" x1="146" y1="96" x2="170" y2="96"/>
+  <line class="lien" x1="146" y1="148" x2="170" y2="148"/>
+  <line class="lien" x1="170" y1="44" x2="170" y2="148"/>
+  <line class="lien" x1="170" y1="96" x2="198" y2="96" marker-end="url(#fleche)"/>
+
+  <rect class="noeud" x="200" y="56" width="230" height="80" rx="8"/>
+  <text class="hub" x="315" y="92" text-anchor="middle">Ce que vous surveillez</text>
+  <text class="hub" x="315" y="114" text-anchor="middle">déjà : le code</text>
+
+  <!-- versant écran : ce que rien ne surveille, et les deux capteurs qui l'atteignent -->
+  <rect class="capteur" x="16" y="180" width="284" height="32" rx="6"/>
+  <text class="etiq" x="158" y="201.5" text-anchor="middle">Contraste des textes</text>
+  <rect class="capteur" x="16" y="218" width="284" height="32" rx="6"/>
+  <text class="etiq" x="158" y="239.5" text-anchor="middle">Focus et tabulation</text>
+  <rect class="capteur" x="16" y="256" width="284" height="32" rx="6"/>
+  <text class="etiq" x="158" y="277.5" text-anchor="middle">Libellés de formulaire</text>
+  <rect class="capteur" x="16" y="294" width="284" height="32" rx="6"/>
+  <text class="etiq" x="158" y="315.5" text-anchor="middle">Ce qui déborde en petit écran</text>
+  <rect class="capteur" x="16" y="332" width="284" height="32" rx="6"/>
+  <text class="etiq" x="158" y="353.5" text-anchor="middle">Lighthouse — juge le rendu réel</text>
+  <rect class="capteur" x="16" y="370" width="284" height="32" rx="6"/>
+  <text class="etiq" x="158" y="391.5" text-anchor="middle">html-validate — juge le fichier</text>
+
+  <line class="lien" x1="300" y1="196" x2="324" y2="196"/>
+  <line class="lien" x1="300" y1="234" x2="324" y2="234"/>
+  <line class="lien" x1="300" y1="272" x2="324" y2="272"/>
+  <line class="lien" x1="300" y1="310" x2="324" y2="310"/>
+  <line class="lien" x1="300" y1="348" x2="324" y2="348"/>
+  <line class="lien" x1="300" y1="386" x2="324" y2="386"/>
+  <line class="lien" x1="324" y1="196" x2="324" y2="386"/>
+  <line class="lien" x1="324" y1="308" x2="558" y2="308" marker-end="url(#fleche)"/>
+
+  <rect class="noeud" x="560" y="268" width="230" height="80" rx="8"/>
+  <text class="hub" x="675" y="304" text-anchor="middle">Ce que rien</text>
+  <text class="hub" x="675" y="326" text-anchor="middle">ne surveille : l'écran</text>
+
+  <!-- le transfert : le même geste, posé sur l'autre objet -->
+  <path d="M 430 96 L 745 96 L 745 264" fill="none" stroke="#3b5b8d" stroke-width="3" stroke-dasharray="9 7" marker-end="url(#fleche)"/>
+  <rect x="435" y="82" width="300" height="28" rx="6" fill="#eef2f9" stroke="#c9ced6" stroke-width="1"/>
+  <text class="etiq" x="585" y="101" text-anchor="middle">le même geste sur l'autre objet</text>
+</svg>

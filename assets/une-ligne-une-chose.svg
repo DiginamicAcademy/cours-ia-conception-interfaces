@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 312" width="800" height="312" role="img" aria-labelledby="tlc dlc" font-family="DejaVu Sans, Arial, sans-serif">
+  <title id="tlc">Trois relances en une seule, et une relance d'une seule chose : ce que devient le verdict</title>
+  <desc id="dlc">Deux rangées, sur trois colonnes : la relance, le rendu, le Verdict. Rangée du haut : trois étiquettes de relance, « retirer le prix de Noix fraîches décortiquées », « retirer les étoiles », « résultats atteignables au clavier », convergent en un point unique, puis un seul rendu, puis une seule cellule Verdict marquée d'un point d'interrogation, encadrée de rouge : sur ce rendu on ne peut pas dire laquelle des trois n'a pas pris. Rangée du bas : une étiquette, « retirer les étoiles », une flèche, un rendu, et une cellule Verdict au cadre bleu, portant « non pris » : là, le verdict se lit.</desc>
+
+  <defs>
+    <marker id="fle" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" viewBox="0 0 12 12" refX="10" refY="6" orient="auto">
+      <path d="M1 1 L11 6 L1 10 Z" fill="#3b5b8d"/>
+    </marker>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="799" height="311" rx="6" fill="#ffffff" stroke="#d5d8de"/>
+
+  <!-- en-tetes de colonnes -->
+  <g fill="#eceff4" stroke="#c9ced6" stroke-width="1">
+    <rect x="16" y="14" width="262" height="22"/>
+    <rect x="352" y="14" width="140" height="22"/>
+    <rect x="552" y="14" width="228" height="22"/>
+  </g>
+  <g font-size="15" font-weight="700" fill="#1f3b5f" text-anchor="middle">
+    <text x="147" y="30">la relance</text>
+    <text x="422" y="30">le rendu</text>
+    <text x="666" y="30">Verdict</text>
+  </g>
+
+  <!-- rangée 1 : trois choses dans une relance -->
+  <g fill="#ffffff" stroke="#3b5b8d" stroke-width="1.6">
+    <rect x="16" y="52" width="262" height="44" rx="7"/>
+    <rect x="16" y="104" width="262" height="44" rx="7"/>
+    <rect x="16" y="156" width="262" height="44" rx="7"/>
+  </g>
+  <g font-size="15" fill="#1f3b5f" text-anchor="middle">
+    <text x="147" y="68">retirer le prix de</text>
+    <text x="147" y="88">Noix fraîches décortiquées</text>
+    <text x="147" y="131">retirer les étoiles</text>
+    <text x="147" y="183">résultats atteignables au clavier</text>
+  </g>
+
+  <g fill="none" stroke="#3b5b8d" stroke-width="1.8">
+    <line x1="278" y1="74" x2="312" y2="124"/>
+    <line x1="278" y1="126" x2="312" y2="126"/>
+    <line x1="278" y1="178" x2="312" y2="128"/>
+    <line x1="323" y1="126" x2="349" y2="126" marker-end="url(#fle)"/>
+    <line x1="492" y1="126" x2="547" y2="126" marker-end="url(#fle)"/>
+  </g>
+  <circle cx="317" cy="126" r="4.5" fill="#3b5b8d"/>
+
+  <rect x="352" y="104" width="140" height="44" rx="7" fill="#eef2f9" stroke="#3b5b8d" stroke-width="1.6"/>
+  <text x="422" y="131" font-size="15" font-weight="700" fill="#1f3b5f" text-anchor="middle">un seul rendu</text>
+
+  <rect x="552" y="104" width="228" height="44" rx="7" fill="#fff7f6" stroke="#a94b45" stroke-width="2.4"/>
+  <text x="666" y="139" font-size="34" font-weight="700" fill="#a94b45" text-anchor="middle">?</text>
+
+  <!-- separateur -->
+  <line x1="16" y1="232" x2="784" y2="232" stroke="#d9dce1" stroke-width="1.5" stroke-dasharray="9 7"/>
+
+  <!-- rangée 2 : une chose -->
+  <rect x="16" y="248" width="262" height="44" rx="7" fill="#ffffff" stroke="#3b5b8d" stroke-width="1.6"/>
+  <text x="147" y="275" font-size="15" fill="#1f3b5f" text-anchor="middle">retirer les étoiles</text>
+
+  <g fill="none" stroke="#3b5b8d" stroke-width="1.8">
+    <line x1="278" y1="270" x2="349" y2="270" marker-end="url(#fle)"/>
+    <line x1="492" y1="270" x2="547" y2="270" marker-end="url(#fle)"/>
+  </g>
+
+  <rect x="352" y="248" width="140" height="44" rx="7" fill="#eef2f9" stroke="#3b5b8d" stroke-width="1.6"/>
+  <text x="422" y="275" font-size="15" font-weight="700" fill="#1f3b5f" text-anchor="middle">le rendu</text>
+
+  <rect x="552" y="248" width="228" height="44" rx="7" fill="#ffffff" stroke="#3b5b8d" stroke-width="2.4"/>
+  <text x="666" y="276" font-size="17" font-weight="700" fill="#1f3b5f" text-anchor="middle">non pris</text>
+</svg>

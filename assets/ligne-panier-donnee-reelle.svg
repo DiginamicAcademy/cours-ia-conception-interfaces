@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" width="800" height="340" role="img" aria-labelledby="f3t f3d" font-family="DejaVu Sans, Arial, sans-serif">
+  <title id="f3t">Une ligne de panier de la maquette, et les mêmes lignes avec les données réelles du catalogue</title>
+  <desc id="f3d">Deux fiches côte à côte. À gauche, « La maquette » : une ligne de panier avec une photo, le nom « Miel de châtaignier », le producteur « Rucher des Causses » et le prix « 9,50 € » bien à sa place dans la colonne des prix ; sous la ligne, les mentions « un nom court », « un prix rond », « une photo carrée ». À droite, « La donnée réelle » : quatre lignes tirées du catalogue, sans photo (carrés en pointillés). La première, « Confiture extra de châtaigne et vanille Bourbon de Madagascar, pot familial à partager », chez Rucher des Causses, tourne sur quatre lignes et son prix « 11,40 € » déborde vers la gauche hors de la colonne des prix. Puis deux lignes au nom identique « Œufs plein air, douzaine », l'une chez Ferme du Haut Bois à 4,20 €, l'autre chez Earl du Val Ferrand à 4,60 €. Enfin « Noix fraîches décortiquées », chez Earl du Val Ferrand, dont la colonne des prix reste vide.</desc>
+
+  <!-- ═══════════ Fiche gauche : la maquette ═══════════ -->
+  <rect x="8" y="8" width="372" height="324" rx="8" fill="#ffffff" stroke="#d5d8de" stroke-width="1.2"/>
+  <text x="22" y="38" font-size="18" font-weight="700" fill="#111827">La maquette</text>
+
+  <rect x="20" y="60" width="40" height="40" rx="4" fill="#fbf0d9"/>
+  <rect x="30" y="72" width="20" height="24" rx="4" fill="#e6b04a"/>
+  <rect x="33" y="66" width="14" height="6" rx="2" fill="#9a6b1f"/>
+  <text x="72" y="80" font-size="15" fill="#111827">Miel de châtaignier</text>
+  <text x="72" y="100" font-size="15" fill="#4b5563">Rucher des Causses</text>
+  <rect x="286" y="66" width="74" height="28" rx="4" fill="none" stroke="#7b8593" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <text x="296" y="85" font-size="15" fill="#111827">9,50 €</text>
+
+  <text x="72" y="270" font-size="15" fill="#4b5563">un nom court</text>
+  <text x="72" y="290" font-size="15" fill="#4b5563">un prix rond</text>
+  <text x="72" y="310" font-size="15" fill="#4b5563">une photo carrée</text>
+
+  <!-- ═══════════ Fiche droite : la donnée réelle ═══════════ -->
+  <rect x="392" y="8" width="400" height="324" rx="8" fill="#ffffff" stroke="#d5d8de" stroke-width="1.2"/>
+  <text x="406" y="38" font-size="18" font-weight="700" fill="#111827">La donnée réelle</text>
+
+  <!-- ligne 1 : le nom qui tourne, le prix qui déborde (fiche B, confiture) -->
+  <rect x="406" y="60" width="40" height="40" rx="3" fill="none" stroke="#7b8593" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <text x="458" y="72" font-size="15" fill="#111827">Confiture extra de</text>
+  <text x="458" y="90" font-size="15" fill="#111827">châtaigne et vanille</text>
+  <text x="458" y="108" font-size="15" fill="#111827">Bourbon de Madagascar,</text>
+  <text x="458" y="126" font-size="15" fill="#111827">pot familial à partager</text>
+  <text x="458" y="144" font-size="15" fill="#4b5563">Rucher des Causses</text>
+  <rect x="706" y="80" width="74" height="28" rx="4" fill="none" stroke="#7b8593" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <text x="692" y="99" font-size="15" fill="#111827">11,40 €</text>
+
+  <!-- ligne 2 : premier « Œufs plein air, douzaine » (fiche B, Ferme du Haut Bois) -->
+  <rect x="406" y="158" width="40" height="40" rx="3" fill="none" stroke="#7b8593" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <text x="458" y="172" font-size="15" fill="#111827">Œufs plein air, douzaine</text>
+  <text x="458" y="190" font-size="15" fill="#4b5563">Ferme du Haut Bois</text>
+  <rect x="706" y="164" width="74" height="28" rx="4" fill="none" stroke="#7b8593" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <text x="714" y="183" font-size="15" fill="#111827">4,20 €</text>
+
+  <!-- ligne 3 : second « Œufs plein air, douzaine », autre producteur, autre prix (fiche B, Earl du Val Ferrand) -->
+  <rect x="406" y="204" width="40" height="40" rx="3" fill="none" stroke="#7b8593" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <text x="458" y="218" font-size="15" fill="#111827">Œufs plein air, douzaine</text>
+  <text x="458" y="236" font-size="15" fill="#4b5563">Earl du Val Ferrand</text>
+  <rect x="706" y="210" width="74" height="28" rx="4" fill="none" stroke="#7b8593" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <text x="714" y="229" font-size="15" fill="#111827">4,60 €</text>
+
+  <!-- ligne 4 : la ligne sans prix (fiche B, noix fraîches) -->
+  <rect x="406" y="250" width="40" height="40" rx="3" fill="none" stroke="#7b8593" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <text x="458" y="264" font-size="15" fill="#111827">Noix fraîches décortiquées</text>
+  <text x="458" y="282" font-size="15" fill="#4b5563">Earl du Val Ferrand</text>
+  <rect x="706" y="256" width="74" height="28" rx="4" fill="none" stroke="#7b8593" stroke-width="1.2" stroke-dasharray="5 4"/>
+</svg>

@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="800" height="480" role="img" aria-labelledby="tcd1 dcd1" font-family="DejaVu Sans, Arial, sans-serif">
+  <title id="tcd1">Deux capteurs, deux objets disjoints : html-validate sur le fichier, Lighthouse sur le rendu</title>
+  <desc id="dcd1">Deux panneaux séparés par une bande vide et ne se touchant nulle part. À gauche, le panneau html-validate montre une page de fichier avec un compteur de lignes à gauche, des lignes de code barrant la page, et deux lignes signalées avec leur coordonnée, 14:7 et 21:9 ; sous le panneau, l'adresse « fichier · ligne · colonne ». À droite, le panneau Lighthouse montre un extrait d'écran rendu — une réserve d'image, des lignes de texte, un titre, un bouton, un champ — avec un seul élément encadré par quatre coins de sélection ; sous le panneau, l'adresse « élément · catégorie ». Les deux panneaux n'ont aucune zone commune : ce que l'un voit n'est pas dans ce que l'autre voit.</desc>
+
+  <defs>
+    <pattern id="hach" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="7" stroke="#c3ccd8" stroke-width="2.2"/>
+    </pattern>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="799" height="479" rx="6" fill="#ffffff" stroke="#c9ced6" stroke-width="1"/>
+
+  <!-- ══ panneau gauche : le fichier, jugé par html-validate ══ -->
+  <rect x="16" y="56" width="336" height="316" rx="8" fill="#f7f9fb" stroke="#2563eb" stroke-width="2"/>
+  <text x="32" y="84" font-size="19" font-weight="700" fill="#1d4ed8">html-validate</text>
+  <text x="32" y="108" font-size="15" fill="#3b4252">le fichier</text>
+
+  <rect x="32" y="122" width="304" height="214" rx="6" fill="#ffffff" stroke="#b6c2d2" stroke-width="1.5"/>
+  <rect x="33" y="123" width="302" height="25" fill="#eef1f5"/>
+  <line x1="33" y1="148" x2="335" y2="148" stroke="#b6c2d2" stroke-width="1"/>
+  <text x="45" y="141" font-size="15" font-family="DejaVu Sans Mono, Consolas, monospace" fill="#14181f">index.html</text>
+
+  <!-- compteur de lignes -->
+  <g fill="#8a94a3">
+    <text x="68" y="172" font-size="15" text-anchor="end" font-family="DejaVu Sans Mono, Consolas, monospace">13</text>
+    <text x="68" y="190" font-size="15" text-anchor="end" font-family="DejaVu Sans Mono, Consolas, monospace" fill="#1d4ed8" font-weight="700">14</text>
+    <text x="68" y="208" font-size="15" text-anchor="end" font-family="DejaVu Sans Mono, Consolas, monospace">15</text>
+    <text x="68" y="226" font-size="15" text-anchor="end" font-family="DejaVu Sans Mono, Consolas, monospace">16</text>
+    <text x="68" y="244" font-size="15" text-anchor="end" font-family="DejaVu Sans Mono, Consolas, monospace">17</text>
+    <text x="68" y="262" font-size="15" text-anchor="end" font-family="DejaVu Sans Mono, Consolas, monospace">18</text>
+    <text x="68" y="280" font-size="15" text-anchor="end" font-family="DejaVu Sans Mono, Consolas, monospace">19</text>
+    <text x="68" y="298" font-size="15" text-anchor="end" font-family="DejaVu Sans Mono, Consolas, monospace">20</text>
+    <text x="68" y="316" font-size="15" text-anchor="end" font-family="DejaVu Sans Mono, Consolas, monospace" fill="#1d4ed8" font-weight="700">21</text>
+  </g>
+
+  <!-- lignes de code (texture) -->
+  <g fill="#cfd7e0">
+    <rect x="82" y="161" width="196" height="8" rx="3"/>
+    <rect x="94" y="197" width="150" height="8" rx="3"/>
+    <rect x="94" y="215" width="204" height="8" rx="3"/>
+    <rect x="82" y="233" width="170" height="8" rx="3"/>
+    <rect x="94" y="251" width="226" height="8" rx="3"/>
+    <rect x="94" y="269" width="138" height="8" rx="3"/>
+    <rect x="82" y="287" width="186" height="8" rx="3"/>
+  </g>
+  <!-- les deux lignes signalées, avec leur coordonnée -->
+  <g>
+    <path d="M72 185 l8 -5 v10 z" fill="#2563eb"/>
+    <rect x="82" y="179" width="120" height="8" rx="3" fill="#2563eb"/>
+    <text x="214" y="190" font-size="15" font-weight="700" font-family="DejaVu Sans Mono, Consolas, monospace" fill="#1d4ed8">14:7</text>
+    <path d="M72 311 l8 -5 v10 z" fill="#2563eb"/>
+    <rect x="82" y="305" width="124" height="8" rx="3" fill="#2563eb"/>
+    <text x="218" y="316" font-size="15" font-weight="700" font-family="DejaVu Sans Mono, Consolas, monospace" fill="#1d4ed8">21:9</text>
+  </g>
+
+  <text x="184" y="358" font-size="15" font-weight="700" fill="#1d4ed8" text-anchor="middle">fichier · ligne · colonne</text>
+
+  <!-- ══ panneau droit : le rendu, jugé par Lighthouse ══ -->
+  <rect x="448" y="56" width="336" height="316" rx="8" fill="#f7f9fb" stroke="#6d28d9" stroke-width="2"/>
+  <text x="464" y="84" font-size="19" font-weight="700" fill="#6d28d9">Lighthouse</text>
+  <text x="464" y="108" font-size="15" fill="#3b4252">le rendu</text>
+
+  <rect x="464" y="122" width="304" height="214" rx="6" fill="#ffffff" stroke="#b6c2d2" stroke-width="1.5"/>
+  <rect x="465" y="123" width="302" height="25" fill="#eef1f5"/>
+  <line x1="465" y1="148" x2="767" y2="148" stroke="#b6c2d2" stroke-width="1"/>
+  <circle cx="480" cy="135" r="4" fill="#d5dbe3"/>
+  <circle cx="492" cy="135" r="4" fill="#d5dbe3"/>
+  <circle cx="504" cy="135" r="4" fill="#d5dbe3"/>
+
+  <!-- l'extrait rendu : image, deux lignes, un titre, un bouton, un champ -->
+  <rect x="478" y="162" width="76" height="60" fill="#e4eaf1" stroke="#c3ccd8" stroke-width="1"/>
+  <line x1="478" y1="162" x2="554" y2="222" stroke="#c3ccd8" stroke-width="1"/>
+  <line x1="554" y1="162" x2="478" y2="222" stroke="#c3ccd8" stroke-width="1"/>
+  <rect x="566" y="168" width="158" height="8" rx="3" fill="#cfd7e0"/>
+  <rect x="566" y="190" width="124" height="8" rx="3" fill="#cfd7e0"/>
+  <rect x="478" y="238" width="170" height="12" rx="3" fill="#b9c3cf"/>
+  <rect x="478" y="272" width="104" height="28" rx="6" fill="#f1eaff" stroke="#6d28d9" stroke-width="1.5"/>
+  <rect x="612" y="272" width="140" height="28" fill="#ffffff" stroke="#6d28d9" stroke-width="2"/>
+  <!-- les quatre coins qui désignent l'élément, comme dans un inspecteur -->
+  <g fill="none" stroke="#6d28d9" stroke-width="3">
+    <path d="M606 278 v-12 h12"/>
+    <path d="M758 278 v-12 h-12"/>
+    <path d="M606 300 v12 h12"/>
+    <path d="M758 300 v12 h-12"/>
+  </g>
+
+  <text x="616" y="358" font-size="15" font-weight="700" fill="#6d28d9" text-anchor="middle">élément · catégorie</text>
+
+  <!-- ══ la bande vide : c'est la leçon ══ -->
+  <line x1="400" y1="76" x2="400" y2="352" stroke="#b6c2d2" stroke-width="2" stroke-dasharray="2 9"/>
+  <text x="400" y="428" font-size="16" font-weight="700" fill="#14181f" text-anchor="middle">aucune zone commune</text>
+</svg>

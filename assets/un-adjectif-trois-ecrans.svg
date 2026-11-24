@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" width="800" height="380" role="img" aria-labelledby="ta fa" font-family="DejaVu Sans, Arial, sans-serif">
+  <title id="ta">Un adjectif, trois personnes, trois écrans très différents</title>
+  <desc id="fa">En haut, un cartouche porte le seul mot « épuré ». Trois flèches en partent vers trois fenêtres dessinées côte à côte, légendées Personne 1, Personne 2, Personne 3. Aucune de ces fenêtres ne porte de contenu réel : ce sont des blocs gris sans texte. Ce qui est en pointillés est ce que l'écran ne montre plus. Personne 1 garde six lignes, mais chaque ligne n'a plus qu'un bloc photo et un bloc titre : les blocs d'information de la ligne sont en pointillés sous elle. Personne 2 garde deux lignes complètes, puis un grand vide, puis quatre lignes entièrement en pointillés sous un trait pointillé. Personne 3 garde quatre lignes complètes décalées vers la gauche, et deux zones en pointillés : une colonne à gauche et un bloc d'action en haut à droite. Légende en haut à gauche : pointillé = hors du champ.</desc>
+
+  <defs>
+    <marker id="fleche-adj" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#3b5b8d"/>
+    </marker>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="799" height="379" rx="6" fill="#ffffff"/>
+
+  <!-- Le mot -->
+  <rect x="278" y="16" width="244" height="46" rx="8" fill="#eef2f9" stroke="#3b5b8d" stroke-width="1.6"/>
+  <text x="400" y="48" font-size="34" font-weight="700" fill="#1f3f6b" text-anchor="middle">&#171;&#160;épuré&#160;&#187;</text>
+  <text x="16" y="48" font-size="15" fill="#5b636e">pointillé = hors du champ</text>
+
+  <!-- Trois destinataires -->
+  <path d="M355,62 L136,86" fill="none" stroke="#3b5b8d" stroke-width="2" marker-end="url(#fleche-adj)"/>
+  <path d="M400,62 L400,86" fill="none" stroke="#3b5b8d" stroke-width="2" marker-end="url(#fleche-adj)"/>
+  <path d="M445,62 L664,86" fill="none" stroke="#3b5b8d" stroke-width="2" marker-end="url(#fleche-adj)"/>
+
+  <!-- ===== Personne 1 : la ligne perd ses informations ===== -->
+  <rect x="16" y="96" width="240" height="210" rx="5" fill="#ffffff" stroke="#6b7280" stroke-width="1.4"/>
+  <rect x="17" y="97" width="238" height="15" rx="4" fill="#eceef2"/>
+  <circle cx="25" cy="105" r="2.6" fill="#ff5f57"/><circle cx="33" cy="105" r="2.6" fill="#febc2e"/><circle cx="41" cy="105" r="2.6" fill="#28c840"/>
+  <line x1="17" y1="112" x2="255" y2="112" stroke="#dcdfe4"/>
+
+  <g fill="#e3e7ec"><rect x="26" y="122" width="14" height="14" rx="2"/><rect x="26" y="150" width="14" height="14" rx="2"/><rect x="26" y="178" width="14" height="14" rx="2"/><rect x="26" y="206" width="14" height="14" rx="2"/><rect x="26" y="234" width="14" height="14" rx="2"/><rect x="26" y="262" width="14" height="14" rx="2"/></g>
+  <g fill="#cbd2da"><rect x="48" y="125" width="104" height="8" rx="2"/><rect x="48" y="153" width="104" height="8" rx="2"/><rect x="48" y="181" width="104" height="8" rx="2"/><rect x="48" y="209" width="104" height="8" rx="2"/><rect x="48" y="237" width="104" height="8" rx="2"/><rect x="48" y="265" width="104" height="8" rx="2"/></g>
+  <g fill="none" stroke="#b9c0c9" stroke-width="1" stroke-dasharray="4 3">
+    <rect x="48" y="136" width="140" height="7" rx="2"/><rect x="196" y="125" width="40" height="8" rx="2"/>
+    <rect x="48" y="164" width="140" height="7" rx="2"/><rect x="196" y="153" width="40" height="8" rx="2"/>
+    <rect x="48" y="192" width="140" height="7" rx="2"/><rect x="196" y="181" width="40" height="8" rx="2"/>
+    <rect x="48" y="220" width="140" height="7" rx="2"/><rect x="196" y="209" width="40" height="8" rx="2"/>
+    <rect x="48" y="248" width="140" height="7" rx="2"/><rect x="196" y="237" width="40" height="8" rx="2"/>
+    <rect x="48" y="276" width="140" height="7" rx="2"/><rect x="196" y="265" width="40" height="8" rx="2"/>
+  </g>
+  <text x="136" y="326" font-size="15" font-weight="700" fill="#1f3f6b" text-anchor="middle">Personne 1</text>
+  <text x="136" y="345" font-size="15" fill="#1f2328" text-anchor="middle">les lignes perdent</text>
+  <text x="136" y="363" font-size="15" fill="#1f2328" text-anchor="middle">leurs informations</text>
+
+  <!-- ===== Personne 2 : moins de lignes a l'ecran ===== -->
+  <rect x="280" y="96" width="240" height="210" rx="5" fill="#ffffff" stroke="#6b7280" stroke-width="1.4"/>
+  <rect x="281" y="97" width="238" height="15" rx="4" fill="#eceef2"/>
+  <circle cx="289" cy="105" r="2.6" fill="#ff5f57"/><circle cx="297" cy="105" r="2.6" fill="#febc2e"/><circle cx="305" cy="105" r="2.6" fill="#28c840"/>
+  <line x1="281" y1="112" x2="519" y2="112" stroke="#dcdfe4"/>
+
+  <g fill="#e3e7ec"><rect x="290" y="122" width="14" height="14" rx="2"/><rect x="290" y="150" width="14" height="14" rx="2"/></g>
+  <g fill="#cbd2da"><rect x="312" y="125" width="104" height="8" rx="2"/><rect x="466" y="125" width="34" height="8" rx="2"/><rect x="312" y="153" width="104" height="8" rx="2"/><rect x="466" y="153" width="34" height="8" rx="2"/></g>
+  <line x1="290" y1="190" x2="510" y2="190" stroke="#b9c0c9" stroke-width="1" stroke-dasharray="4 3"/>
+  <g fill="none" stroke="#b9c0c9" stroke-width="1" stroke-dasharray="4 3">
+    <rect x="290" y="202" width="14" height="14" rx="2"/><rect x="312" y="205" width="104" height="8" rx="2"/><rect x="430" y="205" width="70" height="8" rx="2"/>
+    <rect x="290" y="228" width="14" height="14" rx="2"/><rect x="312" y="231" width="104" height="8" rx="2"/><rect x="430" y="231" width="70" height="8" rx="2"/>
+    <rect x="290" y="254" width="14" height="14" rx="2"/><rect x="312" y="257" width="104" height="8" rx="2"/><rect x="430" y="257" width="70" height="8" rx="2"/>
+    <rect x="290" y="280" width="14" height="14" rx="2"/><rect x="312" y="283" width="104" height="8" rx="2"/><rect x="430" y="283" width="70" height="8" rx="2"/>
+  </g>
+  <text x="400" y="326" font-size="15" font-weight="700" fill="#1f3f6b" text-anchor="middle">Personne 2</text>
+  <text x="400" y="345" font-size="15" fill="#1f2328" text-anchor="middle">moins de lignes</text>
+  <text x="400" y="363" font-size="15" fill="#1f2328" text-anchor="middle">sur l&#8217;écran</text>
+
+  <!-- ===== Personne 3 : le reste est sorti du champ ===== -->
+  <rect x="544" y="96" width="240" height="210" rx="5" fill="#ffffff" stroke="#6b7280" stroke-width="1.4"/>
+  <rect x="545" y="97" width="238" height="15" rx="4" fill="#eceef2"/>
+  <circle cx="553" cy="105" r="2.6" fill="#ff5f57"/><circle cx="561" cy="105" r="2.6" fill="#febc2e"/><circle cx="569" cy="105" r="2.6" fill="#28c840"/>
+  <line x1="545" y1="112" x2="783" y2="112" stroke="#dcdfe4"/>
+
+  <g fill="#e3e7ec"><rect x="610" y="140" width="14" height="14" rx="2"/><rect x="610" y="176" width="14" height="14" rx="2"/><rect x="610" y="212" width="14" height="14" rx="2"/><rect x="610" y="248" width="14" height="14" rx="2"/></g>
+  <g fill="#cbd2da"><rect x="632" y="143" width="96" height="8" rx="2"/><rect x="736" y="143" width="32" height="8" rx="2"/><rect x="632" y="179" width="96" height="8" rx="2"/><rect x="736" y="179" width="32" height="8" rx="2"/><rect x="632" y="215" width="96" height="8" rx="2"/><rect x="736" y="215" width="32" height="8" rx="2"/><rect x="632" y="251" width="96" height="8" rx="2"/><rect x="736" y="251" width="32" height="8" rx="2"/></g>
+  <g fill="none" stroke="#b9c0c9" stroke-width="1" stroke-dasharray="4 3">
+    <rect x="554" y="122" width="44" height="156" rx="3"/>
+    <rect x="720" y="116" width="54" height="12" rx="2"/>
+  </g>
+  <text x="664" y="326" font-size="15" font-weight="700" fill="#1f3f6b" text-anchor="middle">Personne 3</text>
+  <text x="664" y="345" font-size="15" fill="#1f2328" text-anchor="middle">le reste est sorti</text>
+  <text x="664" y="363" font-size="15" fill="#1f2328" text-anchor="middle">du champ de vision</text>
+
+  <rect x="0.5" y="0.5" width="799" height="379" rx="6" fill="none" stroke="#d5d8de"/>
+</svg>

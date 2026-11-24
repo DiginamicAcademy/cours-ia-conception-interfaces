@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 470" width="800" height="470" role="img" aria-labelledby="tsl1 dsl1" font-family="DejaVu Sans, Arial, sans-serif">
+  <title id="tsl1">Le même fichier index.html suivi par deux chemins : servi en HTTP, ou ouvert en file://</title>
+  <desc id="dsl1">À gauche, une carte fichier nommée index.html, surmontée des mots « le même fichier ». Deux flèches partent de cette carte. La branche du haut, intitulée « servie », porte la commande python -m http.server 8000 et l adresse http://localhost:8000 ; à son extrémité, une petite page de navigateur dont la barre d adresse indique localhost:8000 et dont les quatre lignes de contenu sont toutes pleines, avec dessous une pastille de capteur au point vert et au mot vert. La branche du bas, intitulée « ouverte », porte le geste double-clic sur le fichier et le schéma d adresse file:// ; à son extrémité, la même petite page, barre d adresse file://…, dont deux lignes de contenu sur quatre sont hachées et videées, avec dessous la même pastille de capteur, au point vert et au mot vert. Les deux pastilles se ressemblent en tout point ; les deux pages, non.</desc>
+
+  <defs>
+    <pattern id="hachure" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="7" stroke="#c3ccd8" stroke-width="2.2"/>
+    </pattern>
+    <marker id="fleche" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#4b5563"/>
+    </marker>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="799" height="469" rx="6" fill="#ffffff" stroke="#c9ced6" stroke-width="1"/>
+
+  <!-- ══ l'origine : un seul fichier ══ -->
+  <text x="124" y="186" font-size="15" font-weight="700" fill="#14181f" text-anchor="middle">le même fichier</text>
+  <rect x="24" y="196" width="200" height="88" rx="6" fill="#ffffff" stroke="#4b5563" stroke-width="2"/>
+  <path d="M196 196 h28 v28 z" fill="#eef1f5" stroke="#4b5563" stroke-width="1.5"/>
+  <text x="112" y="246" font-size="16" font-weight="700" font-family="DejaVu Sans Mono, Consolas, monospace" fill="#14181f" text-anchor="middle">index.html</text>
+
+  <!-- ══ les deux branches ══ -->
+  <path d="M224 214 H248 V118 H262" fill="none" stroke="#4b5563" stroke-width="2.5" marker-end="url(#fleche)"/>
+  <path d="M224 266 H248 V346 H262" fill="none" stroke="#4b5563" stroke-width="2.5" marker-end="url(#fleche)"/>
+
+  <!-- ══ branche haute : servie ══ -->
+  <rect x="272" y="24" width="512" height="190" rx="8" fill="#f7f9fb" stroke="#c9ced6" stroke-width="2"/>
+  <text x="292" y="60" font-size="19" font-weight="700" fill="#14181f">servie</text>
+  <rect x="284" y="72" width="260" height="26" rx="6" fill="#eef1f5" stroke="#d5dbe3" stroke-width="1"/>
+  <text x="296" y="90" font-size="15" font-family="DejaVu Sans Mono, Consolas, monospace" fill="#14181f">python -m http.server 8000</text>
+  <text x="296" y="118" font-size="15" font-family="DejaVu Sans Mono, Consolas, monospace" fill="#14181f">http://localhost:8000</text>
+
+  <rect x="560" y="40" width="208" height="128" rx="4" fill="#ffffff" stroke="#b6c2d2" stroke-width="1.5"/>
+  <rect x="561" y="41" width="206" height="24" fill="#eef1f5"/>
+  <line x1="561" y1="65" x2="767" y2="65" stroke="#b6c2d2" stroke-width="1"/>
+  <rect x="568" y="45" width="152" height="16" rx="8" fill="#ffffff" stroke="#d5dbe3" stroke-width="1"/>
+  <text x="574" y="57" font-size="15" font-family="DejaVu Sans Mono, Consolas, monospace" fill="#14181f">localhost:8000</text>
+  <g fill="#cfd7e0">
+    <rect x="572" y="76" width="150" height="8" rx="3"/>
+    <rect x="572" y="94" width="116" height="8" rx="3"/>
+    <rect x="572" y="112" width="172" height="8" rx="3"/>
+    <rect x="572" y="130" width="138" height="8" rx="3"/>
+  </g>
+
+  <rect x="560" y="180" width="170" height="28" rx="14" fill="#ffffff" stroke="#b6c2d2" stroke-width="1.5"/>
+  <circle cx="578" cy="194" r="7" fill="#1a7f43"/>
+  <text x="592" y="199" font-size="15" fill="#14181f">capteur</text>
+  <text x="662" y="199" font-size="15" font-weight="700" fill="#14181f">vert</text>
+
+  <!-- ══ branche basse : ouverte ══ -->
+  <rect x="272" y="250" width="512" height="190" rx="8" fill="#f7f9fb" stroke="#c9ced6" stroke-width="2"/>
+  <text x="292" y="286" font-size="19" font-weight="700" fill="#14181f">ouverte</text>
+  <rect x="284" y="298" width="212" height="26" rx="6" fill="#eef1f5" stroke="#d5dbe3" stroke-width="1"/>
+  <text x="296" y="316" font-size="15" fill="#14181f">double-clic sur le fichier</text>
+  <text x="296" y="344" font-size="15" font-family="DejaVu Sans Mono, Consolas, monospace" fill="#14181f">file://</text>
+
+  <rect x="560" y="266" width="208" height="128" rx="4" fill="#ffffff" stroke="#b6c2d2" stroke-width="1.5"/>
+  <rect x="561" y="267" width="206" height="24" fill="#eef1f5"/>
+  <line x1="561" y1="291" x2="767" y2="291" stroke="#b6c2d2" stroke-width="1"/>
+  <rect x="568" y="271" width="192" height="16" rx="8" fill="#ffffff" stroke="#d5dbe3" stroke-width="1"/>
+  <text x="574" y="283" font-size="15" font-family="DejaVu Sans Mono, Consolas, monospace" fill="#14181f">file://…/index.html</text>
+  <g fill="#cfd7e0">
+    <rect x="572" y="302" width="150" height="8" rx="3"/>
+    <rect x="572" y="320" width="116" height="8" rx="3"/>
+  </g>
+  <g fill="url(#hachure)" stroke="#aab2bd" stroke-width="1" stroke-dasharray="4 3">
+    <rect x="572" y="338" width="172" height="8" rx="3"/>
+    <rect x="572" y="356" width="138" height="8" rx="3"/>
+  </g>
+
+  <rect x="560" y="406" width="170" height="28" rx="14" fill="#ffffff" stroke="#b6c2d2" stroke-width="1.5"/>
+  <circle cx="578" cy="420" r="7" fill="#1a7f43"/>
+  <text x="592" y="425" font-size="15" fill="#14181f">capteur</text>
+  <text x="662" y="425" font-size="15" font-weight="700" fill="#14181f">vert</text>
+</svg>

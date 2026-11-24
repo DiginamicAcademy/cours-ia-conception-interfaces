@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 140" width="800" height="140" role="img" aria-labelledby="t5 d5" font-family="DejaVu Sans, Arial, sans-serif">
+  <title id="t5">Les deux boutons de l'écran du panier, même silhouette, deux contrats</title>
+  <desc id="d5">Deux boutons de même taille et même forme, côte à côte, séparés par un trait vertical pointillé. À gauche, le bouton plein « Valider le panier », sous lequel est écrit « engage un paiement ». À droite, le bouton au contour « Continuer mes achats », sous lequel est écrit « remet la commande à demain ».</desc>
+
+  <rect x="60" y="24" width="300" height="44" rx="6" fill="#1a7f43"/>
+  <text x="210" y="51" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">Valider le panier</text>
+  <text x="210" y="100" font-size="15" fill="#1f2933" text-anchor="middle">engage un paiement</text>
+
+  <line x1="400" y1="14" x2="400" y2="112" stroke="#c7cdd6" stroke-width="1.4" stroke-dasharray="6 5"/>
+
+  <rect x="440" y="24" width="300" height="44" rx="6" fill="#ffffff" stroke="#d1d5db" stroke-width="1.2"/>
+  <text x="590" y="51" font-size="18" fill="#374151" text-anchor="middle">Continuer mes achats</text>
+  <text x="590" y="100" font-size="15" fill="#1f2933" text-anchor="middle">remet la commande à demain</text>
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420" role="img" aria-labelledby="tso dso" font-family="DejaVu Sans, Arial, sans-serif">
+  <title id="tso">La sortie de l'outil se sépare en deux : ce qui survit sans vous, ce que vous devez redemander</title>
+  <desc id="dso">Schéma en deux branches, identique à celui du chapitre. A gauche, un seul nœud, « La sortie de l'outil ». De ce nœud partent deux branches. La branche du haut, « Ce qui survit sans vous », mène à trois éléments : la structure HTML de l'écran plein ; les valeurs de style, écrites en dur ; la capture de démonstration. La branche du bas, « Ce que vous devez redemander », mène à quatre éléments : les états de l'écran ; les données réelles de la fiche ; le clavier, les titres, le contraste ; ce que le dossier ne déclare pas. Une seule sortie, deux destins, trois contre quatre.</desc>
+
+  <defs>
+    <marker id="fB" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" viewBox="0 0 12 12" refX="10" refY="6" orient="auto">
+      <path d="M1 1 L11 6 L1 10 Z" fill="#3b5b8d"/>
+    </marker>
+    <marker id="fR" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" viewBox="0 0 12 12" refX="10" refY="6" orient="auto">
+      <path d="M1 1 L11 6 L1 10 Z" fill="#a94b45"/>
+    </marker>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="799" height="419" rx="6" fill="#ffffff" stroke="#d5d8de"/>
+
+  <!-- aretes : branche du haut -->
+  <g fill="none" stroke="#3b5b8d" stroke-width="1.8">
+    <line x1="180" y1="194" x2="203" y2="102" marker-end="url(#fB)"/>
+    <line x1="488" y1="96" x2="509" y2="43" marker-end="url(#fB)"/>
+    <line x1="488" y1="96" x2="509" y2="96" marker-end="url(#fB)"/>
+    <line x1="488" y1="96" x2="509" y2="149" marker-end="url(#fB)"/>
+  </g>
+  <!-- aretes : branche du bas -->
+  <g fill="none" stroke="#a94b45" stroke-width="1.8">
+    <line x1="180" y1="194" x2="203" y2="286" marker-end="url(#fR)"/>
+    <line x1="488" y1="292" x2="509" y2="211" marker-end="url(#fR)"/>
+    <line x1="488" y1="292" x2="509" y2="265" marker-end="url(#fR)"/>
+    <line x1="488" y1="292" x2="509" y2="321" marker-end="url(#fR)"/>
+    <line x1="488" y1="292" x2="509" y2="375" marker-end="url(#fR)"/>
+  </g>
+
+  <!-- nœud racine -->
+  <rect x="10" y="177" width="170" height="34" rx="8" fill="#eef2f9" stroke="#3b5b8d" stroke-width="1.8"/>
+  <text x="95" y="199" font-size="15" font-weight="700" fill="#1f3b5f" text-anchor="middle">La sortie de l'outil</text>
+
+  <!-- branche du haut -->
+  <rect x="206" y="79" width="282" height="34" rx="8" fill="#dbe6f5" stroke="#3b5b8d" stroke-width="1.8"/>
+  <text x="347" y="101" font-size="15" font-weight="700" fill="#1f3b5f" text-anchor="middle">Ce qui survit sans vous</text>
+
+  <!-- branche du bas -->
+  <rect x="206" y="275" width="282" height="34" rx="8" fill="#fde8e8" stroke="#a94b45" stroke-width="1.8"/>
+  <text x="347" y="297" font-size="15" font-weight="700" fill="#1f3b5f" text-anchor="middle">Ce que vous devez redemander</text>
+
+  <!-- feuilles : ce qui survit -->
+  <g fill="#ffffff" stroke="#3b5b8d" stroke-width="1.6">
+    <rect x="512" y="23" width="276" height="34" rx="7"/>
+    <rect x="512" y="79" width="276" height="34" rx="7"/>
+    <rect x="512" y="135" width="276" height="34" rx="7"/>
+  </g>
+  <g font-size="15" fill="#1f3b5f" text-anchor="middle">
+    <text x="650" y="45">la structure HTML de l'écran plein</text>
+    <text x="650" y="101">les valeurs de style, écrites en dur</text>
+    <text x="650" y="157">la capture de démonstration</text>
+  </g>
+
+  <!-- feuilles : à redemander -->
+  <g fill="#ffffff" stroke="#a94b45" stroke-width="1.6">
+    <rect x="512" y="191" width="276" height="34" rx="7"/>
+    <rect x="512" y="247" width="276" height="34" rx="7"/>
+    <rect x="512" y="303" width="276" height="34" rx="7"/>
+    <rect x="512" y="359" width="276" height="34" rx="7"/>
+  </g>
+  <g font-size="15" fill="#1f3b5f" text-anchor="middle">
+    <text x="650" y="213">les états de l'écran</text>
+    <text x="650" y="269">les données réelles de la fiche</text>
+    <text x="650" y="325">le clavier, les titres, le contraste</text>
+    <text x="650" y="381">ce que le dossier ne déclare pas</text>
+  </g>
+</svg>

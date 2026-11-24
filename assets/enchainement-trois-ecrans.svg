@@ -1,0 +1,78 @@
+<!-- Visuel de cours — écrit à la main, canevas 800x450, texte 15 px minimum.
+     Sources : 05-prototype-qui-devient-code.md § II (l. 62-86) — table « Ce que la navigation
+     révèle » (l. 70-77, ligne « le bouton Continuer ... vide, il mène à une impasse sans message »
+     et ligne « rien ne dit où l'on revient ») ; plan 06-plan-visuels.md § V-B (objet retenu :
+     « recherche, résultats, panier reliés dans les deux sens, avec l'impasse muette et le retour
+     qui n'existe nulle part »). Les noms des trois écrans viennent du corpus de la journée
+     (rendus/02-recherche-produits, 06-tenez-ecran.md:86 ; panier = objet d'étude du cours).
+     Les intérieurs d'écran sont volontairement neutres : c'est l'apprenant qui les conçoit
+     (plan § III, règle 1). Passe 5 (chapitre 05). -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img" aria-labelledby="t1 d1" font-family="DejaVu Sans, Arial, sans-serif">
+  <title id="t1">Trois écrans reliés dans les deux sens, l'impasse muette et le retour qui n'existe pas</title>
+  <desc id="d1">Trois écrans identiques et vides, étiquetés recherche, résultats, panier, alignés de gauche à droite. Entre chaque paire, deux flèches pleines : une vers la droite au niveau haut, une vers la gauche au niveau bas, donc le trajet existe dans les deux sens. Sous le troisième écran, une flèche descend vers un encadré rose « panier vide — impasse, aucun message ». Au-dessus des trois écrans, une ligne pointillée part du panier, s'arrête avant le premier écran sur une croix rouge, avec l'annotation « rien ne dit où l'on revient ».</desc>
+
+  <defs>
+    <marker id="fleche" viewBox="0 0 10 10" markerWidth="12" markerHeight="12" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#3b5b8d"/>
+    </marker>
+    <style>
+      .ecran { fill: #f7f9fc; stroke: #3b5b8d; stroke-width: 2; }
+      .neutre { fill: #ccd4e2; }
+      .nom { font-size: 16px; font-weight: 600; fill: #1f3f6b; }
+      .petit { font-size: 15px; font-weight: 600; fill: #1f3f6b; }
+      .normal { font-size: 16px; fill: #16283d; }
+      .lien { stroke: #3b5b8d; stroke-width: 3; fill: none; }
+    </style>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="799" height="449" rx="6" fill="#ffffff" stroke="#c9ced6" stroke-width="1"/>
+
+  <!-- écran 1 : recherche -->
+  <rect class="ecran" x="40" y="100" width="150" height="190" rx="8"/>
+  <line x1="42" y1="122" x2="188" y2="122" stroke="#3b5b8d" stroke-width="1.5"/>
+  <rect class="neutre" x="54" y="140" width="122" height="8" rx="4"/>
+  <rect class="neutre" x="54" y="156" width="122" height="8" rx="4"/>
+  <rect class="neutre" x="54" y="172" width="88" height="8" rx="4"/>
+  <rect class="neutre" x="54" y="188" width="122" height="8" rx="4"/>
+  <rect x="54" y="244" width="70" height="24" rx="4" fill="#dbe6f5" stroke="#3b5b8d" stroke-width="1.5"/>
+  <text class="nom" x="115" y="314" text-anchor="middle">recherche</text>
+
+  <!-- écran 2 : résultats -->
+  <rect class="ecran" x="325" y="100" width="150" height="190" rx="8"/>
+  <line x1="327" y1="122" x2="473" y2="122" stroke="#3b5b8d" stroke-width="1.5"/>
+  <rect class="neutre" x="339" y="140" width="122" height="8" rx="4"/>
+  <rect class="neutre" x="339" y="156" width="122" height="8" rx="4"/>
+  <rect class="neutre" x="339" y="172" width="88" height="8" rx="4"/>
+  <rect class="neutre" x="339" y="188" width="122" height="8" rx="4"/>
+  <rect x="339" y="244" width="70" height="24" rx="4" fill="#dbe6f5" stroke="#3b5b8d" stroke-width="1.5"/>
+  <text class="nom" x="400" y="314" text-anchor="middle">résultats</text>
+
+  <!-- écran 3 : panier -->
+  <rect class="ecran" x="610" y="100" width="150" height="190" rx="8"/>
+  <line x1="612" y1="122" x2="758" y2="122" stroke="#3b5b8d" stroke-width="1.5"/>
+  <rect class="neutre" x="624" y="140" width="122" height="8" rx="4"/>
+  <rect class="neutre" x="624" y="156" width="122" height="8" rx="4"/>
+  <rect class="neutre" x="624" y="172" width="88" height="8" rx="4"/>
+  <rect class="neutre" x="624" y="188" width="122" height="8" rx="4"/>
+  <rect x="624" y="244" width="70" height="24" rx="4" fill="#dbe6f5" stroke="#3b5b8d" stroke-width="1.5"/>
+  <text class="nom" x="685" y="314" text-anchor="middle">panier</text>
+
+  <!-- aller simple, puis retour : les deux sens existent -->
+  <line class="lien" x1="192" y1="150" x2="323" y2="150" marker-end="url(#fleche)"/>
+  <line class="lien" x1="477" y1="150" x2="608" y2="150" marker-end="url(#fleche)"/>
+  <line class="lien" x1="323" y1="240" x2="192" y2="240" marker-end="url(#fleche)"/>
+  <line class="lien" x1="608" y1="240" x2="477" y2="240" marker-end="url(#fleche)"/>
+
+  <!-- l'impasse muette : le panier vide ne mène nulle part, et ne le dit pas -->
+  <line class="lien" x1="740" y1="292" x2="740" y2="338" marker-end="url(#fleche)"/>
+  <rect x="528" y="340" width="252" height="60" rx="6" fill="#fde8e8" stroke="#3b5b8d" stroke-width="2"/>
+  <text class="petit" x="654" y="364" text-anchor="middle">panier vide</text>
+  <text class="normal" x="654" y="384" text-anchor="middle">impasse, aucun message</text>
+
+  <!-- le retour qu'aucun écran n'écrit -->
+  <path d="M 685 100 L 685 58 L 402 58" fill="none" stroke="#3b5b8d" stroke-width="3" stroke-dasharray="9 7"/>
+  <line x1="409" y1="51" x2="422" y2="65" stroke="#d9534f" stroke-width="3.5"/>
+  <line x1="422" y1="51" x2="409" y2="65" stroke="#d9534f" stroke-width="3.5"/>
+  <rect x="120" y="44" width="270" height="30" rx="6" fill="#eef2f9" stroke="#c9ced6" stroke-width="1"/>
+  <text class="normal" x="255" y="64" text-anchor="middle">rien ne dit où l'on revient</text>
+</svg>

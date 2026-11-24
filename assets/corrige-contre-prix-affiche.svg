@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 262" width="800" height="262" role="img" aria-labelledby="tcr dcr" font-family="DejaVu Sans, Arial, sans-serif">
+  <title id="tcr">« C'est corrigé ! » ne remplit pas la colonne Obtenu : c'est le rendu qui la remplit</title>
+  <desc id="dcr">À gauche, une bulle de dialogue sans cadre d'outil ni marque, portant « C'est corrigé ! ». En dessous, une croix rouge : rien ne descend de la bulle vers la cellule « Obtenu », dont l'en-tête est gris et qui porte « prix toujours présent ». À droite, le rendu après la relance : une ligne de catalogue, « Noix fraîches décortiquées », suivie d'un montant encadré de rouge pointillé — un prix est affiché, le dessin n'en montre pas le chiffre. Une flèche pleine part du rendu et entre dans la cellule Obtenu : c'est le rendu qui remplit la colonne.</desc>
+
+  <defs>
+    <marker id="fle2" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" viewBox="0 0 12 12" refX="10" refY="6" orient="auto">
+      <path d="M1 1 L11 6 L1 10 Z" fill="#3b5b8d"/>
+    </marker>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="799" height="261" rx="6" fill="#ffffff" stroke="#d5d8de"/>
+
+  <!-- l'annonce -->
+  <text x="40" y="26" font-size="15" fill="#475569">la machine annonce</text>
+  <path d="M54 34 H346 A14 14 0 0 1 360 48 V84 A14 14 0 0 1 346 98 H150 L104 124 L116 98 H54 A14 14 0 0 1 40 84 V48 A14 14 0 0 1 54 34 Z"
+        fill="#ffffff" stroke="#3b5b8d" stroke-width="2.2" stroke-linejoin="round"/>
+  <text x="200" y="73" font-size="22" font-weight="700" fill="#1f3b5f" text-anchor="middle">C'est corrigé !</text>
+
+  <!-- rien ne descend de l'annonce a la colonne -->
+  <line x1="104" y1="130" x2="104" y2="136" stroke="#8a8f98" stroke-width="2" stroke-dasharray="5 4"/>
+  <g stroke="#a94b45" stroke-width="2.6" stroke-linecap="round">
+    <line x1="96" y1="139" x2="112" y2="155"/>
+    <line x1="112" y1="139" x2="96" y2="155"/>
+  </g>
+
+  <!-- le rendu, apres la relance -->
+  <text x="420" y="26" font-size="15" fill="#475569">le rendu de la relance</text>
+  <rect x="420" y="34" width="360" height="64" rx="8" fill="#ffffff" stroke="#3b5b8d" stroke-width="2.2"/>
+  <text x="440" y="72" font-size="15" fill="#1f3b5f">Noix fraîches décortiquées</text>
+  <rect x="676" y="54" width="58" height="22" rx="5" fill="#6b7280"/>
+  <text x="748" y="71" font-size="15" fill="#1f3b5f">€</text>
+  <rect x="666" y="47" width="102" height="36" rx="9" fill="none" stroke="#a94b45" stroke-width="2.4" stroke-dasharray="7 5"/>
+
+  <!-- ce qui remplit la colonne -->
+  <path d="M600 98 V212 H362" fill="none" stroke="#3b5b8d" stroke-width="2.2" marker-end="url(#fle2)"/>
+
+  <rect x="40" y="166" width="320" height="24" fill="#eceff4" stroke="#c9ced6" stroke-width="1"/>
+  <text x="200" y="183" font-size="15" font-weight="700" fill="#1f3b5f" text-anchor="middle">Obtenu</text>
+  <rect x="40" y="190" width="320" height="44" fill="#ffffff" stroke="#3b5b8d" stroke-width="2.2"/>
+  <text x="200" y="218" font-size="16" fill="#1f3b5f" text-anchor="middle">prix toujours présent</text>
+</svg>

@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="800" height="480" role="img" aria-labelledby="f1t f1d" font-family="DejaVu Sans, Arial, sans-serif">
+  <title id="f1t">Le même écran de panier dessiné quatre fois : vide, chargement, erreur, cas limites</title>
+  <desc id="f1d">Quatre panneaux, chacun intitulé par son état et contenant une fenêtre de navigateur sur le panier de Panier Local. En haut à gauche, l'état vide : le fait « Votre panier est vide », deux lignes grisées pour l'explication à écrire, et un bouton « Parcourir le catalogue ». En haut à droite, l'état de chargement : les formes grises de trois lignes de panier (carré photo, deux textes, prix à droite) et un bouton « Valider le panier » neutralisé en gris. En bas à gauche, l'état d'erreur : « Votre adresse de livraison n'a pas pu être enregistrée », le champ « Adresse de livraison » signalé d'un bord rouge, et une seule action, le bouton « Réessayer ». En bas à droite, les cas limites : le nom « Confiture extra de châtaigne et vanille Bourbon de Madagascar… » qui tourne sur trois lignes avec son prix « 11,40 € », et la ligne « Noix fraîches décortiquées » dont la colonne de prix reste vide. Les carrés en pointillés disent l'absence de photo.</desc>
+
+  <!-- ═══════════ Panneau 1 : Vide (coin haut gauche) ═══════════ -->
+  <rect x="8" y="8" width="384" height="222" rx="8" fill="#ffffff" stroke="#d5d8de" stroke-width="1.2"/>
+  <text x="22" y="35" font-size="18" font-weight="700" fill="#111827">Vide</text>
+
+  <rect x="20" y="46" width="360" height="170" rx="5" fill="#ffffff" stroke="#d5d8de"/>
+  <rect x="21" y="47" width="358" height="18" fill="#eceef2"/>
+  <circle cx="33" cy="55" r="3" fill="#ff5f57"/>
+  <circle cx="45" cy="55" r="3" fill="#febc2e"/>
+  <circle cx="57" cy="55" r="3" fill="#28c840"/>
+  <rect x="70" y="49" width="150" height="12" rx="6" fill="#ffffff" stroke="#dcdfe4" stroke-width="0.8"/>
+  <text x="36" y="86" font-size="16" font-weight="700" fill="#111827">Votre panier</text>
+
+  <text x="200" y="128" font-size="17" font-weight="700" fill="#111827" text-anchor="middle">Votre panier est vide</text>
+  <rect x="125" y="140" width="150" height="8" rx="4" fill="#d9dde3"/>
+  <rect x="145" y="156" width="110" height="8" rx="4" fill="#d9dde3"/>
+  <rect x="76" y="170" width="248" height="28" rx="6" fill="#1a7f43"/>
+  <text x="200" y="189" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">Parcourir le catalogue</text>
+
+  <!-- ═══════════ Panneau 2 : Chargement (coin haut droit) ═══════════ -->
+  <rect x="408" y="8" width="384" height="222" rx="8" fill="#ffffff" stroke="#d5d8de" stroke-width="1.2"/>
+  <text x="422" y="35" font-size="18" font-weight="700" fill="#111827">Chargement</text>
+
+  <rect x="420" y="46" width="360" height="170" rx="5" fill="#ffffff" stroke="#d5d8de"/>
+  <rect x="421" y="47" width="358" height="18" fill="#eceef2"/>
+  <circle cx="433" cy="55" r="3" fill="#ff5f57"/>
+  <circle cx="445" cy="55" r="3" fill="#febc2e"/>
+  <circle cx="457" cy="55" r="3" fill="#28c840"/>
+  <rect x="470" y="49" width="150" height="12" rx="6" fill="#ffffff" stroke="#dcdfe4" stroke-width="0.8"/>
+  <text x="436" y="86" font-size="16" font-weight="700" fill="#111827">Votre panier</text>
+
+  <rect x="436" y="98" width="28" height="28" rx="4" fill="#e3e6ea"/>
+  <rect x="472" y="102" width="150" height="8" rx="4" fill="#e3e6ea"/>
+  <rect x="472" y="114" width="95" height="8" rx="4" fill="#e3e6ea"/>
+  <rect x="740" y="107" width="36" height="9" rx="4" fill="#d9dde3"/>
+  <rect x="436" y="126" width="28" height="28" rx="4" fill="#e3e6ea"/>
+  <rect x="472" y="130" width="150" height="8" rx="4" fill="#e3e6ea"/>
+  <rect x="472" y="142" width="95" height="8" rx="4" fill="#e3e6ea"/>
+  <rect x="740" y="135" width="36" height="9" rx="4" fill="#d9dde3"/>
+  <rect x="436" y="154" width="28" height="28" rx="4" fill="#e3e6ea"/>
+  <rect x="472" y="158" width="150" height="8" rx="4" fill="#e3e6ea"/>
+  <rect x="472" y="170" width="95" height="8" rx="4" fill="#e3e6ea"/>
+  <rect x="740" y="163" width="36" height="9" rx="4" fill="#d9dde3"/>
+  <rect x="484" y="190" width="232" height="24" rx="5" fill="#f1f2f4" stroke="#d1d5db"/>
+  <text x="600" y="207" font-size="15" fill="#9ca3af" text-anchor="middle">Valider le panier</text>
+
+  <!-- ═══════════ Panneau 3 : Erreur (coin bas gauche) ═══════════ -->
+  <rect x="8" y="250" width="384" height="222" rx="8" fill="#ffffff" stroke="#d5d8de" stroke-width="1.2"/>
+  <text x="22" y="277" font-size="18" font-weight="700" fill="#111827">Erreur</text>
+
+  <rect x="20" y="288" width="360" height="170" rx="5" fill="#ffffff" stroke="#d5d8de"/>
+  <rect x="21" y="289" width="358" height="18" fill="#eceef2"/>
+  <circle cx="33" cy="297" r="3" fill="#ff5f57"/>
+  <circle cx="45" cy="297" r="3" fill="#febc2e"/>
+  <circle cx="57" cy="297" r="3" fill="#28c840"/>
+  <rect x="70" y="291" width="150" height="12" rx="6" fill="#ffffff" stroke="#dcdfe4" stroke-width="0.8"/>
+  <text x="36" y="328" font-size="16" font-weight="700" fill="#111827">Votre panier</text>
+
+  <rect x="36" y="340" width="332" height="42" rx="6" fill="#fdecea" stroke="#d9534f" stroke-width="1.2"/>
+  <text x="50" y="358" font-size="15" fill="#8a1c17">Votre adresse de livraison</text>
+  <text x="50" y="375" font-size="15" fill="#8a1c17">n'a pas pu être enregistrée</text>
+
+  <text x="36" y="402" font-size="15" fill="#374151">Adresse de livraison</text>
+  <rect x="36" y="406" width="210" height="24" rx="4" fill="#ffffff" stroke="#d9534f" stroke-width="1.8"/>
+  <rect x="210" y="432" width="150" height="24" rx="6" fill="#1a7f43"/>
+  <text x="285" y="449" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">Réessayer</text>
+
+  <!-- ═══════════ Panneau 4 : Cas limites (coin bas droit) ═══════════ -->
+  <rect x="408" y="250" width="384" height="222" rx="8" fill="#ffffff" stroke="#d5d8de" stroke-width="1.2"/>
+  <text x="422" y="277" font-size="18" font-weight="700" fill="#111827">Cas limites</text>
+
+  <rect x="420" y="288" width="360" height="170" rx="5" fill="#ffffff" stroke="#d5d8de"/>
+  <rect x="421" y="289" width="358" height="18" fill="#eceef2"/>
+  <circle cx="433" cy="297" r="3" fill="#ff5f57"/>
+  <circle cx="445" cy="297" r="3" fill="#febc2e"/>
+  <circle cx="457" cy="297" r="3" fill="#28c840"/>
+  <rect x="470" y="291" width="150" height="12" rx="6" fill="#ffffff" stroke="#dcdfe4" stroke-width="0.8"/>
+  <text x="436" y="328" font-size="16" font-weight="700" fill="#111827">Votre panier</text>
+
+  <rect x="432" y="338" width="26" height="26" rx="3" fill="none" stroke="#7b8593" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="468" y="348" font-size="15" fill="#111827">Confiture extra de</text>
+  <text x="468" y="365" font-size="15" fill="#111827">châtaigne et vanille</text>
+  <text x="468" y="382" font-size="15" fill="#111827">Bourbon de Madagascar…</text>
+  <text x="768" y="370" font-size="15" fill="#111827" text-anchor="end">11,40 €</text>
+
+  <rect x="432" y="398" width="26" height="26" rx="3" fill="none" stroke="#7b8593" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="468" y="416" font-size="15" fill="#111827">Noix fraîches décortiquées</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" width="800" height="340" role="img" aria-labelledby="f2t f2d" font-family="DejaVu Sans, Arial, sans-serif">
+  <title id="f2t">Machine à états de l'écran : quatre états et six transitions étiquetées par leur cause</title>
+  <desc id="f2d">Quatre états en rectangles arrondis reliés par des flèches dont chaque étiquette donne la cause du changement. Sur une même ligne horizontale, de gauche à droite : Chargement, Contenu, Vide. Erreur est placé sous Chargement. Les transitions : de Chargement vers Contenu, « données reçues » ; de Contenu vers Chargement, « nouveau filtre » ; de Contenu vers Vide, « aucun résultat » ; de Vide vers Chargement par un grand arc au-dessus, « nouvelle demande » ; de Chargement vers Erreur vers le bas, « refus du serveur » ; d'Erreur vers Chargement par la gauche, « réessayer ».</desc>
+
+  <defs>
+    <marker id="f2a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#5b7191"/>
+    </marker>
+  </defs>
+
+  <!-- arêtes (sous les nœuds et les pastilles) -->
+  <path d="M210 170 H319" fill="none" stroke="#5b7191" stroke-width="2" marker-end="url(#f2a)"/>
+  <path d="M325 190 H216" fill="none" stroke="#5b7191" stroke-width="2" marker-end="url(#f2a)"/>
+  <path d="M475 180 H584" fill="none" stroke="#5b7191" stroke-width="2" marker-end="url(#f2a)"/>
+  <path d="M665 158 V60 H135 V152" fill="none" stroke="#5b7191" stroke-width="2" marker-end="url(#f2a)"/>
+  <path d="M135 202 V248 H265 V280" fill="none" stroke="#5b7191" stroke-width="2" marker-end="url(#f2a)"/>
+  <path d="M190 308 H40 V180 H54" fill="none" stroke="#5b7191" stroke-width="2" marker-end="url(#f2a)"/>
+
+  <!-- nœuds -->
+  <rect x="60" y="158" width="150" height="44" rx="10" fill="#eef2f9" stroke="#3b5b8d" stroke-width="2"/>
+  <text x="135" y="186" font-size="17" font-weight="700" fill="#1f3f6b" text-anchor="middle">Chargement</text>
+  <rect x="325" y="158" width="150" height="44" rx="10" fill="#eef2f9" stroke="#3b5b8d" stroke-width="2"/>
+  <text x="400" y="186" font-size="17" font-weight="700" fill="#1f3f6b" text-anchor="middle">Contenu</text>
+  <rect x="590" y="158" width="150" height="44" rx="10" fill="#eef2f9" stroke="#3b5b8d" stroke-width="2"/>
+  <text x="665" y="186" font-size="17" font-weight="700" fill="#1f3f6b" text-anchor="middle">Vide</text>
+  <rect x="190" y="286" width="150" height="44" rx="10" fill="#eef2f9" stroke="#3b5b8d" stroke-width="2"/>
+  <text x="265" y="314" font-size="17" font-weight="700" fill="#1f3f6b" text-anchor="middle">Erreur</text>
+
+  <!-- étiquettes de transition -->
+  <rect x="191" y="128" width="152" height="24" rx="11" fill="#ffffff" stroke="#d5d8de"/>
+  <text x="267" y="145" font-size="15" fill="#1f3f6b" text-anchor="middle">données reçues</text>
+  <rect x="191" y="206" width="152" height="24" rx="11" fill="#ffffff" stroke="#d5d8de"/>
+  <text x="267" y="223" font-size="15" fill="#1f3f6b" text-anchor="middle">nouveau filtre</text>
+  <rect x="456" y="206" width="152" height="24" rx="11" fill="#ffffff" stroke="#d5d8de"/>
+  <text x="532" y="223" font-size="15" fill="#1f3f6b" text-anchor="middle">aucun résultat</text>
+  <rect x="312" y="48" width="176" height="24" rx="11" fill="#ffffff" stroke="#d5d8de"/>
+  <text x="400" y="65" font-size="15" fill="#1f3f6b" text-anchor="middle">nouvelle demande</text>
+  <rect x="62" y="258" width="176" height="24" rx="11" fill="#ffffff" stroke="#d5d8de"/>
+  <text x="150" y="275" font-size="15" fill="#1f3f6b" text-anchor="middle">refus du serveur</text>
+  <rect x="57" y="296" width="106" height="24" rx="11" fill="#ffffff" stroke="#d5d8de"/>
+  <text x="110" y="313" font-size="15" fill="#1f3f6b" text-anchor="middle">réessayer</text>
+</svg>

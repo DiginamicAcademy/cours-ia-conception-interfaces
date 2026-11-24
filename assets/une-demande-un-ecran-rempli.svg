@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420" role="img" aria-labelledby="t3 d3" font-family="DejaVu Sans, Arial, sans-serif">
+  <title id="t3">Une demande d'une ligne, un écran rempli, et la provenance des éléments affichés</title>
+  <desc id="d3">En haut, une demande d'une ligne écrite telle qu'on l'envoie, puis une flèche étiquetée « la machine », puis un extrait d'écran : bandeau promotionnel et une ligne de produit. Les endroits remplis par la machine sont surlignés : le bandeau, la photo, le badge « En stock », les étoiles et le nombre d'avis, la ville et l'année du producteur, le sélecteur de quantité. En bas, deux cartouches : celui intitulé « base » montre la ligne du catalogue telle qu'elle existe, champs séparés par des points-virgules ; celui intitulé « hors base » énumère les éléments de l'écran qui ne viennent d'aucun champ.</desc>
+
+  <defs>
+    <symbol id="e3" viewBox="0 0 20 20">
+      <path d="M10 1.6l2.6 5.4 5.9.8-4.3 4.2 1 5.9-5.2-2.8-5.2 2.8 1-5.9L1.5 7.8l5.9-.8z"/>
+    </symbol>
+    <marker id="fleche" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#1f2933"/>
+    </marker>
+  </defs>
+
+  <!-- la demande -->
+  <rect x="16" y="12" width="454" height="66" rx="6" fill="#f6f8fa" stroke="#d7dce2" stroke-width="1"/>
+  <text x="32" y="30" font-size="15" font-weight="700" fill="#1f2933">la demande</text>
+  <text x="32" y="50" font-size="15" fill="#24292f" font-family="DejaVu Sans Mono, Consolas, monospace">Fais-moi une page e-commerce moderne et épurée</text>
+  <text x="32" y="68" font-size="15" fill="#24292f" font-family="DejaVu Sans Mono, Consolas, monospace">pour des produits locaux.</text>
+
+  <line x1="243" y1="84" x2="243" y2="110" stroke="#1f2933" stroke-width="2" marker-end="url(#fleche)"/>
+  <text x="258" y="103" font-size="15" font-weight="700" fill="#1f2933">la machine</text>
+
+  <!-- extrait de l'écran obtenu -->
+  <rect x="16" y="116" width="540" height="100" rx="6" fill="#ffffff" stroke="#d5d8de" stroke-width="1"/>
+  <rect x="17" y="117" width="538" height="21" fill="#fdf6e3"/>
+  <text x="286" y="131.5" font-size="15" fill="#7a5a12" text-anchor="middle">−15 % sur votre première commande avec le code RENTREE</text>
+
+  <rect x="24" y="152" width="44" height="38" rx="4" fill="#fbf0d9"/>
+  <rect x="36" y="158" width="20" height="28" rx="4" fill="#e6b04a"/>
+  <rect x="39" y="153" width="14" height="6" rx="2" fill="#9a6b1f"/>
+  <text x="80" y="166" font-size="16" font-weight="700" fill="#111827">9,50 €</text>
+  <text x="154" y="166" font-size="16" font-weight="700" fill="#1a1a1a">Miel de châtaignier</text>
+  <rect x="80" y="172" width="88" height="17" rx="8.5" fill="#e7f6ec"/>
+  <text x="124" y="184.5" font-size="15" font-weight="700" fill="#1a7f43" text-anchor="middle">En stock</text>
+  <use href="#e3" x="180" y="173" width="12" height="12" fill="#e0a10a"/>
+  <use href="#e3" x="192" y="173" width="12" height="12" fill="#e0a10a"/>
+  <use href="#e3" x="204" y="173" width="12" height="12" fill="#e0a10a"/>
+  <use href="#e3" x="216" y="173" width="12" height="12" fill="#e0a10a"/>
+  <use href="#e3" x="228" y="173" width="12" height="12" fill="#d9dde3"/>
+  <text x="246" y="184" font-size="12" fill="#6b7280">4,8 · 213 avis</text>
+  <text x="80" y="201" font-size="15" fill="#2563eb" text-decoration="underline">Rucher des Causses · Najac · depuis 1987</text>
+  <rect x="470" y="165" width="62" height="21" rx="4" fill="none" stroke="#d1d5db" stroke-width="0.9"/>
+  <rect x="479" y="174" width="12" height="1.8" fill="#374151"/>
+  <text x="501" y="180" font-size="15" fill="#111827" text-anchor="middle">1</text>
+  <rect x="509" y="174" width="12" height="1.8" fill="#374151"/>
+  <rect x="514.1" y="169" width="1.8" height="12" fill="#374151"/>
+
+  <!-- surlignage : ce que la machine a rempli -->
+  <rect x="18" y="118" width="536" height="19" fill="#fcd34d" fill-opacity="0.38" stroke="#b45309" stroke-width="1.5"/>
+  <rect x="20" y="148" width="52" height="46" rx="6" fill="#fcd34d" fill-opacity="0.38" stroke="#b45309" stroke-width="1.5"/>
+  <rect x="76" y="169" width="96" height="23" rx="11" fill="#fcd34d" fill-opacity="0.38" stroke="#b45309" stroke-width="1.5"/>
+  <rect x="176" y="169" width="180" height="21" rx="6" fill="#fcd34d" fill-opacity="0.38" stroke="#b45309" stroke-width="1.5"/>
+  <rect x="252" y="187" width="196" height="18" rx="4" fill="#fcd34d" fill-opacity="0.38" stroke="#b45309" stroke-width="1.5"/>
+  <rect x="466" y="161" width="70" height="29" rx="6" fill="#fcd34d" fill-opacity="0.38" stroke="#b45309" stroke-width="1.5"/>
+
+  <rect x="16" y="222" width="16" height="12" fill="#fcd34d" fill-opacity="0.38" stroke="#b45309" stroke-width="1.5"/>
+  <text x="40" y="233" font-size="15" fill="#1f2933">surligné : ce que la machine a rempli</text>
+
+  <!-- la ligne du catalogue, telle qu'elle existe -->
+  <rect x="16" y="258" width="768" height="72" rx="6" fill="#f2faf5" stroke="#1a7f43" stroke-width="1.2"/>
+  <text x="32" y="280" font-size="15" font-weight="700" fill="#14532d">base</text>
+  <text x="32" y="302" font-size="15" fill="#24292f" font-family="DejaVu Sans Mono, Consolas, monospace">Miel de châtaignier;Rucher des Causses;épicerie;9,50;</text>
+  <text x="32" y="320" font-size="15" fill="#24292f" font-family="DejaVu Sans Mono, Consolas, monospace">pot de 250 g;2026-09-15;2026-12-20</text>
+
+  <!-- ce qu'aucun champ ne fournit -->
+  <rect x="16" y="338" width="768" height="68" rx="6" fill="#fff8f2" stroke="#b45309" stroke-width="1.2"/>
+  <text x="32" y="364" font-size="15" font-weight="700" fill="#b45309">hors base</text>
+  <text x="136" y="364" font-size="15" fill="#24292f">En stock</text>
+  <text x="228" y="364" font-size="15" fill="#24292f">4,8 · 213 avis</text>
+  <text x="376" y="364" font-size="15" fill="#24292f">Najac</text>
+  <text x="441" y="364" font-size="15" fill="#24292f">depuis 1987</text>
+  <text x="136" y="390" font-size="15" fill="#24292f">les photos</text>
+  <text x="247" y="390" font-size="15" fill="#24292f">−15 % RENTREE</text>
+  <text x="386" y="390" font-size="15" fill="#24292f">Livraison offerte</text>
+  <text x="562" y="390" font-size="15" fill="#24292f">Mon compte</text>
+</svg>

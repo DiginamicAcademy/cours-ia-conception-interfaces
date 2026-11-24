@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" role="img" aria-labelledby="t4 d4" font-family="DejaVu Sans, Arial, sans-serif">
+  <title id="t4">Le même panier rendu à trois niveaux de fidélité : croquis, maquette léchée, prototype cliquable</title>
+  <desc id="d4">Trois panneaux posés en crans montants, de gauche à droite. Le premier, intitulé « Croquis », montre le panier en boîtes tracées à la main : une bande d'en-tête, trois lignes avec un carré, deux traits et un trait de prix, un trait de total et une boîte de bouton. Le deuxième, « Maquette léchée statique », montre le même panier avec sa barre de navigateur, son bandeau promotionnel, une ligne de produit avec photo, prix, badge « En stock » et étoiles, et un bouton vert « Valider le panier ». Le troisième, « Prototype cliquable », montre ce même écran avec un anneau de focus autour du bouton et une seconde fenêtre qui dépasse derrière. Sous les trois panneaux, une large flèche horizontale étiquetée « ce que jeter coûte », sans axe ni graduation.</desc>
+
+  <defs>
+    <symbol id="e4" viewBox="0 0 20 20">
+      <path d="M10 1.6l2.6 5.4 5.9.8-4.3 4.2 1 5.9-5.2-2.8-5.2 2.8 1-5.9L1.5 7.8l5.9-.8z"/>
+    </symbol>
+  </defs>
+
+  <!-- cran 1 : le croquis -->
+  <text x="16" y="142" font-size="16" font-weight="700" fill="#1f3b5f">Croquis</text>
+  <g transform="rotate(-0.8 137 240)" stroke="#4a5568" stroke-width="2" fill="none" stroke-linecap="round">
+    <rect x="32" y="168" width="180" height="13"/>
+    <rect x="32" y="196" width="26" height="26"/>
+    <line x1="66" y1="202" x2="156" y2="202"/>
+    <line x1="66" y1="214" x2="136" y2="214"/>
+    <line x1="176" y1="208" x2="206" y2="208" stroke-width="4"/>
+    <rect x="32" y="228" width="26" height="26"/>
+    <line x1="66" y1="234" x2="150" y2="234"/>
+    <line x1="66" y1="246" x2="128" y2="246"/>
+    <line x1="176" y1="240" x2="206" y2="240" stroke-width="4"/>
+    <rect x="32" y="260" width="26" height="26"/>
+    <line x1="66" y1="266" x2="160" y2="266"/>
+    <line x1="66" y1="278" x2="140" y2="278"/>
+    <line x1="176" y1="272" x2="206" y2="272" stroke-width="4"/>
+    <line x1="100" y1="298" x2="170" y2="298" stroke-width="3"/>
+    <rect x="180" y="288" width="52" height="18"/>
+  </g>
+
+  <!-- cran 2 : la maquette léchée -->
+  <text x="279" y="96" font-size="16" font-weight="700" fill="#1f3b5f">Maquette léchée statique</text>
+  <rect x="279" y="104" width="242" height="166" rx="8" fill="#ffffff" stroke="#d5d8de" stroke-width="1"/>
+  <rect x="285" y="112" width="230" height="8" rx="4" fill="#eceef2"/>
+  <rect x="285" y="126" width="230" height="12" fill="#fdf6e3"/>
+  <rect x="285" y="146" width="34" height="34" rx="4" fill="#fbf0d9"/>
+  <rect x="294" y="153" width="16" height="22" rx="3" fill="#e6b04a"/>
+  <text x="328" y="160" font-size="15" font-weight="700" fill="#111827">9,50 €</text>
+  <text x="328" y="180" font-size="15" fill="#1a1a1a">Miel de châtaignier</text>
+  <rect x="285" y="190" width="88" height="17" rx="8.5" fill="#e7f6ec"/>
+  <text x="329" y="202.5" font-size="15" font-weight="700" fill="#1a7f43" text-anchor="middle">En stock</text>
+  <use href="#e4" x="382" y="192" width="10" height="10" fill="#e0a10a"/>
+  <use href="#e4" x="392" y="192" width="10" height="10" fill="#e0a10a"/>
+  <use href="#e4" x="402" y="192" width="10" height="10" fill="#e0a10a"/>
+  <use href="#e4" x="412" y="192" width="10" height="10" fill="#e0a10a"/>
+  <use href="#e4" x="422" y="192" width="10" height="10" fill="#d9dde3"/>
+  <rect x="285" y="222" width="230" height="28" rx="6" fill="#1a7f43"/>
+  <text x="400" y="241" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">Valider le panier</text>
+
+  <!-- cran 3 : le prototype cliquable -->
+  <text x="542" y="50" font-size="16" font-weight="700" fill="#1f3b5f">Prototype cliquable</text>
+  <rect x="528" y="72" width="242" height="166" rx="8" fill="#f4f6f9" stroke="#c7cdd6" stroke-width="1"/>
+  <rect x="542" y="58" width="242" height="166" rx="8" fill="#ffffff" stroke="#d5d8de" stroke-width="1"/>
+  <rect x="548" y="66" width="230" height="8" rx="4" fill="#eceef2"/>
+  <rect x="548" y="80" width="230" height="12" fill="#fdf6e3"/>
+  <rect x="548" y="100" width="34" height="34" rx="4" fill="#fbf0d9"/>
+  <rect x="557" y="107" width="16" height="22" rx="3" fill="#e6b04a"/>
+  <text x="591" y="114" font-size="15" font-weight="700" fill="#111827">9,50 €</text>
+  <text x="591" y="134" font-size="15" fill="#1a1a1a">Miel de châtaignier</text>
+  <rect x="548" y="144" width="88" height="17" rx="8.5" fill="#e7f6ec"/>
+  <text x="592" y="156.5" font-size="15" font-weight="700" fill="#1a7f43" text-anchor="middle">En stock</text>
+  <use href="#e4" x="645" y="146" width="10" height="10" fill="#e0a10a"/>
+  <use href="#e4" x="655" y="146" width="10" height="10" fill="#e0a10a"/>
+  <use href="#e4" x="665" y="146" width="10" height="10" fill="#e0a10a"/>
+  <use href="#e4" x="675" y="146" width="10" height="10" fill="#e0a10a"/>
+  <use href="#e4" x="685" y="146" width="10" height="10" fill="#d9dde3"/>
+  <rect x="548" y="176" width="230" height="28" rx="6" fill="#1a7f43"/>
+  <text x="663" y="195" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">Valider le panier</text>
+  <rect x="543" y="170" width="240" height="40" rx="12" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <rect x="543" y="170" width="240" height="40" rx="12" fill="none" stroke="#1f3b5f" stroke-width="2.5"/>
+
+  <!-- la bande fléchée, sans axe ni graduation -->
+  <path d="M16 336 H734 V320 L784 353 L734 386 V370 H16 Z" fill="#dbe6f5" stroke="#3b5b8d" stroke-width="1.5"/>
+  <text x="375" y="359" font-size="16" font-weight="700" fill="#1f3b5f" text-anchor="middle">ce que jeter coûte</text>
+</svg>
