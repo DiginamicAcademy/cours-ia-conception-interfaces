@@ -1,0 +1,112 @@
+<!-- Visuel de cours — écrit à la main, canevas 800x480, texte 15 px minimum
+     (plan 06-plan-visuels.md § XIII.1 : plancher 15 px dans un canevas de 800).
+     Géométrie calculée, pas ajustée à l'œil : chaque texte est contrôlé dans sa
+     boîte par tmp/visuels/controle-passe-7.py, qui mesure les avances réelles de
+     DejaVu Sans / DejaVu Sans-Bold (tables hmtx + cmap du TTF installé, via
+     tmp/visuels/mesure-largeurs.py) — aucun facteur approximatif. Aucune boîte
+     n'est dimensionnée à la largeur exacte d'un texte : l'étiquette la plus large
+     de gauche mesure 258,9 px pour 316 px utiles, la carte la plus chargée de
+     droite 194,7 px pour 236 px utiles.
+
+     Source unique : 05-prototype-qui-devient-code.md — § III (l. 92 « ce que
+     l'archive ne dit pas » ; l. 100 « ce qui n'a jamais été commité : commentaires
+     de l'outil, captures, discussions »), § IV (l. 220 « les décisions d'écran —
+     noms, valeurs, ce qui a été écarté — vivent dans un fichier du dépôt, pas dans
+     l'historique de la conversation avec la machine »), § I B (l. 57 « la réponse
+     se vérifie sans vous — quelqu'un d'autre peut la refaire »). L'horizon des six
+     mois est celui du chapitre 03 (l. 312 « dans six mois, vous ne saurez plus ce
+     qu'elle était censée prouver »). Les captures « dans un fil » viennent de
+     03:266 et 06:200 (« une capture collée dans un fil de discussion n'est pas une
+     trace ») ; les variantes non votées, de 05:85 (« le chemin que la spec a écrit,
+     pas les variantes de confort ») croisé avec le vote du chapitre 01 § I.
+     Les trois artefacts de droite : l'écran voté (ch. 01 § I) et le prototype
+     versionné (06:210), la spec versionnée en trois blocs (02 § V, fiche B l. 160),
+     les décisions d'écran (05:220).
+     Le mot « couche » n'est pas dessiné : les cartes de droite sont des artefacts,
+     pas les quatre couches du tableau § IV, pour ne pas faire doublon avec lui.
+     Passe 7 (clôture) — voir -Peda/cadrage/06-plan-visuels.md § V-A, § VIII, § XIV. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="800" height="480" role="img" aria-labelledby="t1 d1" font-family="DejaVu Sans, Arial, sans-serif">
+  <title id="t1">Ce que l'archive du projet garde, et ce qu'elle ne garde pas</title>
+  <desc id="d1">Deux zones séparées par une ligne verticale épaisse, la ligne d'archive. À gauche, une zone grise intitulée « le projet, à la fin de la journée » : six étiquettes. Les trois du haut, pleines et bleues, sous l'en-tête « à déposer vous-même » : « l'écran voté », « la spec versionnée », « les décisions d'écran ». Chacune est prolongée d'une flèche bleue qui traverse la ligne et entre dans une carte de la zone de droite. Les trois du bas, grises et bordées de pointillés, sous l'en-tête « ce qui n'a jamais été commité » : « la conversation avec la machine », « les variantes non votées », « les captures, dans un fil ». Chacune est prolongée d'une flèche grise qui s'arrête sur une barre posée devant la ligne, et ne passe pas. À droite, une zone au contour bleu épais intitulée « l'archive, six mois plus tard » : trois cartes alignées sur les trois étiquettes bleues — un petit écran avec « l'écran voté » et la mention « et le prototype, versionné » ; un fichier avec « la spec versionnée » et la mention « trois blocs, un fichier » ; une liste avec « les décisions d'écran » et les deux mentions « noms · valeurs » puis « ce qui a été écarté ». En bas de cette zone, une ligne : « quelqu'un d'autre peut le refaire ».</desc>
+
+  <rect x="0.5" y="0.5" width="799" height="479" rx="6" fill="#ffffff" stroke="#c9ced6" stroke-width="1"/>
+
+  <!-- ====== gauche : le projet, à la fin de la journée ====== -->
+  <rect x="16" y="28" width="388" height="424" rx="8" fill="#f7f9fb" stroke="#c9ced6" stroke-width="1.4"/>
+  <text x="36" y="54" font-size="17" font-weight="700" fill="#1f2328">le projet, à la fin de la journée</text>
+  <line x1="36" y1="66" x2="388" y2="66" stroke="#d5d8de" stroke-width="1"/>
+
+  <!-- les trois que vous y posez vous-même -->
+  <text x="36" y="86" font-size="15" font-weight="700" fill="#1f3f6b">à déposer vous-même</text>
+
+  <rect x="36" y="96" width="348" height="48" rx="6" fill="#dbe6f5" stroke="#3b5b8d" stroke-width="1.6"/>
+  <text x="52" y="126" font-size="16" font-weight="700" fill="#16283d">l'écran voté</text>
+
+  <rect x="36" y="156" width="348" height="48" rx="6" fill="#dbe6f5" stroke="#3b5b8d" stroke-width="1.6"/>
+  <text x="52" y="186" font-size="16" font-weight="700" fill="#16283d">la spec versionnée</text>
+
+  <rect x="36" y="216" width="348" height="48" rx="6" fill="#dbe6f5" stroke="#3b5b8d" stroke-width="1.6"/>
+  <text x="52" y="246" font-size="16" font-weight="700" fill="#16283d">les décisions d'écran</text>
+
+  <!-- les trois qui ne passent pas -->
+  <text x="36" y="288" font-size="15" font-weight="700" fill="#6b7280">ce qui n'a jamais été commité</text>
+
+  <rect x="36" y="296" width="348" height="46" rx="6" fill="#f2f3f5" stroke="#9aa3ad" stroke-width="1.4" stroke-dasharray="7 5"/>
+  <text x="52" y="324.5" font-size="16" fill="#4b5563">la conversation avec la machine</text>
+
+  <rect x="36" y="350" width="348" height="46" rx="6" fill="#f2f3f5" stroke="#9aa3ad" stroke-width="1.4" stroke-dasharray="7 5"/>
+  <text x="52" y="378.5" font-size="16" fill="#4b5563">les variantes non votées</text>
+
+  <rect x="36" y="404" width="348" height="46" rx="6" fill="#f2f3f5" stroke="#9aa3ad" stroke-width="1.4" stroke-dasharray="7 5"/>
+  <text x="52" y="432.5" font-size="16" fill="#4b5563">les captures, dans un fil</text>
+
+  <!-- ====== la ligne d'archive ====== -->
+  <line x1="448" y1="28" x2="448" y2="452" stroke="#3b5b8d" stroke-width="4"/>
+
+  <!-- ====== droite : l'archive ====== -->
+  <rect x="448" y="28" width="336" height="424" rx="8" fill="#ffffff" stroke="#3b5b8d" stroke-width="2"/>
+  <text x="468" y="54" font-size="17" font-weight="700" fill="#1f3f6b">l'archive, six mois plus tard</text>
+  <line x1="468" y1="66" x2="764" y2="66" stroke="#d5d8de" stroke-width="1"/>
+
+  <!-- carte 1 : l'écran -->
+  <rect x="466" y="96" width="300" height="60" rx="8" fill="#dbe6f5" stroke="#a8bcd6" stroke-width="1"/>
+  <rect x="480" y="118" width="24" height="17" rx="2" fill="#ffffff" stroke="#3b5b8d" stroke-width="1.6"/>
+  <path d="M492 135v4M486 140h12" fill="none" stroke="#3b5b8d" stroke-width="1.6"/>
+  <text x="516" y="124" font-size="16" font-weight="700" fill="#16283d">l'écran voté</text>
+  <text x="516" y="143" font-size="15" fill="#1f3f6b">et le prototype, versionné</text>
+
+  <!-- carte 2 : la spec -->
+  <rect x="466" y="160" width="300" height="60" rx="8" fill="#dbe6f5" stroke="#a8bcd6" stroke-width="1"/>
+  <path d="M482 172h13l7 7v18h-20z" fill="#ffffff" stroke="#3b5b8d" stroke-width="1.6"/>
+  <path d="M495 172v7h7M486 185h12M486 191h12" fill="none" stroke="#3b5b8d" stroke-width="1.4"/>
+  <text x="516" y="180" font-size="16" font-weight="700" fill="#16283d">la spec versionnée</text>
+  <text x="516" y="199" font-size="15" fill="#1f3f6b">trois blocs, un fichier</text>
+
+  <!-- carte 3 : les décisions -->
+  <rect x="466" y="224" width="300" height="60" rx="8" fill="#dbe6f5" stroke="#a8bcd6" stroke-width="1"/>
+  <circle cx="486" cy="244" r="2" fill="#3b5b8d"/>
+  <circle cx="486" cy="252" r="2" fill="#3b5b8d"/>
+  <circle cx="486" cy="260" r="2" fill="#3b5b8d"/>
+  <path d="M493 244h11M493 252h11M493 260h11" fill="none" stroke="#3b5b8d" stroke-width="1.4"/>
+  <text x="516" y="238" font-size="16" font-weight="700" fill="#16283d">les décisions d'écran</text>
+  <text x="516" y="256" font-size="15" fill="#1f3f6b">noms · valeurs</text>
+  <text x="516" y="271" font-size="15" fill="#1f3f6b">ce qui a été écarté</text>
+
+  <text x="468" y="434" font-size="15" font-weight="700" fill="#1f3f6b">quelqu'un d'autre peut le refaire</text>
+
+  <!-- ====== les trois traversées ====== -->
+  <path d="M384 120h74" fill="none" stroke="#3b5b8d" stroke-width="2.4"/>
+  <polygon points="466,120 455,114 455,126" fill="#3b5b8d"/>
+  <path d="M384 180h74" fill="none" stroke="#3b5b8d" stroke-width="2.4"/>
+  <polygon points="466,180 455,174 455,186" fill="#3b5b8d"/>
+  <path d="M384 240h74" fill="none" stroke="#3b5b8d" stroke-width="2.4"/>
+  <polygon points="466,240 455,234 455,246" fill="#3b5b8d"/>
+
+  <!-- ====== les trois qui butent ====== -->
+  <path d="M384 319h46" fill="none" stroke="#9aa3ad" stroke-width="2.2"/>
+  <rect x="436" y="308" width="4" height="22" rx="1" fill="#9aa3ad"/>
+  <path d="M384 373h46" fill="none" stroke="#9aa3ad" stroke-width="2.2"/>
+  <rect x="436" y="362" width="4" height="22" rx="1" fill="#9aa3ad"/>
+  <path d="M384 427h46" fill="none" stroke="#9aa3ad" stroke-width="2.2"/>
+  <rect x="436" y="416" width="4" height="22" rx="1" fill="#9aa3ad"/>
+</svg>

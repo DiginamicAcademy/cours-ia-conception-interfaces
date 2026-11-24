@@ -44,5 +44,6 @@ capture : ses écrans changent plus vite que le cours. Il est **dessiné** en S
 | `contraste-mesure.svg` | Dessiné pour ce cours, d'après le couple cité du chapitre 04 (#9ca3af sur #f9fafb) et le seuil WCAG 2.2 ; ratio 2,43:1 calculé par script, non estimé. | Idem. | 24/11/2026 |
 | `dette-immediate.svg` | Dessiné pour ce cours, d'après les trois postes de dette du chapitre 06 ; les dix bleus sont schématiques, aucune valeur hex n'y est écrite. | Idem. | 24/11/2026 |
 | `ce-qui-survit-a-l-outil.svg` | Dessiné pour ce cours, d'après les sections IV et V du chapitre 06. | Idem. | 24/11/2026 |
+| `contenu-de-l-archive.svg` | Dessiné pour ce cours, d'après le chapitre 05 (§ III l. 92 et 100, § IV l. 220, § I B l. 57) et du relevé du chapitre 03 l. 312 pour l'horizon des six mois ; aucune capture d'outil, aucune donnée d'un service réel. | Idem. | 24/11/2026 |
 
 Aucune photo ni illustration provenant d'un site tiers à ce jour.
