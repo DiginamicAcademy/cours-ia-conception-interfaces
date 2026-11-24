@@ -2,7 +2,7 @@
 
 # 06 - Tenez l'écran
 
-> Vous savez faire relire du code par une machine : des tests, un typage, un linter refusent d'enregistrer n'importe quoi. Un écran, vous l'avez contrôlé à l'œil — et l'œil est exactement ce que sa finition a été fabriquée pour tromper. Il reste une question, et c'est la dernière de la journée : qui surveille l'écran ?
+> Vous savez faire relire du code par une machine : des tests, un typage, un linter refusent d'enregistrer n'importe quoi. Un écran, vous l'avez contrôlé à l'œil — et l'œil est exactement ce que sa finition a été fabriquée pour tromper. Il reste une question, et c'est la dernière que ces deux jours posent : qui surveille l'écran ?
 
 ## Objectifs
 
@@ -12,6 +12,7 @@
 - **Lancer** Lighthouse et html-validate sur un rendu, et lire leurs sorties jusqu'à la ligne à corriger.
 - **Repérer** la dette que contracte une interface générée dès la sortie de la machine : valeurs de style qui dérivent, composants dupliqués, fonctions sans fonction.
 - **Séparer** dans l'historique ce qui vient de la machine de ce que vous avez fait, et le dater.
+- **Refaire** la boucle complète à deux, sans que personne ne la mène avec vous : écrire la spec, la demander une fois, la confronter, la faire contrôler, rendre une trace.
 - **Faire survivre** votre travail à l'outil qui l'a produit : dater, épingler, garder les sorties.
 
 ## Sommaire
@@ -21,6 +22,7 @@
 - [III. La dette immédiate d'une interface générée](#iii-la-dette-immédiate-dune-interface-générée)
 - [IV. Déclarer l'usage, tenir les traces](#iv-déclarer-lusage-tenir-les-traces)
 - [V. Et si l'outil disparaît](#v-et-si-loutil-disparaît)
+- [VI. L'atelier de synthèse — la boucle entière, sans être tenus](#vi-latelier-de-synthèse--la-boucle-entière-sans-être-tenus)
 
 ## I. Vous surveillez le code. Qui surveille l'écran ?
 
@@ -28,14 +30,14 @@
 
 Un développeur de 2026 ne rend pas du code qu'il n'a pas fait contrôler. Personne ne propose de « livrer » une fonctionnalité sans que les tests soient passés ; si quelqu'un le propose, l'équipe refuse. Ce réflexe n'est pas du perfectionnisme, c'est une économie : un défaut rattrapé par un capteur coûte une correction, un défaut rattrapé par un utilisateur coûte un incident.
 
-Maintenant, l'écran que vous avez produit aujourd'hui.
+Maintenant, l'écran que vous avez produit au chapitre 03 et complété au chapitre 04.
 
 | Ce qui est surveillé | Par quoi | Ce que le capteur empêche |
 | --- | --- | --- |
 | La logique | les tests | un calcul faux qui passe inaperçu |
 | Les formes des données | le typage | un champ manquant découvert à l'exécution |
 | La forme du code | le linter | l'accumulation de styles et les erreurs connues |
-| **L'écran** | **vos yeux, une fois, ce matin** | **rien de durable** |
+| **L'écran** | **vos yeux, une fois, depuis le chapitre 03** | **rien de durable** |
 
 Ce n'est pas un détail : l'écran est la partie du logiciel que vos utilisateurs touchent. Et il a un statut particulier, parce qu'il est **généré**. Le code que vous écrivez porte vos hypothèses ; celui que la machine produit porte les siennes, et il est beau. Sa finition lui donne l'air d'avoir été validé par quelqu'un. Personne ne l'a validé.
 
@@ -123,7 +125,7 @@ Un point de salle, sans lequel l'atelier ne démarre pas : **Lighthouse se lanc
 
 ### EX-06 - Deux capteurs, une correction (20 min, binôme, avec débrief)
 
-**Contexte.** Vous avez votre écran, votre code et vos critères d'acceptation. Vous n'avez plus votre objectivité : vous regardez ce rendu depuis ce matin. Le binôme d'à côté, lui, n'a pas écrit ce code — c'est la seule objectivité disponible en salle.
+**Contexte.** Vous avez votre écran, votre code et vos critères d'acceptation. Vous n'avez plus votre objectivité : vous regardez ce rendu depuis qu'il est sorti de l'outil. Le binôme d'à côté, lui, n'a pas écrit ce code — c'est la seule objectivité disponible en salle.
 
 **Consigne.**
 
@@ -158,7 +160,7 @@ Un point de salle, sans lequel l'atelier ne démarre pas : **Lighthouse se lanc
 - Conclure d'un rapport sans défaut que l'écran est accessible : les outils automatiques laissent passer environ 30 % des barrières.
 - Confondre les deux capteurs, c'est-à-dire demander à Lighthouse ce qui ne va pas dans le fichier, ou à html-validate ce qui ne va pas à l'écran. Chacun est aveugle de l'aveuglement de l'autre, et c'est exactement pour cela qu'ils sont deux.
 
-**Ce qu'il faut retenir.** Deux capteurs, une correction justifiée, une ligne sur ce qu'ils n'ont pas vu : c'est le format de travail que vous garderez après la journée. Il tient en quelques minutes par écran, il ne dépend pas de votre forme du jour, et il laisse une trace relisible.
+**Ce qu'il faut retenir.** Deux capteurs, une correction justifiée, une ligne sur ce qu'ils n'ont pas vu : c'est le format de travail que vous garderez après le cours. Il tient en quelques minutes par écran, il ne dépend pas de votre forme du jour, et il laisse une trace relisible.
 
 </details>
 
@@ -178,7 +180,7 @@ Ce triptyque a un point commun : il ne casse rien aujourd'hui. C'est précisém
 
 ## IV. Déclarer l'usage, tenir les traces
 
-Au bout de la journée, vous tenez un dossier de code dont une partie n'est pas de vous. Cela se traite, et cela s'écrit — pas pour la forme, pour que quelqu'un sache où poser ses questions dans quelques mois.
+Au bout de ces deux jours, vous tenez un dossier de code dont une partie n'est pas de vous. Cela se traite, et cela s'écrit — pas pour la forme, pour que quelqu'un sache où poser ses questions dans quelques mois.
 
 **Le commit qui sépare.** Ne mélangez pas, dans un même dépôt, la sortie de la machine et vos corrections. Trois temps, dans l'ordre :
 
@@ -197,11 +199,11 @@ Le deuxième bloc est le nœud : un commit qui ne contient **que** ce qui est s
 
 **Ce que vous pouvez garantir.** Vous ne signez pas du code que vous n'avez pas lu : c'est la relecture du chapitre 05 vue de l'autre côté. Relire ne sert pas seulement à corriger, sert aussi à savoir de quoi vous répondez. La déclaration qui va avec tient en quelques lignes et se met dans le dépôt, pas dans une messagerie : ce qui a été généré, par quoi, ce que vous avez vérifié et avec quel capteur, **ce qui reste non vérifié**. Cette dernière ligne est la plus utile des quatre et la plus rare. Elle protège celui qui reçoit le travail, et elle vous protège.
 
-**Les traces se gardent en fichiers.** Sorties de capteurs, exports téléchargés, spec, liste des défauts avant et après la relance : dans le dépôt, versionnés, datés. Une capture d'écran collée dans un fil de discussion n'est pas une trace, c'est une humeur. La journée produit un certain nombre de rapports : à la fin de l'atelier, ils sont soit dans le dépôt, soit perdus.
+**Les traces se gardent en fichiers.** Sorties de capteurs, exports téléchargés, spec, liste des défauts avant et après la relance : dans le dépôt, versionnés, datés. Une capture d'écran collée dans un fil de discussion n'est pas une trace, c'est une humeur. Ces deux jours produisent un certain nombre de rapports : à la fin du cours, ils sont soit dans le dépôt, soit perdus.
 
 ## V. Et si l'outil disparaît
 
-Tout ce que vous avez utilisé aujourd'hui pour produire est **hébergé** chez un éditeur, gratuit, et déclaré bêta pour l'un des deux. Il peut changer de nom, remanier son offre, faire disparaître un mode, ou fermer. Ce n'est pas une hypothèse catastrophiste, c'est l'histoire ordinaire de ce marché : les libellés d'interface bougent tous les trois mois. Trois gestes rendent ce risque sans prise sur votre travail.
+Tout ce que vous avez mobilisé pour produire est **hébergé** chez un éditeur, gratuit, et déclaré bêta pour l'un des deux. Il peut changer de nom, remanier son offre, faire disparaître un mode, ou fermer. Ce n'est pas une hypothèse catastrophiste, c'est l'histoire ordinaire de ce marché : les libellés d'interface bougent tous les trois mois. Trois gestes rendent ce risque sans prise sur votre travail.
 
 **Datez.** Chaque production porte l'outil et la date — dans le commit, dans le nom du fichier, dans la déclaration. Un export sans date ne se discute pas : on ne peut pas savoir à quel état de l'outil il correspond.
 
@@ -213,9 +215,85 @@ Ce qui ne se garde pas : les chiffres de l'offre, les noms de modes, les quotas
 
 ![Ce qui survit à l'outil, et où cela se pose : chez l'éditeur, une maquette empruntée qui change ou ferme ; dans votre dépôt, les trois temps du commit, les sorties de capteurs datées et l'export versionné, la déclaration de ce qui est généré et de ce qui reste non vérifié. Le lien entre les deux est la copie, versionnée et datée.](assets/ce-qui-survit-a-l-outil.svg)
 
+## VI. L'atelier de synthèse — la boucle entière, sans être tenus
+
+### EX-07 - Un écran neuf, de la spec à la trace (60 min, binôme, correction collective projetée)
+
+**Contexte.** Les six ateliers de ces deux jours vous ont menés, étape par étape : un écran à classer, une demande à comparer, une sortie à confronter, un rendu d'à côté à auditer. Celui-ci est le seul où vous produisez tout, de bout en bout, sur un écran que personne ne vous a montré. Vous restez en binôme, devant un seul poste ; personne ne touche à votre clavier, et la consigne n'est plus découpée en étapes jouées ensemble. Soixante minutes, un écran à faire tenir debout, une trace à rendre.
+
+Rien ici n'est noté : la note du cours est le QCM (questionnaire à choix multiples) qui suit cet atelier, individuel et sans outil. Ce que vous rendez se garde comme preuve de fin de parcours, pas comme une note de plus.
+
+**Le sujet.** Un second écran de *Panier Local*, que vous n'avez pas encore fait : **« Ce qui sort cette semaine »**. C'est la demande de Youssef, au comptoir d'un point de retrait (fiche *Panier Local*, § II) : la tablette posée à plat, devant une file, souvent les gants aux mains, et une minute pour répondre à « vous avez encore des œufs ? ». Ce que cet écran doit dire : quels produits sont en vente pendant la semaine commandée, chez qui, à quel prix, dans quelle unité, et jusqu'à quand. Rien de plus — c'est exactement ce que savent tenir les champs `dispo_du` et `dispo_au` de l'extrait (fiche, § IV).
+
+Trois propriétés de cet extrait vous attendent. Ce ne sont pas des indices : elles se lisent dans le fichier.
+
+| Ce que l'extrait contient | Ce que votre écran en fait |
+| --- | --- |
+| Neuf de ses dix lignes sont en vente sur la semaine de référence de l'extrait (du lundi 30 novembre au dimanche 6 décembre 2026) ; la dixième est fermée à la vente depuis le 22 novembre. | Neuf lignes peuvent s'afficher, pas dix. Écrivez ce nombre dans la spec **avant** de générer : c'est votre valeur de contrôle, celle que vous retrouverez à l'écran. |
+| Deux lignes portent le même nom de produit, chez deux producteurs, à deux prix différents (4,20 euros et 4,60 euros). | Une ligne qui dit « œufs plein air » sans dire qui la produit ne désigne rien. |
+| Une ligne en vente cette semaine ne porte aucune catégorie. | Un regroupement, ou un filtre par catégorie, la fait disparaître sans rien annoncer. |
+
+La borne tient en une phrase : la base ne connaît **aucune quantité**. Le mot juste est *en vente du … au …* ; « en stock », « épuisé » et « il en reste » sont des inventions. Les huit contraintes de la fiche, § V, s'appliquent ici comme sur l'écran des deux jours précédents.
+
+**Vous ne refaites pas le chapitre 05.** Un écran, un aller : vous ne reliez rien entre les écrans, vous ne rejouez pas la relecture du dossier. Ce qui se joue ici, c'est l'enchaînement complet, dans l'ordre, et sans qu'on vous le tienne.
+
+**Déroulé (60 min).**
+
+1. **12 min — la spec, avant l'outil.** Les trois blocs du chapitre 02 — surface produit, contexte d'usage, contraintes et goût — dans un fichier versionné. La ligne où votre écran s'arrête. Les quatre états du chapitre 04, nommés pour *cet* écran : l'état vide d'une semaine sans produit n'est pas celui d'une panne. Et la valeur de contrôle, comptée dans l'extrait. L'outil reste fermé pendant ces douze minutes.
+2. **6 min — la demande.** La spec collée telle quelle, le `DESIGN.md` écrit au chapitre 03 **réutilisé sans y toucher** — il tient sur plusieurs écrans, c'est son travail —, et les quatre états demandés dans le même mouvement. Un seul appel à l'outil de code (Google AI Studio, mode Build) : ce qui sort de cet appel est ce avec quoi vous travaillerez.
+3. **14 min — la sortie, contre la spec.** Téléchargez, ouvrez en local, servez la page. Puis relisez l'écran ligne à ligne contre votre fichier : chaque élément affiché a un propriétaire, la spec ou rien. Cherchez la valeur de contrôle et les deux propriétés du tableau. Ce qui est là sans avoir été demandé s'écrit ; cela ne se corrige pas encore.
+4. **10 min — les deux capteurs, une correction.** Le kit, comme à l'exercice précédent : html-validate sur les fichiers, Lighthouse sur la page servie, catégorie Accessibilité. Vous corrigez **à la main** ce que vous jugez le plus grave pour la personne au comptoir, et vous écrivez une phrase disant pourquoi ce défaut-là passe avant la violation que vous laissez de côté.
+5. **8 min — les trois temps du dépôt.** Un commit pour la demande, un pour la sortie de la machine sans retouche (outil nommé, date), un pour votre correction. Les sorties des deux capteurs vont dans `audits/`, dans des fichiers nommés avec la date et ce qu'ils ont mesuré.
+6. **10 min — la liste des décisions.** Ce que vous avez décidé, et **ce que vous avez écarté**, avec la raison. Une ligne par décision, et une dernière ligne pour ce qui reste non vérifié.
+
+**La trace rendue, en fin d'atelier — un seul dossier, celui du binôme :**
+
+- la spec en trois blocs, versionnée, avec sa valeur de contrôle et ses quatre états nommés ;
+- l'écran : le dossier généré, votre correction, les trois commits dans l'ordre et datés ;
+- les sorties des deux capteurs, nommées avec la date et ce qu'elles ont mesuré ;
+- la liste des décisions, dont ce qui a été écarté et ce qui reste non vérifié.
+
+**Avant de rendre**, vérifiez que :
+
+- [ ] la spec a été écrite et commitée **avant** le premier appel à l'outil, et le `DESIGN.md` utilisé est celui du chapitre 03, non retouché ;
+- [ ] l'écran n'affiche que des produits en vente sur la semaine de référence, et le nombre de lignes retrouvées est celui de la valeur de contrôle écrite dans la spec — ou vous savez dire pourquoi il n'y correspond pas ;
+- [ ] les quatre états de cet écran sont présents, ou écrits dans la spec comme non produits ; « je ne l'ai pas prévu » ne coche pas la case ;
+- [ ] les deux capteurs ont tourné sur **votre** écran, servi en HTTP, et leurs sorties sont dans `audits/` avec une date ;
+- [ ] votre correction cite le fichier et la ligne, et dit ce qu'avait de moins grave la violation écartée ;
+- [ ] un `git log` lu par quelqu'un d'autre distingue, sans vous, ce que la machine a fait de ce que vous avez fait ;
+- [ ] je sais montrer, dans la liste des décisions, une chose que nous avons écartée et pourquoi nous l'avons écartée ;
+- [ ] je sais nommer une vérification qui manque encore à notre écran, et dire qui devrait la faire.
+
+Les deux dernières cases se cochent par personne, pas par binôme : une coche n'est pas une note, c'est un endroit où vous savez ce que vous avez fait.
+
+<details>
+<summary>Voir la correction</summary>
+
+**Points de contrôle.** Cette correction est faite pour être projetée, avant le QCM. Elle donne des points de contrôle, pas des points — l'atelier ne se note pas.
+
+- **L'ordre des commits.** Le commit de la spec précède celui de la sortie. C'est ce qui permet, dans six mois, de savoir si une ligne de l'écran vient d'une décision ou d'un blanc que la machine a rempli.
+- **La valeur de contrôle.** Neuf lignes sur les dix de l'extrait sont en vente sur la semaine de référence ; la dixième, fermée le 22 novembre, ne doit pas s'afficher. Un écran qui en montre dix n'a rien filtré. Un écran qui en montre huit a probablement perdu en route la ligne sans catégorie.
+- **Le producteur nommé.** Les deux lignes « Œufs plein air, douzaine » viennent de deux producteurs, à 4,20 euros et 4,60 euros. Sur un écran qui ne les distingue pas, on ne peut pas décider — et personne au comptoir ne peut répondre.
+- **Les mots défendus.** Une quantité, « en stock », « épuisé », un total qui additionne une douzaine et un sac de 5 kg : la base ne sait rien de tout cela, et l'écran qui le dit n'est pas faux, il est inventé.
+- **Vide n'est pas panne.** « Rien ne sort cette semaine » doit donner une issue, par exemple parcourir le catalogue. Une panne affichée comme une semaine vide envoie la personne au comptoir conclure qu'il n'y a rien à vendre : c'est le piège du chapitre 04, rejoué sur un écran neuf.
+- **Le trajet au comptoir.** Une action par produit, d'un seul appui, sans survol, avec le texte agrandi qui reste entier. Lighthouse n'en juge qu'une partie : l'information cachée sous un survol, c'est vous qui la trouverez.
+- **La liste des décisions.** C'est ce qui distingue cette trace d'un rapport d'outil. Une décision écartée avec sa raison, c'est une discussion qui ne reprendra pas. « Reste non vérifié », écrit, c'est une protection pour celui qui reprendra le dossier — et pour vous.
+
+**Erreurs fréquentes.**
+
+- **Réécrire `DESIGN.md` pour le deuxième écran.** Le fichier a été écrit pour tenir sur plusieurs écrans ; le réécrire à chaque écran, c'est organiser soi-même la dérive des valeurs de style du § III.
+- **Reprendre la spec d'avant en changeant le nom de l'écran.** L'usage a changé : autre matériel, autre urgence, autre personne devant l'écran. Le bloc 2 se réécrit, et avec lui tout ce que l'écran doit tenir.
+- **Corriger pendant la confrontation.** À l'étape 3, on écrit ce qui n'était pas demandé ; on ne touche à rien tant que la sortie n'est pas commitée.
+- **Rendre un rapport sans correction, ou une correction sans rapport.** Les deux moitiés se cherchent l'une l'autre ; l'atelier les demande ensemble.
+- **Finir sans ligne « reste non vérifié ».** Soixante minutes ne vérifient pas un écran tout entier. Ne pas l'écrire, c'est signer ce qu'on n'a pas regardé.
+
+**Ce qu'il faut retenir.** Six gestes, et ce sont les mêmes pour n'importe quel écran : écrire ce qui doit être vrai, le demander une fois, le confronter à ce qui a été écrit, le faire contrôler, séparer ce qui vient de la machine de ce qui vient de vous, dire ce qu'on a écarté. Six fois, une consigne découpée vous les a mis entre les mains ; ici vous les avez refaits à votre rythme, sans qu'on vous tienne. Ce qui est vérifiable, ce n'est pas que l'écran soit joli — c'est que chacun de ces gestes ait laissé une trace.
+
+</details>
+
 ## Aller plus loin
 
-> Facultatif, sans rapport avec la note de la journée.
+> Facultatif, sans rapport avec la note du cours.
 
 - **Rendre le capteur collectif.** `html-validate` rend un code de sortie non nul : c'est ce qu'il faut à une chaîne d'intégration continue pour refuser d'elle-même une modification qui casse la structure. Un fichier à écrire une fois, et le capteur devient gardien au lieu de rester une intention.
 - **Un dossier de rapports.** Donnez-vous un emplacement dans le dépôt où les sorties des capteurs atterrissent à chaque passage, nommées avec une date. Au bout d'un mois, ce dossier dessine une courbe — et une courbe se discute, alors qu'une opinion se subit.
