@@ -9,16 +9,16 @@
 #   04-Auteurs-et-contributeurs.md).
 course:
   name: "Concevoir des interfaces avec l'IA : du besoin au prototype"
-  RNCP:     ## titres RNCP visés — les deux publics de la journée.
-    ## Les deux fiches nomment textuellement la réalisation des maquettes
-    ## d'interfaces, leur enchaînement, et le RGAA (fiches lues le
-    ## 23/11/2026 sur francecompetences.fr).
+  RNCP:     ## titre RNCP visé — le CDA seul : deux jours, CDA seuls
+            ## (correction Robin du 23/11/2026, ADR-014). La fiche nomme
+            ## textuellement la réalisation des maquettes d'interfaces,
+            ## leur enchaînement, et le RGAA (fiche lue le 23/11/2026 sur
+            ## francecompetences.fr).
     - RNCP37873
-    - RNCP37674
-  RNCPBloc: ## aucun bloc unique revendiqué : la journée sert deux titres à
-            ## la fois, en revendiquer un seul la réduirait.
+  RNCPBloc: ## aucun bloc unique revendiqué : le cours déroule la fiche
+            ## entière, en revendiquer un seul le réduirait.
     []
-  timing: 1 ## durée prévue en jours
+  timing: 2 ## durée prévue en jours
 
 credits:
   authors: ## signataires du cours, dans l'ordre où ils doivent apparaître

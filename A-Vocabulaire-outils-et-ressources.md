@@ -40,9 +40,8 @@ pour briller dans un compte rendu.
 | HTTP | HyperText Transfer Protocol | Le protocole d'une page servie. Un rapport d'audit lancé en `file://` n'est pas lancé sur la page réelle. |
 | PDF | Portable Document Format | Le format sous lequel vous recevez ce support : une adresse y reste une adresse, notez-la plutôt que de la chercher en ligne. |
 | ASCII | American Standard Code for Information Interchange | Le croquis en caractères simples, dans le fichier de spec : quatre boîtes qui vivent au même endroit que la demande. |
-| RNCP | Répertoire national des certifications professionnelles | Le répertoire des titres professionnels. Ce cours s'appuie sur deux d'entre eux. |
-| CDA | Concepteur développeur d'applications (RNCP37873) | L'un des deux titres du cours : il nomme les maquettes, leur enchaînement et le RGAA. |
-| DWWM | Développeur web et web mobile (RNCP37674) | L'autre : il nomme la réalisation des maquettes et la modélisation de leur enchaînement. |
+| RNCP | Répertoire national des certifications professionnelles | Le répertoire des titres professionnels. Ce cours s'appuie sur l'un d'entre eux. |
+| CDA | Concepteur développeur d'applications (RNCP37873) | Le titre visé par ce cours : il nomme les maquettes, leur enchaînement et le RGAA. |
 | RGAA | Référentiel général d'amélioration de l'accessibilité | Le référentiel opposable en France, publié par la DINUM. Sa version en vigueur au 23/11/2026 est la 4.1.2. |
 | WCAG | Web Content Accessibility Guidelines | Les règles d'accessibilité publiées par le W3C. Version 2.2 : le référentiel international, et la référence des outils d'audit. |
 | AA | — (niveau de conformance WCAG) | Le niveau que les référentiels visent en pratique : le RGAA reprend les critères des niveaux A et AA. |

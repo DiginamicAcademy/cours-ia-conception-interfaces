@@ -61,7 +61,7 @@ Tant que ce n'est pas vrai, le bel objet que vous avez sous les yeux est une pro
 
 ## II. Le clic : relier les écrans
 
-Le mot du référentiel est exactement le nôtre. Les deux titres sur lesquels ce cours s'appuie — RNCP37873 (Concepteur développeur d'applications) et RNCP37674 (Développeur web et web mobile) — ne demandent pas seulement de « réaliser les maquettes des interfaces utilisateur » : ils demandent de **modéliser leur enchaînement**, et le premier y ajoute le RGAA « dans la réalisation des maquettes des interfaces utilisateur et leur enchaînement ».
+Le mot du référentiel est exactement le nôtre. Le titre sur lequel ce cours s'appuie — RNCP37873 (Concepteur développeur d'applications) — ne demande pas seulement de « réaliser les maquettes des interfaces utilisateur » : il demande de **modéliser leur enchaînement**, et y ajoute le RGAA « dans la réalisation des maquettes des interfaces utilisateur et leur enchaînement ».
 
 Le lien entre deux écrans est donc une matière de travail, au même titre qu'un écran. Le relier, c'est répondre à une question que l'écran n'a jamais eue à traiter.
 

@@ -1327,7 +1327,7 @@ Ces trois lignes donnent un **critère d'arrêt**. Sans lui on s'arrête quand �
 
 ## Le référentiel a un mot : enchaînement
 
-- deux titres adossés : RNCP37873, Concepteur développeur d'applications (CDA), et RNCP37674, Développeur web et web mobile (DWWM)
+- le titre adossé : RNCP37873, Concepteur développeur d'applications (CDA)
 - pas seulement « réaliser les maquettes » : **modéliser leur enchaînement**
 - le premier y ajoute le RGAA, dans les maquettes et leur enchaînement
 - le lien entre deux écrans est une matière de travail, comme un écran
@@ -1812,7 +1812,7 @@ Dossier ouvert et rendu lancé ; les quatre réponses se gardent dans le dépô
 
 - Les annexes du support : fiche des deux outils, pack accessibilité, quatre axes.
 - « Aller plus loin », en fin de chapitre : facultatif, sans rapport avec la note.
-- CDA et DWWM nomment maquettes, enchaînement et RGAA : ce n'est pas un bonus.
+- Le CDA nomme maquettes, enchaînement et RGAA : ce n'est pas un bonus.
 - Un capteur qui garde : la chaîne d'intégration refuse toute seule.
 - Un dossier de rapports datés : une courbe se discute, une opinion se subit.
 - Aucune date n'est annoncée ici : ce qui se garde, c'est le geste.
