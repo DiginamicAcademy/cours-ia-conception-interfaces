@@ -12,7 +12,7 @@
 ## Sommaire
 
 - [I. Vocabulaire et acronymes](#i-vocabulaire-et-acronymes)
-- [II. Les deux outils de la journée](#ii-les-deux-outils-de-la-journée)
+- [II. Les deux outils des deux jours](#ii-les-deux-outils-des-deux-jours)
 - [III. Le pack accessibilité](#iii-le-pack-accessibilité)
 - [IV. La relecture d'un écran, en quatre axes](#iv-la-relecture-dun-écran-en-quatre-axes)
 - [Aller plus loin](#aller-plus-loin)
@@ -27,7 +27,7 @@ pour briller dans un compte rendu.
 
 ### A. Sigles et noms
 
-| Sigle ou nom | Développement | Ce que c'est, dans cette journée |
+| Sigle ou nom | Développement | Ce que c'est, dans ces deux jours |
 |---|---|---|
 | IA | intelligence artificielle | Le générateur : il ne devine pas, il **remplit**, avec ce qu'il a le plus vu. |
 | HTML | HyperText Markup Language | La structure de l'écran. Elle se valide, donc elle se contrôle. |
@@ -60,7 +60,7 @@ pour briller dans un compte rendu.
 ### B. Les mots du cours
 
 - **Brouillon de haute finition** — ce qu'est une interface générée : prête à montrer, rien de vérifié. Sa finition tient lieu de substance, et c'est ce qui la rend plus dangereuse qu'un croquis.
-- **Rendre l'écran vérifiable** — le geste qui occupe toute la journée : écrire ce qui doit être vrai, le faire contrôler, itérer avec des preuves, transmettre en code.
+- **Rendre l'écran vérifiable** — le geste qui occupe ces deux jours : écrire ce qui doit être vrai, le faire contrôler, itérer avec des preuves, transmettre en code.
 - **Spec (d'écran)** — la demande écrite en trois blocs, versionnée dans le dépôt, qui dit aussi ce qui n'est pas demandé. Une spec n'est pas un message.
 - **Triptyque** — les trois blocs d'une spec : surface produit, contexte d'usage, contraintes et goût. Un bloc absent ne simplifie pas l'écran, il laisse une décision orpheline.
 - **Surface produit** — ce qui est à l'écran : données, provenance, actions, ordre de lecture.
@@ -120,14 +120,14 @@ pour briller dans un compte rendu.
 - **`node_modules`** — le dossier des dépendances installées. Dans l'atelier, on ne l'installe pas : on l'extrait.
 - **Serveur local** — ce qui sert la page en HTTP sur votre poste. Sans lui, une partie des ressources manque et le rapport est faux.
 - **Clé (API)** — le droit d'appeler un modèle. Elle reste du côté de l'outil : un appel qui marche dans l'outil ne marche pas chez vous, et une clé recopiée dans le code du client est une clé compromise.
-- **Linter** — le capteur de forme du code. Son équivalent pour l'écran, c'est ce que la journée vous fait installer.
-- **Tests, typage, intégration continue** — les capteurs que vous appliquez déjà au code. La journée déplace le même geste sur l'objet écran.
+- **Linter** — le capteur de forme du code. Son équivalent pour l'écran, c'est ce que ces deux jours vous font installer.
+- **Tests, typage, intégration continue** — les capteurs que vous appliquez déjà au code. Ces deux jours déplacent le même geste sur l'objet écran.
 - **Composant** — un morceau d'écran réutilisable, nommé par le mot du métier. Si tout est dans l'écran racine, vous avez une page, pas une application.
 - **Arborescence** — l'arbre des fichiers reçus. L'annoter est la première relecture, et la seule qui ne dépende d'aucune machine.
 
-## II. Les deux outils de la journée
+## II. Les deux outils des deux jours
 
-La journée tient dans deux outils, et c'est un choix de méthode : chaque logiciel appris est une heure
+Les deux jours tiennent dans deux outils, et c'est un choix de méthode : chaque logiciel appris est une heure
 volée à la vérification, et l'on ne change de logiciel qu'une seule fois, entre la maquette et le code.
 Les deux appartiennent au même éditeur, ce qui évite d'avoir à négocier un format d'échange.
 
@@ -153,7 +153,7 @@ dossier : c'est ce qui la rendra encore utilisable dans un an.
 - **Ce qu'on lui demande.** Reprendre ce que la maquette a produit et en faire une application qui se clique réellement, téléchargeable en `.zip`, avec une synchronisation possible vers un dépôt Git. Dans l'interface, demandez le **mode Build** : celui qui produit une application, pas une image d'écran. Un libellé de menu n'est pas une fonction : si celui-ci a bougé, cherchez ce qui **fait projet** et non ce qui fait bel objet.
 - **Ce qui en sort, concrètement.** Un projet : une entrée HTML, un dossier de code source, un fichier de dépendances et de scripts, un petit serveur, et un fichier de métadonnées que l'outil gardait pour lui.
 - **Ce qu'il ne rend pas.** Pas vos décisions, pas vos données, pas vos clés : les appels qui ont besoin d'une clé restent chez l'éditeur. Ces appels ne fonctionneront donc pas en local — ce n'est pas un défaut du dossier, c'est le coffre qui est resté de l'autre côté. En revanche, rien n'est garanti sur ce qui rend l'écran accessible, sur les états, ni sur les valeurs de style nommées : vous les redemandez, ou vous les écrivez.
-- **Le point de l'après-midi.** Les ressources gratuites d'un compte peuvent être **épuisées avant la fin de la séance**, et leur remise à zéro ne suit pas votre horloge — elle dépend du fuseau de l'éditeur. Aucun chiffre ne sera écrit ici, parce qu'il serait faux à la prochaine relecture. Le geste, lui, ne bouge pas : on relève l'état du compte de chaque binôme à l'entrée de l'après-midi, et l'on arrange la séance d'après ce qu'on a lu, pas d'après ce qu'on espère.
+- **Le point de l'ouverture du second jour.** Les ressources gratuites d'un compte peuvent être **épuisées avant la fin de la séance**, et leur remise à zéro ne suit pas votre horloge — elle dépend du fuseau de l'éditeur. Aucun chiffre ne sera écrit ici, parce qu'il serait faux à la prochaine relecture. Le geste, lui, ne bouge pas : on relève l'état du compte de chaque binôme à l'ouverture du second jour, avant l'atelier qui s'en sert, et l'on arrange la séance d'après ce qu'on a lu, pas d'après ce qu'on espère.
 - **Ce que vous en faites.** Un dossier se relit avec vos yeux de développeur, hors de l'outil : arborescence annotée, fichier de dépendances et de scripts lu en premier, trois questions à poser aux fichiers (quels composants, d'où viennent les données, où sont les états). Ce qui n'a pas été relu n'est pas récupéré, seulement reçu.
 
 ### C. Les trois vérifications, avant de compter sur un outil
@@ -168,7 +168,7 @@ travail à votre place, y compris celui que vous découvrirez l'année prochaine
 
 ## III. Le pack accessibilité
 
-Une fiche à garder après la journée : les seuils avec leur critère, ce qu'aucun outil ne vérifie à
+Une fiche à garder après ces deux jours : les seuils avec leur critère, ce qu'aucun outil ne vérifie à
 votre place, et la façon de formuler une relance qui produise un correctif. Elle reprend le chapitre
 04 et se lit sans lui.
 
@@ -252,7 +252,7 @@ capteurs (chapitre 06, IV. Déclarer l'usage, tenir les traces).
 
 ## Aller plus loin
 
-> Facultatif, sans rapport avec la note de la journée.
+> Facultatif, sans rapport avec la note du cours.
 
 - **Lire les deux critères cités dans leur source.** Ouvrez 1.4.3 et 2.5.8 dans WCAG 2.2, puis cherchez leurs équivalents dans les critères du RGAA 4.1.2. L'appairage se fait une fois, à la main, et ne se recopie pas : c'est le seul moyen de savoir de quoi vous parlez quand un rapport cite un numéro.
 - **Tenir un fichier `OUTILS.md` dans vos dépôts.** Une ligne par produit utilisé : l'outil, la date du relevé, ce que le compte autorisait ce jour-là, ce que l'archive contenait. Dans un an, ce fichier remplacera avantageusement le souvenir de quelqu'un.
@@ -262,7 +262,7 @@ capteurs (chapitre 06, IV. Déclarer l'usage, tenir les traces).
 ## Points clés
 
 - Un sigle ne vaut que s'il se développe une fois puis s'emploie sans précaution ; un mot du cours ne vaut que par le geste de vérification qu'il attache.
-- Les deux outils de la journée sont un maquettage et une application, chez le même éditeur : le premier rend une archive complète **pour lui**, le second un dossier qui se relit avec vos yeux.
+- Les deux outils des deux jours sont un maquettage et une application, chez le même éditeur : le premier rend une archive complète **pour lui**, le second un dossier qui se relit avec vos yeux.
 - Ce qui reste disponible se vérifie, ça ne se suppose pas : le compte du jour, la veille ; ce qui est envoyé, avant d'y toucher ; ce que l'archive contient, avant de dire « c'est bon ».
 - Trois seuils, trois critères nommés, trois gestes : 4,5:1 et 3:1 (WCAG 2.2, critère 1.4.3), 24×24 pixels CSS (WCAG 2.2, critère 2.5.8) — et la cible tactile n'existe qu'à partir de WCAG 2.2.
 - **Un rapport vert n'est pas un écran accessible** : environ 30 % des barrières passent au travers des outils automatiques. Le clavier, la voix, les quatre états et la donnée laide restent votre partie.

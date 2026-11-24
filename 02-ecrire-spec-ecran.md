@@ -193,7 +193,7 @@ C'est du bricolage, et c'est exactement l'intérêt : une définition de fini n
 
 ### EX-02 - La même demande, deux fois (25 min, binôme, débrief collectif)
 
-**Contexte.** Nous travaillons sur *Panier Local*, une plateforme de commande auprès de producteurs locaux. L'écran de la journée est celui par lequel tout passe : **la recherche de produits et son panier** — un champ de recherche, une liste de produits, des filtres, un panier accessible depuis l'en-tête.
+**Contexte.** Nous travaillons sur *Panier Local*, une plateforme de commande auprès de producteurs locaux. L'écran de ces deux jours est celui par lequel tout passe : **la recherche de produits et son panier** — un champ de recherche, une liste de produits, des filtres, un panier accessible depuis l'en-tête.
 
 **Étape 1 — la demande vague (5 min).** Écrivez, sur une ligne ou deux, sans relire le chapitre, la demande la plus naturelle du monde pour cet écran : le type de phrase que l'on envoie vraiment, avec « moderne » et « épuré » dedans. Vous ne la corrigez pas, vous la gardez telle quelle.
 
@@ -237,7 +237,7 @@ C'est du bricolage, et c'est exactement l'intérêt : une définition de fini n
 **Erreurs fréquentes.**
 
 - **Réécrire la même phrase en plus long.** Trois fois plus de mots, toujours un seul bloc : la demande dit à quoi l'écran doit *ressembler*, jamais ce qu'il doit *contenir*. Le test de la ligne retirée, au § II, la démasque immédiatement.
-- **Remplir la grille d'après la spec, pas d'après le rendu.** La colonne de gauche se remplit en regardant l'écran affiché, pas en se rappelant ce qu'on avait demandé. C'est le seul moment de la journée où l'on est forcé de constater l'écart : ne le ratez pas en le théorisant.
+- **Remplir la grille d'après la spec, pas d'après le rendu.** La colonne de gauche se remplit en regardant l'écran affiché, pas en se rappelant ce qu'on avait demandé. C'est le seul moment de ces deux jours où l'on est forcé de constater l'écart : ne le ratez pas en le théorisant.
 - **Laisser vide « ce qui a été inventé » dans la colonne de gauche.** Case vide = vous n'avez pas cherché. Sur une demande vague, la liste est toujours longue : tout ce que vous n'aviez pas dit et qui est pourtant à l'écran.
 - **Compter le croquis comme un ornement.** Un croquis qui ne montre ni l'ordre de lecture ni ce qui reste visible sans défiler n'a rien coupé : il a illustré.
 - **Chercher à gagner le concours de la plus belle spec.** Le critère n'est pas la complétude, c'est : *quelle invention cette ligne a-t-elle empêchée ?* Un texte qui n'en empêche aucune perd contre une ligne qui en empêche trois.
@@ -279,11 +279,11 @@ git commit -m "gen: rendu brut recherche produits (sortie d'outil, non relu)"
 
 Le second message n'est pas une politesse. Écrire *sortie d'outil, non relu* sépare ce que vous avez décidé de ce que la machine a produit : six mois plus tard, cette ligne sera la seule preuve que le code généré n'a pas été avalé tel quel. Et si votre spec s'appuie sur des captures, elles entrent dans le même commit, datées et nommées — une spec dont la référence a disparu n'est plus vérifiable.
 
-Une dernière chose, qui relie ce chapitre à la thèse de la journée. La spec n'est pas un document que l'on écrit avant de travailler et que l'on n'ouvre plus : **elle est l'entrée de la génération et la preuve de ce qui a été demandé**. Toute relance envoyée ensuite à la machine partira d'elle, et tout désaccord sur le rendu se réglera contre elle. C'est parce qu'elle est un fichier qu'elle peut jouer ce double rôle. Un message ne le peut pas.
+Une dernière chose, qui relie ce chapitre à la thèse de ces deux jours. La spec n'est pas un document que l'on écrit avant de travailler et que l'on n'ouvre plus : **elle est l'entrée de la génération et la preuve de ce qui a été demandé**. Toute relance envoyée ensuite à la machine partira d'elle, et tout désaccord sur le rendu se réglera contre elle. C'est parce qu'elle est un fichier qu'elle peut jouer ce double rôle. Un message ne le peut pas.
 
 ## Aller plus loin
 
-> Facultatif — rien ici n'est exigé pour la journée.
+> Facultatif — rien ici n'est exigé pour ces deux jours.
 
 - **Écrire en *Étant donné / Quand / Alors*.** Vous connaissez cette forme pour les règles de gestion ; elle s'applique mot pour mot aux comportements d'un écran : « étant donné un panier vide, quand j'ajoute un produit, alors l'en-tête affiche un article et je reste sur la liste ». Ceux qui l'écrivent ainsi n'ont plus à débattre de ce que « fini » veut dire.
 - **Tenir une ligne de décision pour le style.** Une phrase par arbitrage de goût, datée, dans le même dépôt : *pourquoi* cette densité, *pourquoi* pas ces filtres en haut. Le style devient une décision relisible, au lieu d'une préférence révisée à chaque génération.
@@ -326,7 +326,7 @@ Une dernière chose, qui relie ce chapitre à la thèse de la journée. La spec 
 **4.** Quelle est la bonne définition d'une « définition de fini » pour un écran ?
 
 - A. Des critères dont on peut dire, sans discussion, s'ils sont vrais ou faux
-- B. Le moment où le formateur déclare l'écran acceptable pour la suite de la journée
+- B. Le moment où le formateur déclare l'écran acceptable pour la suite du cours
 - C. Une description aussi complète que possible de l'écran attendu, relue par un pair
 - D. L'accord du demandeur sur le rendu obtenu, une fois les corrections demandées à la machine
 

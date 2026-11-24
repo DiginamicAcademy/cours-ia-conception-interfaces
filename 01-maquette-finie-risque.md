@@ -27,16 +27,16 @@
 
 ## I. Un écran, un vote
 
-**Accroche (sondage) :** la journée commence sans annonce de plan ni présentation de logiciel. Un écran est projeté, et c'est tout.
+**Accroche (sondage) :** le jour 1 commence sans annonce de plan ni présentation de logiciel. Un écran est projeté, et c'est tout.
 
 > 🎯 **Le vote.** Une question, une consigne : « **Livrable, ou pas livrable ?** » On lève la main.
-> Le nombre est écrit au tableau, et il n'y sera pas touché de la journée.
+> Le nombre est écrit au tableau, et il n'y sera plus touché.
 
 ![Écran de panier de Panier Local projeté en ouverture du cours : quatre lignes de produit avec photo, prix, badge « En stock », note en étoiles et producteur souligné comme un lien, un sélecteur de quantité, et à droite un récapitulatif avec un total en gris pâle et deux boutons côte à côte](assets/ecran-panier-vote.svg)
 
 **Le déroulé, dans l'ordre.**
 
-1. **L'écran arrive sans explication.** Un écran de panier de *Panier Local*, la plateforme de commande auprès de producteurs locaux sur laquelle toute la journée travaille : photos, noms, quantités, un total, deux boutons, des avis, un pied de page. Rien ne le signale comme provisoire — il a la densité et la tenue d'un écran qu'on mettrait en ligne.
+1. **L'écran arrive sans explication.** Un écran de panier de *Panier Local*, la plateforme de commande auprès de producteurs locaux sur laquelle ces deux jours travaillent : photos, noms, quantités, un total, deux boutons, des avis, un pied de page. Rien ne le signale comme provisoire — il a la densité et la tenue d'un écran qu'on mettrait en ligne.
 2. **La salle vote**, une main levée par personne, sans discussion d'abord.
 3. **Le résultat est écrit au tableau** : un nombre, pas un palmarès. Personne n'est renvoyé à une erreur, le but n'est pas de se tromper mais de savoir sur quoi l'on a de l'assurance.
 4. **Le formateur révèle alors, point par point**, en montrant à chaque fois l'endroit précis de l'écran :
@@ -106,7 +106,7 @@ flowchart LR
     style C fill:#fde8e8,stroke:#b23a3a
 ```
 
-En découlent trois réflexes qui tiennent toute la journée : **le niveau de fidélité doit être celui de la question que vous posez.**
+En découlent trois réflexes qui tiennent ces deux jours : **le niveau de fidélité doit être celui de la question que vous posez.**
 
 - Savoir si l'ordre des informations est bon → un croquis. Une maquette léchée ne répond pas mieux à cette question, elle répond à une autre.
 - Savoir si le chemin de l'intention à l'action tient → un prototype cliquable, et seulement là.
@@ -145,7 +145,7 @@ Le haut et le bas de cette liste se voient sans être designer. Le milieu se lit
 
 - Vous n'avez pas à devenir typographe aujourd'hui, ni à placer ces valeurs vous-même.
 - Ces quatre familles **se montrent du doigt** : elles sont donc transmissibles à un collègue comme à une machine.
-- Tout ce qui se nomme se vérifie. C'est le mouvement de toute la journée.
+- Tout ce qui se nomme se vérifie. C'est le mouvement de ces deux jours.
 
 ### EX-01 - Quatre défauts, quatre familles (10 min, binôme, débrief en salle)
 
@@ -188,7 +188,7 @@ Sont aussi recevables : une image qui avale le nom du produit, un séparateur q
 - **S'arrêter aux défauts qui sautent aux yeux.** Le contraste et le parcours se voient vite ; le groupement et le rythme demandent de faire le tour de la carte, doigt à l'écran.
 - **Accuser la machine.** « Elle a mal fait » ne se corrige pas : ce qui compte n'est pas qui a décidé, mais ce que l'écran empêche.
 
-**Ce qu'il faut retenir.** Vous venez de lire un écran sans vous laisser impressionner par sa finition, avec quatre mots d'ordre au lieu d'un sentiment. C'est la compétence de la journée : la finition n'est pas un argument, et un défaut nommé est déjà à moitié corrigé, parce qu'il est devenu transmissible.
+**Ce qu'il faut retenir.** Vous venez de lire un écran sans vous laisser impressionner par sa finition, avec quatre mots d'ordre au lieu d'un sentiment. C'est la compétence de ces deux jours : la finition n'est pas un argument, et un défaut nommé est déjà à moitié corrigé, parce qu'il est devenu transmissible.
 
 </details>
 
@@ -205,11 +205,11 @@ Les quatre absences qui suivent ne sont pas des ratés que la génération suiva
 
 Pourquoi *par construction*, et non par paresse du modèle ? Parce qu'un modèle a appris sur des **captures d'écrans publiés**, et un écran publié montre son état plein : un état d'erreur est rarement une capture, un panier vide encore moins. Il reproduit ce qui est représenté, pas ce qui est juste. Les trois dernières lignes, elles, n'existent pas du tout dans une image — rien ne se sauvegarde, ne se refuse, ne s'exécute dans une maquette. Ces trois-là ne peuvent pas être devinées : elles se **décident**. Et une décision qu'on ne prend pas est quand même prise, elle s'appelle « on verra plus tard ».
 
-Un seul point commun à ces quatre absences, et c'est ce qui rend la journée utile : **elles s'écrivent.** Elles s'écrivent avant de générer, se complètent après, se contrôlent avec des outils qui les trouvent, se prouvent par des traces. Ce chapitre vous a montré un écran qui ne tenait que par sa finition ; les cinq qui suivent écrivent ce qui manque, et le font vérifier.
+Un seul point commun à ces quatre absences, et c'est ce qui rend ces deux jours utiles : **elles s'écrivent.** Elles s'écrivent avant de générer, se complètent après, se contrôlent avec des outils qui les trouvent, se prouvent par des traces. Ce chapitre vous a montré un écran qui ne tenait que par sa finition ; les cinq qui suivent écrivent ce qui manque, et le font vérifier.
 
 ## Aller plus loin
 
-*Facultatif — rien d'exigé pour la journée.*
+*Facultatif — rien d'exigé pour ces deux jours.*
 
 - **Tenez la colonne « décidé par ».** Pour chaque écran produit aujourd'hui, une seule colonne : *moi* ou *la machine*. Le contenu de cette colonne, ce soir, en dira plus long sur votre pratique que n'importe quel bilan de formation.
 - **Les quatre familles ont un vocabulaire** : « échelle d'espacement » pour le rythme, « hiérarchie visuelle » pour l'ordre de lecture, « design token » pour une valeur de couleur ou d'espacement nommée et réutilisée. Ces mots sont repris et définis à l'annexe A ; les connaître suffit à demander une correction précise.
@@ -255,7 +255,7 @@ Un seul point commun à ces quatre absences, et c'est ce qui rend la journée ut
 - C. Trois croquis posés côte à côte sur la table, sans les relier entre eux
 - D. Le code de l'application, puisqu'il contient de toute façon l'écran définitif
 
-**5.** *Question ouverte (2-3 lignes).* Reprenez votre réponse à la question 1 et poussez-la : **pourquoi une maquette ratée mais jolie coûte-t-elle plus cher qu'un croquis raté ?** Dites ce qui, dans la journée, aurait été différent avec un croquis.
+**5.** *Question ouverte (2-3 lignes).* Reprenez votre réponse à la question 1 et poussez-la : **pourquoi une maquette ratée mais jolie coûte-t-elle plus cher qu'un croquis raté ?** Dites ce qui, dans ces deux jours, aurait été différent avec un croquis.
 
 <details>
 <summary>Vérifier ses réponses</summary>

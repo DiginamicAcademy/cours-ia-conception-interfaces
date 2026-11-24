@@ -4,7 +4,7 @@
 
 > Ceci n'est pas un modèle à recopier. C'est la matière : ce qu'est *Panier Local*, qui s'en sert,
 > ce que sa base sait et ne sait pas, ce qu'il est interdit d'inventer, et ce qui devra être vrai
-> pour que vous disiez « c'est bon ». Vous l'ouvrirez quatre fois dans la journée : pour écrire
+> pour que vous disiez « c'est bon ». Vous l'ouvrirez quatre fois sur les deux jours : pour écrire
 > votre spec, compléter les états, relier les écrans, passer aux capteurs. Ce qu'elle ne dit pas
 > exprès, c'est **ce que l'écran doit contenir** : c'est votre travail, et il tient en trois blocs.
 
@@ -15,14 +15,14 @@
 - [III. L'écran à concevoir](#iii-lécran-à-concevoir)
 - [IV. Les données disponibles](#iv-les-données-disponibles)
 - [V. Les contraintes](#v-les-contraintes)
-- [VI. Le livrable de la journée, et quand il est fini](#vi-le-livrable-de-la-journée-et-quand-il-est-fini)
+- [VI. Le livrable des deux jours, et quand il est fini](#vi-le-livrable-des-deux-jours-et-quand-il-est-fini)
 
 ## I. L'affaire
 
 Panier Local vend des paniers composés par des producteurs du département : on commande une
 semaine, on retire le jeudi dans l'un des points de retrait convenus. L'affaire a commencé avec un
 panier unique ; puis chaque producteur a voulu placer ses produits, et le catalogue est devenu une
-liste de produits — c'est cette liste que l'écran de la journée doit permettre de traverser.
+liste de produits — c'est cette liste que l'écran de ces deux jours doit permettre de traverser.
 
 Trois personnes à la coordination, dont une seule passe son temps à saisir le catalogue ; une
 grosse vingtaine de producteurs, qui l'envoient par courriel, en photo, en message vocal ou sur un
@@ -62,8 +62,8 @@ que l'on peut **vérifier** sur un écran — pas en une intention.
 
 ## III. L'écran à concevoir
 
-L'écran de la journée est celui par lequel tout passe : **la recherche de produits, ses résultats,
-et le panier**. Ce qui suit la validation de la commande n'est pas de la journée.
+L'écran de ces deux jours est celui par lequel tout passe : **la recherche de produits, ses résultats,
+et le panier**. Ce qui suit la validation de la commande ne fait pas partie du sujet.
 
 | Dans le champ | Hors champ |
 | --- | --- |
@@ -76,7 +76,7 @@ et le panier**. Ce qui suit la validation de la commande n'est pas de la journé
 Deux précisions, parce que c'est la seule délimitation que la fiche impose :
 
 - Vous découpez l'écran **en écrivant** où il s'arrête : cette ligne est une décision, elle s'écrit dans la spec et elle se relit.
-- Trois objets au minimum devront se tenir par un clic avant la fin de la journée, dans les deux sens et au clavier (chapitre 05) : lesquels, et dans quel ordre, c'est votre décision.
+- Trois objets au minimum devront se tenir par un clic avant la fin des deux jours, dans les deux sens et au clavier (chapitre 05) : lesquels, et dans quel ordre, c'est votre décision.
 
 ## IV. Les données disponibles
 
@@ -149,7 +149,7 @@ Chacune de ces lignes ferme une porte, et se vérifie sur votre rendu sans discu
 | L'écran se consulte au téléphone dehors comme au poste de l'atelier, et le pointeur n'existe pas partout. | Une action accessible seulement au survol, un glisser-déposer, une mise en page qui n'existerait qu'à une largeur. |
 | Personne chez Panier Local ne reprendra le code généré à la main, et l'écran doit être présentable à la prochaine réunion avec les producteurs. | « On nettoiera après », un composant dont personne ne dit à quoi il sert, un élément inexpliquable à un producteur. |
 
-## VI. Le livrable de la journée, et quand il est fini
+## VI. Le livrable des deux jours, et quand il est fini
 
 Le livrable du binôme : une spec en trois blocs, un écran généré, ses quatre états, un rapport
 d'audit d'accessibilité et la relance qui l'a corrigé, un prototype cliquable, le dossier de code.

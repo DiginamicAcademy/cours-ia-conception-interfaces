@@ -89,7 +89,7 @@ Ce que vous notez ici n'est pas une liste de défauts : c'est la liste des **d�
 
 ## III. Récupérer le dossier, et le relire
 
-> ⚠️ **Ce que l'archive ne dit pas.** Ce que l'outil vous donne à télécharger est complet **pour lui** : il contient ce qu'il faut pour que la page s'affiche, pas ce qu'il faut pour que le projet vive. La relecture n'est pas une formalité de fin — c'est le seul endroit de la journée où vous vérifiez quelque chose avec vos propres outils.
+> ⚠️ **Ce que l'archive ne dit pas.** Ce que l'outil vous donne à télécharger est complet **pour lui** : il contient ce qu'il faut pour que la page s'affiche, pas ce qu'il faut pour que le projet vive. La relecture n'est pas une formalité de fin — c'est le seul endroit de ces deux jours où vous vérifiez quelque chose avec vos propres outils.
 
 ![Ce que l'archive du projet garde, et ce qu'elle ne garde pas : à gauche le projet à la fin de la journée (l'écran voté, la spec versionnée, les décisions d'écran, plus ce qui n'a jamais été commité — conversation avec la machine, variantes non votées, captures dans un fil) ; à droite l'archive six mois plus tard, trois cartes alignées sur les trois bleues, la ligne d'archive entre les deux, et « quelqu'un d'autre peut le refaire ».](assets/contenu-de-l-archive.svg)
 
@@ -184,14 +184,14 @@ Vous reprenez les écrans de *Panier Local* produits aux chapitres précédents 
 **Erreurs fréquentes**
 
 - **Lire le rendu, pas le dossier.** L'application s'affiche, on dit « c'est bon ». C'est l'inverse : le fait qu'elle s'affiche ne dit rien des trois questions.
-- **Commenter l'apparence.** Le style a été réglé plus tôt dans la journée ; ici on interroge la structure, la donnée, l'état.
+- **Commenter l'apparence.** Le style a été réglé la veille ; ici on interroge la structure, la donnée, l'état.
 - **Vouloir tout comprendre.** Trois questions en trente-cinq minutes, pas l'architecture. Ce qui dépasse se note pour plus tard, et se note vraiment.
 - **Corriger en relisant.** On ne corrige pas pendant la relecture : on marque. Sinon on ne sait plus ce qui a été vu.
 - **Oublier que les clés ne viennent pas.** Le composant qui appelle le modèle ne marche plus en local : ce n'est pas un défaut du code, c'est le coffre de l'outil qui est resté de son côté.
 
 **Ce qu'il faut retenir**
 
-Le téléchargement n'est pas la fin du travail, c'est le début de la seule vérification de la journée qui ne dépend pas d'une machine : **vous relisez avec vos yeux de développeur**. Ce qui n'a pas été relu n'est pas récupéré, seulement reçu.
+Le téléchargement n'est pas la fin du travail, c'est le début de la seule vérification de ces deux jours qui ne dépend pas d'une machine : **vous relisez avec vos yeux de développeur**. Ce qui n'a pas été relu n'est pas récupéré, seulement reçu.
 
 </details>
 

@@ -330,7 +330,7 @@ Trois lectures à en tirer : l'écart entre la colonne 1 et la colonne 2 dit ce
 
 ## Aller plus loin
 
-Tout ceci est facultatif, et ne change rien aux livrables de la journée.
+Tout ceci est facultatif, et ne change rien aux livrables des deux jours.
 
 - **Relire le RGAA dans son référentiel de tests** : la DINUM (direction interministérielle du numérique) le publie, test par test. Pour les critères du contraste et de la taille de cible, le référentiel décrit le *test* autant que la règle. C'est ce qui permet de dire « non conforme » sans se demander qui a raison.
 - **Parcourir WCAG 2.2 sur le site du W3C**, en regardant ce que la version 2.2 a ajouté par rapport à la 2.1 : cibles, focus, glisser-déposer. On comprend mieux pourquoi la version du référentiel se cite.

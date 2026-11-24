@@ -33,7 +33,7 @@ On n'ajoute pas une dépendance à un projet sans regarder ce qu'elle pèse et c
 
 Le centre ne fournit pas de compte : chacun arrive avec le sien. C'est le prérequis du cours, écrit dans son sommaire, pas une organisation de salle. Le geste se fait **la veille** : ouvrir l'outil avec le compte exact que vous aurez devant vous en séance — pas celui qui est déjà ouvert sur le poste — et vérifier qu'un écran se **génère** réellement, pas seulement que la page d'accueil s'affiche.
 
-Le risque est assumé, et il vaut mieux le lire ici que le découvrir en début de matinée :
+Le risque est assumé, et il vaut mieux le lire ici que le découvrir en salle :
 
 - une adresse qui n'est pas sur `gmail.com` peut être **refusée** par l'outil de maquettage ;
 - un compte professionnel rattaché à l'espace d'une entreprise peut **ne pas charger l'application** ;
@@ -170,7 +170,7 @@ Une sortie se résume alors en une phrase qui se compte : **le nombre d'éléme
 
 ### C. Le piège de la finition, en version auteur
 
-Au chapitre 01, la salle a voté sur l'écran de quelqu'un d'autre. Ici le piège se referme dans de bien meilleures conditions : c'est le vôtre. Vous avez écrit la spec, vous avez cliqué, l'écran est joli, il vous appartient. Trois symptômes, classiques en fin de matinée :
+Au chapitre 01, la salle a voté sur l'écran de quelqu'un d'autre. Ici le piège se referme dans de bien meilleures conditions : c'est le vôtre. Vous avez écrit la spec, vous avez cliqué, l'écran est joli, il vous appartient. Trois symptômes, classiques en fin d'atelier :
 
 - vous discutez de la couleur avant d'avoir compté ce qui manque ;
 - vous avez déjà dit « on nettoiera après » — l'adverbe le plus coûteux du métier ;
@@ -306,7 +306,7 @@ Rangez-les dans le dépôt, à côté de la spec et de la fiche de contrôle : 
 
 ## Aller plus loin
 
-*Facultatif — rien de ceci n'est exigé pour les livrables de la journée.*
+*Facultatif — rien de ceci n'est exigé pour les livrables des deux jours.*
 
 - **Écrire le contrat avant la demande, systématiquement.** Chez vous, une page `OUTILS.md` par dépôt : l'outil, la date du relevé, ce que le compte autorisait ce jour-là. Dans un an, ce fichier remplacera avantageusement le souvenir de quelqu'un (annexe A, Aller plus loin).
 - **Garder une sortie avec sa fiche.** Une sortie sans fiche de contrôle ne se rejoue pas : dans six mois, vous ne saurez plus ce qu'elle était censée prouver.
@@ -352,7 +352,7 @@ Rangez-les dans le dépôt, à côté de la spec et de la fiche de contrôle : 
 - C. À quelle date elle a été faite, avec quel outil
 - D. Combien de temps l'outil a mis à produire l'écran
 
-**5.** *Question ouverte (2-3 lignes).* Vous avez joué vos trois relances : la troisième n'a rien changé. Que consignez-vous, et qu'est-ce que cela change pour la suite de la journée ?
+**5.** *Question ouverte (2-3 lignes).* Vous avez joué vos trois relances : la troisième n'a rien changé. Que consignez-vous, et qu'est-ce que cela change pour la suite de ces deux jours ?
 
 <details>
 <summary>Vérifier ses réponses</summary>
