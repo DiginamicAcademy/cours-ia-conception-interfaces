@@ -33,6 +33,8 @@ style: |
   .split-media {flex: 0 0 62%; min-width: 0}
   .split p {flex: 1 1 auto; min-width: 0; font-size: 0.95em}
   .split img {max-width: 100%; max-height: 58vh}
+  .media-reduit {display: flex; justify-content: center}
+  .media-reduit img {max-height: 310px; width: auto}
 paginate: true
 header: "Concevoir des interfaces avec l'IA — du besoin au prototype"
 footer: "![height:20px](assets/Logo-diginamic-color-blk.png)"
@@ -122,7 +124,7 @@ Une journée · deux outils · un écran vérifié
 # Livrable, ou pas livrable ?
 
 <div class="split">
-<div class="split-media"><img src="assets/ecran-panier-vote.svg" alt="Écran de panier de Panier Local : quatre lignes de produit avec photo, prix, badge « En stock », note en étoiles et producteur souligné comme un lien, un sélecteur de quantité, et à droite un récapitulatif avec un total en gris pâle et deux boutons côte à côte"></div>
+<div class="split-media"><img src="assets/ecran-panier-vote.svg" alt="Écran de panier de Panier Local : quatre lignes de produit avec photo, prix, badge « En stock », note en étoiles et producteur souligné comme un lien, un sélecteur de quantité, et à droite un récapitulatif avec un total en gris pâle et deux boutons côte à côte"></div>
 
 Levez la main.
 </div>
@@ -141,6 +143,23 @@ Levez la main.
 <!-- _class: section -->
 
 # I. Un écran, un vote
+
+---
+
+## Montrez l'endroit précis
+
+<!-- Le vote a eu lieu à l'ouverture, sur l'écran projeté : on ne le relance pas ici, on révèle, un repère à la fois. -->
+
+<div class="split">
+<div class="split-media"><img src="assets/grille-revelation-ecran-panier.svg" alt="Le même écran de panier, avec quatre repères numérotés : 1 sur le badge « En stock » et les étoiles de la première ligne de produit, 2 sur les deux boutons du récapitulatif, 3 sur une bande hachurée collée au bord droit de la fenêtre, 4 sur trois cadres vides en pointillés sous la fenêtre"></div>
+
+1. **La moitié de ce que vous lisez n'existe pas.**
+2. **Les deux boutons ne déclenchent rien.**
+3. **Il n'existe qu'à une largeur.**
+4. **L'écran n'a pas d'état vide**, ni d'erreur, ni de chargement.
+
+**Qui, dans cette salle, aurait pu dire à l'avance ce que cet écran affiche ?**
+</div>
 
 ---
 
@@ -183,9 +202,43 @@ Levez la main.
 
 ---
 
+## Ce qui vient de la base, ce qui n'y est pas
+
+<div class="split">
+<div class="split-media"><img src="assets/une-demande-un-ecran-rempli.svg" alt="En haut, la demande « Fais-moi une page e-commerce moderne et épurée pour des produits locaux », une flèche étiquetée la machine, puis un extrait d'écran où sont surlignés le bandeau promotionnel, la photo, le badge « En stock », les étoiles et le nombre d'avis, la ville et l'année du producteur, le sélecteur de quantité. En bas, deux cartouches : « base », avec la ligne du catalogue telle qu'elle existe, et « hors base », avec les éléments de l'écran qui ne viennent d'aucun champ"></div>
+
+Le catalogue ne contient **aucune quantité** : ce panier en a pourtant, donc un total.
+
+**Rien à l'écran ne distingue les nombres qui viennent de la base de ceux qui ont été ajoutés pour remplir le cadre.**
+</div>
+
+---
+
+## Deux mots, deux contrats
+
+<div class="split">
+<div class="split-media"><img src="assets/deux-boutons-deux-contrats.svg" alt="Deux boutons de même taille et même forme : à gauche « Valider le panier », sous lequel il est écrit « engage un paiement » ; à droite « Continuer mes achats », sous lequel « remet la commande à demain »"></div>
+
+**Un champ rempli n'est plus une question : c'est une réponse que personne n'a relue.**
+
+Personne n'a écrit ces deux verbes.
+</div>
+
+---
+
 <!-- _class: section -->
 
 # III. La fidélité est un niveau de question
+
+---
+
+## Le même panier, trois fois
+
+<div class="split">
+<div class="split-media"><img src="assets/meme-ecran-trois-niveaux-de-fidelite.svg" alt="Trois panneaux posés en crans montants : le panier en croquis tracé à la main, puis en maquette léchée statique avec photo, prix, badge « En stock », étoiles et bouton vert « Valider le panier », puis en prototype cliquable avec un anneau de focus sur le bouton et une seconde fenêtre qui dépasse derrière ; sous les trois, une large flèche étiquetée « ce que jeter coûte »"></div>
+
+**La fidélité mesure la ressemblance, pas la justesse.** Quatre boîtes tracées au feutre peuvent être justes ; un écran parfait de ressemblance peut être entièrement faux.
+</div>
 
 ---
 
@@ -277,7 +330,7 @@ La qualité ne se juge pas au nombre de défauts trouvés mais à la **forme** d
 
 **Elles s'écrivent, se complètent, se contrôlent, se prouvent par des traces.**
 
-<!-- 13 diapositives · ~12 min de projection (25 min de créneau dont 10 d'atelier EX-01) · exercices projetés : EX-01 (énoncé + correction) · aucune diapositive statement : la ligne « la seule chose sur laquelle la salle avait de l'assurance était la moins vérifiable de toutes » tient en fin de diapo 3 pour rester dans le budget, à promouvoir en statement si l'assemblage a de la marge -->
+<!-- 17 diapositives · ~12 min de projection (25 min de créneau dont 10 d'atelier EX-01) · exercices projetés : EX-01 (énoncé + correction) · aucune diapositive statement : la ligne « la seule chose sur laquelle la salle avait de l'assurance était la moins vérifiable de toutes » tient en fin de diapo 3 pour rester dans le budget, à promouvoir en statement si l'assemblage a de la marge -->
 ---
 
 
@@ -377,6 +430,16 @@ Un bloc absent ne rend pas l'écran plus simple : il rend **une décision orphe
 
 ---
 
+## Le triptyque, et sa quatrième flèche
+
+<div class="split">
+<div class="split-media"><img src="assets/triptyque-et-quatrieme-fleche.svg" alt="Diagramme : trois boîtes — Bloc 1 Surface produit, Bloc 2 Contexte d’usage, Bloc 3 Contraintes et goût — pointent chacune par une flèche pleine vers une seule boîte, Écran. Une quatrième boîte, couleur brique, porte « Ce que personne n’a décidé : le modèle le prend » ; une flèche en pointillés, plus épaisse, part d’elle, longe le bas du schéma, remonte et entre elle aussi dans l’écran. Elle est étiquetée « là où un bloc est silencieux »."></div>
+
+Retenez la dernière flèche : elle entre dans l'écran par là où un bloc est silencieux.
+</div>
+
+---
+
 ## Le triptyque n'est pas une longueur
 
 ```text
@@ -451,6 +514,16 @@ La dernière ligne n'interdit pas : elle **prescrit** ce qui, sans elle, n'aura
 | « dans la continuité de l'existant » | une palette qui ressemble | le fichier, le composant ou la fiche qui font foi |
 
 Chacun résout le mot avec **sa propre moyenne** — et vous ignorez avec laquelle.
+
+---
+
+## Un même mot, trois écrans
+
+<div class="split">
+<div class="split-media"><img src="assets/un-adjectif-trois-ecrans.svg" alt="En haut, le mot « épuré ». Trois flèches le relient à trois fenêtres légendées Personne 1, Personne 2 et Personne 3, dessinées en blocs gris sans contenu : la première garde six lignes dont les informations secondaires sont en pointillés, la deuxième deux lignes complètes puis un vide et quatre lignes en pointillés, la troisième quatre lignes décalées à gauche avec une colonne et un bloc d’action en pointillés. Le pointillé marque ce que l’écran ne montre plus."></div>
+
+Le mot est le même ; trois personnes l'ont reçu, trois écrans sont sortis.
+</div>
 
 ---
 
@@ -593,7 +666,7 @@ La colonne de gauche n'est pas un échec de la machine : c'est **l'inventaire d
 - **Compter le croquis comme un ornement** : sans ordre de lecture ni ce qui reste visible, il a illustré.
 - **Chercher la plus belle spec** : le critère est *quelle invention cette ligne a-t-elle empêchée ?*
 
-<!-- 24 diapositives · ~20 min de projection (25 min d'atelier EX-02 en plus, créneau 45 min) · exercices projetés : EX-02 (énoncé 2 diapos : consignes + grille ; correction 2 diapos : attendu + erreurs fréquentes) -->
+<!-- 26 diapositives · ~20 min de projection (25 min d'atelier EX-02 en plus, créneau 45 min) · exercices projetés : EX-02 (énoncé 2 diapos : consignes + grille ; correction 2 diapos : attendu + erreurs fréquentes) -->
 ---
 
 <!-- _class: lead -->
@@ -618,6 +691,7 @@ La colonne de gauche n'est pas un échec de la machine : c'est **l'inventaire d
 - Ce qu'un compte autorise aujourd'hui ne se récite pas : **ça se relève**.
 - L'état de votre compte se note à l'entrée de l'atelier, avec sa date.
 - La politique de données se lit soi-même, avant d'avoir écrit, et se date.
+- **Rien de réel, rien de nominatif** dans un générateur : ni client réel, ni participants, ni clé API.
 
 ---
 
@@ -775,6 +849,16 @@ Ouvrez l'archive **ailleurs que dans les téléchargements** ; si ce qu'elle d�
 
 ---
 
+## La sortie se sépare en deux
+
+<div class="split">
+<div class="split-media"><img src="assets/sortie-outil-deux-branches.svg" alt="Schéma : la sortie de l'outil se divise en deux branches. La branche du haut, « Ce qui survit sans vous », mène à trois éléments : la structure HTML de l'écran plein, les valeurs de style écrites en dur, la capture de démonstration. La branche du bas, « Ce que vous devez redemander », mène à quatre éléments : les états de l'écran, les données réelles de la fiche, le clavier, les titres et le contraste, ce que le dossier ne déclare pas."></div>
+
+Ce que l'archive ne contient pas : rien qui serve de vraies données, rien qui survive à un rafraîchissement, rien qui refuse une saisie fausse, et aucun serveur. Les liens entre écrans qui marchent dans l'outil ne sont pas encore du code de navigation.
+</div>
+
+---
+
 ## Ce que la sortie dit de votre spec
 
 Chaque élément inventé désigne **un trou de votre spec** : pas une faute, une décision que personne n'a prise.
@@ -833,6 +917,26 @@ Un fichier, à côté de la spec — une ligne par chose que vous voulez voir ch
 - **Ce que vous ne pouvez pas regarder n'est pas une ligne** : « plus clair » ne se remplit pas.
 - **On vérifie le rendu, pas la réponse** : la machine annonce ce qu'elle n'a pas fait.
 - **Trois, pas dix** : au-delà on explore, et une exploration sans fiche ne laisse rien.
+
+---
+
+## Une ligne, une chose
+
+<div class="split">
+<div class="split-media"><img src="assets/une-ligne-une-chose.svg" alt="Deux rangées sur trois colonnes : la relance, le rendu, le Verdict. En haut, trois étiquettes de relance — retirer le prix de Noix fraîches décortiquées, retirer les étoiles, résultats atteignables au clavier — convergent en un seul point, un seul rendu, et une cellule Verdict encadrée de rouge marquée d'un point d'interrogation. En bas, une seule étiquette, une flèche, un rendu, et une cellule Verdict lisible portant « non pris »."></div>
+
+Laquelle des trois n'a pas pris ? Une relance qui porte trois choses ne se relit plus : le verdict porte sur les trois à la fois. Une chose par ligne, et « non pris » veut dire quelque chose.
+</div>
+
+---
+
+## L'annonce ne remplit pas la colonne
+
+<div class="split">
+<div class="split-media"><img src="assets/corrige-contre-prix-affiche.svg" alt="À gauche, une bulle sans cadre d'outil ni marque portant « C'est corrigé ! », qu'une croix rouge empêche de descendre vers la cellule Obtenu ; à droite, le rendu après la relance : la ligne de catalogue « Noix fraîches décortiquées » suivie d'un montant cerclé de rouge pointillé ; une flèche pleine part du rendu et entre dans la cellule Obtenu, qui porte « prix toujours présent »."></div>
+
+Rien ne se relit de ce que la machine écrit à propos de ce qu'elle a fait : ce qui décide, c'est ce que l'écran affiche après (chapitre 04, V.E). La colonne *Obtenu* ne se remplit pas avec la réponse.
+</div>
 
 ---
 
@@ -895,7 +999,7 @@ Un seul écran : celui de la fiche *Panier Local*. La consigne qui règle tout�
 
 **Donner des objets, compter ce qui manque, relancer une chose à la fois, consigner ce qui a bougé.**
 
-<!-- 25 diapositives · ~15 min de projection (créneau 45 min dont atelier EX-03 de 25 min avec son débrief de 5 min) · exercices projetés : EX-03 (énoncé + correction sur la diapositive suivante) -->
+<!-- 28 diapositives · ~15 min de projection (créneau 45 min dont atelier EX-03 de 25 min avec son débrief de 5 min) · exercices projetés : EX-03 (énoncé + correction sur la diapositive suivante) -->
 ---
 
 
@@ -935,6 +1039,12 @@ Ce sera à vous de les demander.
 <!-- _class: section -->
 
 # I. Un écran n'est pas un écran, c'est quatre
+
+---
+
+## Les quatre écrans, dessinés
+
+<div class="flex justify-center"><img src="assets/ecran-quatre-etats.svg" alt="Le même écran de panier dessiné quatre fois : vide avec une issue, chargement en squelette de formes grises avec bouton neutralisé, erreur avec un champ signalé et une seule action, et les données réelles qui débordent"></div>
 
 ---
 
@@ -1013,14 +1123,17 @@ Ce n'est pas une finition, c'est une donnée de conception. Un écran qui casse 
 
 ---
 
+## La ligne de panier face à la donnée réelle
+
+<div class="flex justify-center"><img src="assets/ligne-panier-donnee-reelle.svg" alt="À gauche la ligne de panier de la maquette : photo, nom court, producteur et prix à sa place ; à droite quatre lignes du catalogue réel sans photo : un nom qui tourne sur quatre lignes avec son prix qui déborde de la colonne, deux lignes au nom identique chez deux producteurs à deux prix, et une ligne dont la colonne de prix reste vide"></div>
+
+---
+
 ## Voyez-le comme une machine à états
 
 Vous codez des machines à états toute la journée : un écran d'application en est une.
 
-- Chargement → Contenu (données reçues) ou Erreur (refus du serveur)
-- Contenu → Vide (aucun résultat), ou Chargement (nouveau filtre)
-- Vide → Chargement (nouvelle demande)
-- Erreur → Chargement (réessayer)
+<div class="media-reduit"><img src="assets/machine-etats-etat-panier.svg" alt="Graphe de quatre états — Chargement, Contenu, Vide, Erreur — reliés par six transitions étiquetées : données reçues, nouveau filtre, aucun résultat, nouvelle demande, refus du serveur, réessayer"></div>
 
 Le blanc de la maquette est simplement une transition non décrite. Écrivez la condition de fini dans la spec :
 
@@ -1166,6 +1279,14 @@ Un rapport vert n'est pas un écran accessible : c'est un rapport vert. D'où q
 
 ---
 
+<!-- Repère formateur : reprise d'`ecran-quatre-etats.svg` (§ X, reprise choisie à « Ce qu'un audit ne trouvera jamais » plutôt qu'à la clôture du ch. 06). On re-projette la même figure, un audit par état affiché. -->
+
+## Quatre audits, un par état
+
+<div class="flex justify-center"><img src="assets/ecran-quatre-etats.svg" alt="Le même écran de panier dessiné quatre fois : vide avec une issue, chargement en squelette de formes grises avec bouton neutralisé, erreur avec un champ signalé et une seule action, et les données réelles qui débordent"></div>
+
+---
+
 <!-- _class: section -->
 
 # V. La relance change le résultat
@@ -1205,6 +1326,20 @@ Sur cette liste, la machine joue sur son terrain : appliquer des correctifs loc
 1. Le champ de quantité n'a pas de nom accessible : ajoute un `<label>` associé, libellé « Quantité » (pas « Sélectionnez une option »).
 2. Le texte `#9ca3af` sur fond `#f9fafb` échoue au contraste : il faut 4,5:1 en texte courant (WCAG 2.2, critère 1.4.3).
 3. Le bouton de suppression n'a pas de cible assez grande : 24×24 pixels CSS minimum (WCAG 2.2, critère 2.5.8).
+
+---
+
+## Le gris de l'item 2, mesuré
+
+<div class="split">
+<div class="split-media"><img src="assets/contraste-mesure.svg" alt="Trois panneaux alignés : un aplat gris légendé « le texte » et la valeur #9ca3af, un aplat très clair légendé « le fond » et la valeur #f9fafb, puis le même couple rendu, le texte « #9ca3af sur #f9fafb » écrit en gris sur fond très clair. Au-dessous, la mesure : ratio des deux valeurs 2,43:1, exigé en texte courant 4,5:1, verdict échoue, et la mention que la mesure porte sur les deux valeurs et non sur ce tirage."></div>
+
+Le couple sort de l'écran, pas d'une palette : c'est l'item 2 de la relance.
+
+Le ratio ne se juge pas à l'œil sur la projection. Il se calcule sur les deux valeurs, et le référentiel est nommé.
+
+Un gris « à peu près » échoue : c'est un item de plus dans la liste, pas une nuance à discuter.
+</div>
 
 ---
 
@@ -1295,7 +1430,7 @@ Même écran, même état — on compare des listes, pas des impressions.
 
 **À retenir : compter, rendre la liste, recompter.**
 
-<!-- 30 diapositives · ~25 min de projection hors atelier (créneau de 60 min, atelier EX-04 de 35 min) · exercices projetés : EX-04 (énoncé + consigne, puis 2 corrections) -->
+<!-- 34 diapositives · ~25 min de projection hors atelier (créneau de 60 min, atelier EX-04 de 35 min) · exercices projetés : EX-04 (énoncé + consigne, puis 2 corrections) -->
 ---
 
 <!-- _class: lead -->
@@ -1303,6 +1438,12 @@ Même écran, même état — on compare des listes, pas des impressions.
 # 05 - Le prototype qui devient du code
 
 Un écran tout seul ne dit pas s'il est juste : il dit qu'il est joli.
+
+---
+
+## Quatre crans, quatre questions
+
+<div class="flex justify-center"><img src="assets/les-quatre-crans.svg" alt="Escalier de quatre marches montantes de gauche à droite, numérotées de 1 à 4. Marche 1 : une maquette — l'idée est-elle juste ? Marche 2 : des écrans reliés — l'ordre tient-il ? Marche 3 : un projet — est-ce un projet, ou une page déguisée ? Marche 4 : une fonctionnalité — ce qu'on a dessiné existe-t-il dans les données ?" style="width:800px"></div>
 
 ---
 
@@ -1331,6 +1472,12 @@ Ces trois lignes donnent un **critère d'arrêt**. Sans lui on s'arrête quand �
 - pas seulement « réaliser les maquettes » : **modéliser leur enchaînement**
 - le premier y ajoute le RGAA, dans les maquettes et leur enchaînement
 - le lien entre deux écrans est une matière de travail, comme un écran
+
+---
+
+## Relier les trois écrans, dans les deux sens
+
+<div class="flex justify-center"><img src="assets/enchainement-trois-ecrans.svg" alt="Trois écrans neutres étiquetés recherche, résultats, panier, reliés par deux flèches entre chaque paire, une vers la droite et une vers la gauche. Sous le panier, une flèche descend vers un encadré « panier vide : impasse, aucun message ». Au-dessus des écrans, une ligne pointillée part du panier et s'arrête sur une croix avant le premier écran, annotée « rien ne dit où l'on revient »." style="width:800px"></div>
 
 ---
 
@@ -1519,7 +1666,7 @@ Le code ne récupère pas une apparence,
 
 il récupère des engagements.
 
-<!-- 20 diapositives · ~10 min de projection (créneau 45 min dont 35 min d'atelier EX-05) · exercices projetés : EX-05 (énoncé + correction) -->
+<!-- 22 diapositives · ~10 min de projection (créneau 45 min dont 35 min d'atelier EX-05) · exercices projetés : EX-05 (énoncé + correction) -->
 ---
 
 <!-- _class: lead -->
@@ -1550,6 +1697,12 @@ il récupère des engagements.
 - L'écran est la partie du logiciel que vos utilisateurs touchent
 - Il est généré : il porte les hypothèses de la machine, et il est beau
 - Sa finition donne l'air d'avoir été validé. Personne n'a validé
+
+---
+
+## Deux entonnoirs, un seul geste
+
+<div class="flex justify-center"><img src="assets/surveillance-code-et-ecran.svg" alt="Deux entonnoirs. Trois boîtes — Tests, Typage, Linter — convergent vers le cadre « Ce que vous surveillez déjà : le code ». Six boîtes — contraste des textes, focus et tabulation, libellés de formulaire, ce qui déborde en petit écran, Lighthouse, html-validate — convergent vers le cadre « Ce que rien ne surveille : l'écran ». Une liaison pointillée relie les deux cadres, annotée « le même geste sur l'autre objet »." style="width:800px"></div>
 
 ---
 
@@ -1607,6 +1760,16 @@ Chacun est aveugle de l'aveuglement de l'autre — c'est exactement pour cela qu
 
 ---
 
+## Deux capteurs, deux objets
+
+<!-- Repère formateur : 06-tenez-ecran.md — § II.B. Le tableau de la diapositive précédente garde l'analyse ; ici on ne montre que les deux objets et le vide entre eux. -->
+
+<div class="flex justify-center">
+<img src="assets/deux-capteurs-deux-objets.svg" alt="Deux panneaux disjoints séparés par une bande vide. À gauche, le panneau html-validate, intitulé le fichier, montre une page index.html avec un compteur de lignes et deux lignes de code signalées par leur coordonnée, ligne 14 colonne 7 et ligne 21 colonne 9 ; sous le panneau, l'adresse fichier, ligne, colonne. À droite, le panneau Lighthouse, intitulé le rendu, montre un extrait d'écran avec une réserve d'image, des lignes de texte, un bouton et un champ, et un seul élément encadré par quatre coins ; sous le panneau, l'adresse élément, catégorie. La légende sous l'ensemble dit aucune zone commune." style="max-width: 92%; max-height: 60vh; height: auto;">
+</div>
+
+---
+
 ## html-validate rend `fichier:ligne:colonne`
 
 ```bash
@@ -1655,6 +1818,18 @@ cd rendus/02-recherche-produits && python -m http.server 8000
 - Prenez un autre port si le 8000 est pris, et l'adresse qui va avec
 - Le kit distribué en salle dit ce qui est installé sur les postes : `npm run valider`, `npm run servir`
 - Avant de démarrer : `node -v`, puis `npm run docteur` — il dit si le poste convient
+
+---
+
+## Servir la page, ou n'importe quoi d'autre
+
+<!-- Repère formateur : 06-tenez-ecran.md — § II.B, point de salle. La page du bas a deux lignes manquantes et le même voyant vert que celle du haut. -->
+
+<div class="flex justify-center">
+<img src="assets/servir-la-page-ou-nimporte-quoi-dautre.svg" alt="Deux chemins partent d'un même fichier index.html. En haut, la branche servie, avec la commande python -m http.server point 8000 et l'adresse localhost port 8000, aboutit à une page complète dont les quatre lignes de contenu sont toutes pleines. En bas, la branche ouverte par double-clic, avec le protocole fichier local, aboutit à la même page dont deux lignes sur quatre sont hachées et vides. Sous chacune des deux pages, une pastille de capteur au point vert, absolument identique." style="max-width: 92%; max-height: 60vh; height: auto;">
+</div>
+
+**Même pastille, deux pages qui ne se ressemblent pas.**
 
 ---
 
@@ -1730,6 +1905,18 @@ Deux capteurs, une correction justifiée, une ligne sur ce qu'ils n'ont pas vu 
 
 ---
 
+## Ce que le dossier contient déjà
+
+<div class="split">
+<div class="split-media"><img src="assets/dette-immediate.svg" alt="Trois panneaux côte à côte. « les valeurs qui dérivent » : dix aplats de bleu presque identiques en deux lignes de cinq, un seul cerclé de noir et légendé « le contrat », sous-légende « un bleu posé / dix écrits par l'outil ». « les composants dupliqués » : trois cartes produit voisines mais légèrement différentes, la première coiffée d'une pastille verte de correction, les deux autres d'une pastille pointillée à point d'interrogation, sous-légende « une copie corrigée / deux, jamais signalées ». « les fonctionnalités fantaisie » : trois boutons — Favoris avec une étoile, Code promo, Voir plus — chacun relié par un trait pointillé qui bute sur un trait plein, avec le mot « rien ». Sous l'ensemble, une plaque : « à l'écran, personne ne voit la dérive »."></div>
+
+Les deux premiers postes se comptent. Une recherche sur les valeurs de couleur et d'espacement donne le nombre de décisions prises sans vous.
+
+Le troisième ne se compte pas : c'est celui qu'aucun des deux capteurs ne surveille.
+</div>
+
+---
+
 ## Un commit pour la machine, un commit pour vous
 
 ```text
@@ -1758,7 +1945,20 @@ fix(panier) : état vide de la liste, absent de l'export
 
 **Ce qui ne survivrait pas à la disparition de l'outil doit être dans votre dépôt.**
 
-<!-- 17 diapositives · ~30 min de projection pour un créneau de 40 min dont 20 d'atelier · exercices projetés : EX-06 (énoncé + correction) -->
+---
+
+## Ce qui survit, et où cela se pose
+
+<div class="split">
+<div class="split-media"><img src="assets/ce-qui-survit-a-l-outil.svg" alt="Deux zones et une flèche. En haut, zone au contour pointillé intitulée « chez l'éditeur » : une seule étiquette, « la maquette », avec la mention « elle est empruntée · elle change, ou ferme ». En bas, zone au contour plein intitulée « votre dépôt » : trois colonnes — les trois temps, avec spec(panier), gen(panier), fix(panier) ; les traces, avec sorties des capteurs datées, export .zip versionné, fichier de dépendances ; la déclaration, avec ce qui est généré, ce qui est vérifié et ce qui reste non vérifié. La flèche descend de la zone du haut dans celle du bas et s'intitule « la copie, versionnée et datée »."></div>
+
+Le dépôt ne garde pas ce que l'outil a dessiné : il garde ce que vous avez décidé.
+
+Sans l'outil, le dossier répond quand même : d'où vient chaque couche, ce qui a été contrôlé, ce qui ne l'a pas été.
+</div>
+
+<!-- 22 diapositives · ~30 min de projection pour un créneau de 40 min dont 20 d'atelier · exercices projetés : EX-06 (énoncé + correction) -->
+
 ---
 
 <!-- _class: lead -->
