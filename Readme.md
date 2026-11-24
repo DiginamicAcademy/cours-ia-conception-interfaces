@@ -44,3 +44,7 @@ On repart d'une fiche persona fournie — [Panier Local](B-Persona-Panier-Local.
 | B | Panier Local, le sujet d'étude | — | — | La fiche sur laquelle on travaille de bout en bout |
 
 Les durées ci-dessus sont celles des documents : en salle, les ateliers se jouent et prennent plus de temps que leur énoncé.
+
+## Comment le cours est évalué
+
+Une seule note : un **QCM de 15 items**, en fin de second jour, 30 minutes, une tentative, sans IA. Il porte sur les six chapitres. L'atelier de synthèse (EX-07) ne se note pas : il se rend, comme la trace que vous savez faire le trajet entier de la demande à l'écran vérifié.

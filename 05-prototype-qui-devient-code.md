@@ -91,7 +91,7 @@ Ce que vous notez ici n'est pas une liste de défauts : c'est la liste des **d�
 
 > ⚠️ **Ce que l'archive ne dit pas.** Ce que l'outil vous donne à télécharger est complet **pour lui** : il contient ce qu'il faut pour que la page s'affiche, pas ce qu'il faut pour que le projet vive. La relecture n'est pas une formalité de fin — c'est le seul endroit de ces deux jours où vous vérifiez quelque chose avec vos propres outils.
 
-![Ce que l'archive du projet garde, et ce qu'elle ne garde pas : à gauche le projet à la fin de la journée (l'écran voté, la spec versionnée, les décisions d'écran, plus ce qui n'a jamais été commité — conversation avec la machine, variantes non votées, captures dans un fil) ; à droite l'archive six mois plus tard, trois cartes alignées sur les trois bleues, la ligne d'archive entre les deux, et « quelqu'un d'autre peut le refaire ».](assets/contenu-de-l-archive.svg)
+![Ce que l'archive du projet garde, et ce qu'elle ne garde pas : à gauche le projet à la fin des deux jours (l'écran voté, la spec versionnée, les décisions d'écran, plus ce qui n'a jamais été commité — conversation avec la machine, variantes non votées, captures dans un fil) ; à droite l'archive six mois plus tard, trois cartes alignées sur les trois bleues, la ligne d'archive entre les deux, et « quelqu'un d'autre peut le refaire ».](assets/contenu-de-l-archive.svg)
 
 La ligne d'archive, ce n'est pas le `.zip` : c'est ce que vous y avez écrit. Les trois étiquettes bleues y entrent si vous les y posez ; les trois grises n'y entrent jamais toutes seules.
 

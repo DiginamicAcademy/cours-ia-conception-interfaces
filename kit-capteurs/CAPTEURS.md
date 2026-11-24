@@ -1,7 +1,7 @@
 # Les deux capteurs
 
-Un kit déjà installé, pour ne rien faire télécharger en salle. Il contient les deux capteurs de la
-journée : **html-validate**, qui lit vos fichiers HTML à la ligne de commande, et **Lighthouse**,
+Un kit déjà installé, pour ne rien faire télécharger en salle. Il contient les deux capteurs des
+deux jours : **html-validate**, qui lit vos fichiers HTML à la ligne de commande, et **Lighthouse**,
 qui n'est pas un paquet — il est déjà dans les outils de développement du navigateur, et c'est le
 seul des deux à juger ce que la page donne à l'écran.
 
