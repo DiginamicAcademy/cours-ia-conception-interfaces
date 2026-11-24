@@ -46,7 +46,7 @@ footer: "![height:20px](assets/Logo-diginamic-color-blk.png)"
 
 ## Du besoin au prototype
 
-Une journée · deux outils · un écran vérifié
+Deux journées · deux outils · un écran vérifié
 
 ---
 
@@ -60,42 +60,60 @@ Une journée · deux outils · un écran vérifié
 
 - Un croquis ne persuade personne ; une maquette bien typographiée persuade son auteur.
 - Sa finition tient lieu de substance, et dispense de vérifier.
-- Cette journée ne vous apprend pas un outil.
-- Elle vous apprend à rendre l'écran vérifiable, en trois gestes.
+- Ces deux journées ne vous apprennent pas un outil.
+- Elles vous apprennent à rendre l'écran vérifiable, en trois gestes.
 - Écrire ce qui doit être vrai. Le faire contrôler par la machine.
 - Itérer avec des preuves, puis transmettre en code.
 
 ---
 
-## Le matin
+## Ce que sont ces deux journées
 
-| Créneau | Durée | Au programme |
+| | Ce qui se joue | Ce que vous rendez le soir |
 |---|---|---|
-| 09:00 | 10 min | Ouverture |
-| 09:10 | 25 min | Une maquette finie est un risque |
-| 09:35 | 15 min | Pause |
-| 09:50 | 45 min | Écrire une spec d'écran |
-| 10:35 | 15 min | Marge : ateliers qui débordent, questions |
-| 10:50 | 45 min | L'écran par la machine |
-| 11:35 | 15 min | Pause |
-| 11:50 | 40 min | Reprise avec la salle |
-| 12:30 | 60 min | Méridienne |
+| **Jour 1** | de la spec à l'audit relancé : écrire la spec, la donner à la machine, auditer ce qui sort | une spec en trois blocs, un écran et ses quatre états, l'audit **et sa relance mesurée** |
+| **Jour 2** | la transmission : le prototype qui devient du code, les capteurs, puis la synthèse en autonomie | trois écrans reliés, le dossier relu, une correction justifiée, la trace de l'atelier |
+
+- Le livrable : un écran de *Panier Local* tenu de bout en bout, en binôme.
+- La note : une seule, le QCM de fin de jour 2 — 15 items, une tentative, sans IA.
+- Les six ateliers ne sont pas notés : ils laissent des traces, pas des notes.
 
 ---
 
-## L'après-midi
+## Jour 1 - de la spec à l'audit relancé
 
-| Créneau | Durée | Au programme |
+| Créneau | Min | Ce qui se joue |
 |---|---|---|
-| 13:30 | 60 min | Les états et l'accès |
-| 14:30 | 15 min | Pause |
-| 14:45 | 45 min | Le prototype qui devient du code |
-| 15:30 | 10 min | Marge : le dossier qu'on n'a pas fini d'ouvrir |
-| 15:40 | 40 min | Tenez l'écran |
-| 16:20 | 10 min | Pause |
-| 16:30 | 30 min | Clôture : retour sur l'écran du matin |
+| 09:00 | 25 | Ouverture, cadre des deux jours, l'écran soumis au vote |
+| 09:25 | 30 | Chapitre 01 et EX-01 : la finition comme risque, quatre défauts classés |
+| 10:10 | 50 | Chapitre 02 et EX-02 : la spec en trois blocs, la grille remplie |
+| 11:15 | 30 | Chapitre 03, cours : les faits avant d'y toucher, le budget |
+| 12:00 | 30 | Reprise : `DESIGN.md` écrit avant midi, décompte au tableau |
+| 13:30 | 45 | **EX-03 joué** : deux ou trois écrans, crédits décomptés au tableau |
+| 14:30 | 35 | Chapitre 04, cours : les quatre états, l'accès qui n'est pas une opinion |
+| 15:15 | 55 | **EX-04 joué, les deux passes** : audit croisé, relance, la différence |
+| 16:20 | 20 | § 4.5 et points clés : la relance change le résultat |
+| 16:40 | 20 | Clôture du jour 1 : la trace laissée, ce que demain vient vérifier |
 
-55 minutes de pauses, 25 de marges annoncées, 40 de reprise, une méridienne d'une heure.
+290 min de matière, 130 de solde. Pauses de 10 à 15 min, méridienne 12:30-13:30, marges annoncées.
+
+---
+
+## Jour 2 - l'enchaînement, les capteurs, la synthèse
+
+| Créneau | Min | Ce qui se joue |
+|---|---|---|
+| 09:00 | 40 | Reprise du jour 1 ; quota AI Studio vérifié par binôme |
+| 09:40 | 35 | Chapitre 05, cours : l'hypothèse, le clic, le dossier, les huit signes |
+| 10:30 | 55 | **EX-05 joué** : trois écrans reliés, le dossier ouvert en local |
+| 11:40 | 35 | Chapitre 06, cours : qui surveille l'écran, les deux capteurs, le kit |
+| 13:30 | 45 | **EX-06 joué** : les deux capteurs sur le rendu d'à côté, une correction |
+| 14:30 | 30 | Chapitre 06, cours : la dette immédiate, déclarer l'usage, les traces |
+| 15:00 | 60 | **EX-07** : la boucle entière sur un second écran, en autonomie |
+| 16:20 | 30 | **QCM** : 15 items, une tentative, sans IA — seule note du cours |
+| 16:50 | 10 | Retour sur l'accroche : l'écran du jour 1, jugé à nouveau |
+
+300 min de matière, 120 de solde. Pauses de 10 à 15 min, méridienne 12:30-13:30, marges annoncées.
 
 ---
 
@@ -106,7 +124,7 @@ Une journée · deux outils · un écran vérifié
 | Google Stitch | le besoin et le croquis en entrée, la maquette, le prototype cliquable | une archive `.zip` : du HTML, ses styles, une capture |
 | Google AI Studio, mode Build | la reprise de ce code : une application qui se clique, un `.zip`, un dépôt Git | un dossier de code, relu hors de l'outil |
 
-- Un seul changement de logiciel dans la journée, les deux viennent du même éditeur.
+- Un seul changement de logiciel sur les deux jours, les deux viennent du même éditeur.
 - Les capteurs du dernier chapitre ne sont pas un troisième outil : ce sont des contrôles.
 
 ---
@@ -330,7 +348,7 @@ La qualité ne se juge pas au nombre de défauts trouvés mais à la **forme** d
 
 **Elles s'écrivent, se complètent, se contrôlent, se prouvent par des traces.**
 
-<!-- 17 diapositives · ~12 min de projection (25 min de créneau dont 10 d'atelier EX-01) · exercices projetés : EX-01 (énoncé + correction) · aucune diapositive statement : la ligne « la seule chose sur laquelle la salle avait de l'assurance était la moins vérifiable de toutes » tient en fin de diapo 3 pour rester dans le budget, à promouvoir en statement si l'assemblage a de la marge -->
+<!-- 17 diapositives · ~12 min de projection (jour 1 : créneau 30 min, atelier EX-01 joué) · exercices projetés : EX-01 (énoncé + correction) · aucune diapositive statement : la ligne « la seule chose sur laquelle la salle avait de l'assurance était la moins vérifiable de toutes » tient en fin de diapo 3 pour rester dans le budget, à promouvoir en statement si l'assemblage a de la marge -->
 ---
 
 
@@ -342,7 +360,7 @@ La qualité ne se juge pas au nombre de défauts trouvés mais à la **forme** d
 - La refonte part d'une usure : deux producteurs ont cessé d'envoyer quoi que ce soit.
 - Règle avant la réunion : l'écran ne promet que ce que la base sait tenir.
 
-La fiche est fournie, on ne la refait pas — on l'ouvre quatre fois dans la journée.
+La fiche est fournie, on ne la refait pas — on l'ouvre quatre fois sur les deux jours.
 
 ---
 
@@ -356,7 +374,7 @@ La fiche est fournie, on ne la refait pas — on l'ouvre quatre fois dans la jou
 
 ---
 
-## L'écran de la journée : recherche, résultats, panier
+## L'écran des deux jours : recherche, résultats, panier
 
 | Dans le champ | Hors champ |
 |---|---|
@@ -371,7 +389,7 @@ La fiche est fournie, on ne la refait pas — on l'ouvre quatre fois dans la jou
 
 ---
 
-## Ce que la journée laisse derrière elle
+## Ce que ces deux jours laissent derrière elle
 
 - Une spec en trois blocs, dans un fichier versionné, avec sa frontière écrite.
 - Un écran généré et ses quatre états : vide, chargement, erreur, cas limites.
@@ -666,7 +684,7 @@ La colonne de gauche n'est pas un échec de la machine : c'est **l'inventaire d
 - **Compter le croquis comme un ornement** : sans ordre de lecture ni ce qui reste visible, il a illustré.
 - **Chercher la plus belle spec** : le critère est *quelle invention cette ligne a-t-elle empêchée ?*
 
-<!-- 26 diapositives · ~20 min de projection (25 min d'atelier EX-02 en plus, créneau 45 min) · exercices projetés : EX-02 (énoncé 2 diapos : consignes + grille ; correction 2 diapos : attendu + erreurs fréquentes) -->
+<!-- 26 diapositives · ~20 min de projection (jour 1 : créneau 50 min, atelier EX-02 joué, grille remplie au tableau) · exercices projetés : EX-02 (énoncé 2 diapos : consignes + grille ; correction 2 diapos : attendu + erreurs fréquentes) -->
 ---
 
 <!-- _class: lead -->
@@ -999,7 +1017,7 @@ Un seul écran : celui de la fiche *Panier Local*. La consigne qui règle tout�
 
 **Donner des objets, compter ce qui manque, relancer une chose à la fois, consigner ce qui a bougé.**
 
-<!-- 28 diapositives · ~15 min de projection (créneau 45 min dont atelier EX-03 de 25 min avec son débrief de 5 min) · exercices projetés : EX-03 (énoncé + correction sur la diapositive suivante) -->
+<!-- 28 diapositives · ~15 min de projection (jour 1 : cours 30 min, reprise outillée 30 min, EX-03 joué 45 min à 13 h 30) · exercices projetés : EX-03 (énoncé + correction sur la diapositive suivante) -->
 ---
 
 
@@ -1009,11 +1027,11 @@ Un seul écran : celui de la fiche *Panier Local*. La consigne qui règle tout�
 
 ---
 
-## 11:50 — la reprise, 40 minutes
+## 12:00 — la reprise, 30 minutes
 
 - Ce qui n'est pas bouclé se débriefe avec la salle.
 - Les points qui ont bloqué se rejouent en binômes, à deux sur le même écran.
-- Ce que la marge du matin n'a pas absorbé se traite ici.
+- Ce que la marge n'a pas absorbé se traite ici.
 - Aucune matière nouvelle : l'après-midi repart de ce qui tient déjà.
 
 ---
@@ -1430,7 +1448,19 @@ Même écran, même état — on compare des listes, pas des impressions.
 
 **À retenir : compter, rendre la liste, recompter.**
 
-<!-- 34 diapositives · ~25 min de projection hors atelier (créneau de 60 min, atelier EX-04 de 35 min) · exercices projetés : EX-04 (énoncé + consigne, puis 2 corrections) -->
+<!-- 34 diapositives · ~25 min de projection hors atelier (jour 1 : cours 35 min, EX-04 joué 55 min les deux passes, § 4.5 20 min) · exercices projetés : EX-04 (énoncé + consigne, puis 2 corrections) -->
+---
+
+## Jour 2 - la reprise (09:00, 40 min)
+
+- Les maquettes sont rouvertes : la spec en trois blocs, l'écran généré, son budget de crédits.
+- Les quatre états reviennent à l'écran : vide, chargement, erreur, cas limites.
+- Les chiffres de l'audit sont rejoués : passe 1, passe 2, après la relance.
+- Chaque binôme relève son **quota AI Studio, mode Build**, et le date : le chapitre 05 se joue dessus.
+- Un compte bloque ? On travaille sur la sortie d'un autre binôme, pas sur un second compte.
+
+Aucune matière nouvelle n'est apportée : le jour 2 repart de ce qui tient déjà.
+
 ---
 
 <!-- _class: lead -->
@@ -1573,6 +1603,23 @@ Elles se posent avec vos outils : recherche dans les fichiers, lecture, exécut
 
 ---
 
+## Huit signes à chercher dans le code généré
+
+| Signe dans le fichier | Ce que ça veut dire | Le geste |
+|---|---|---|
+| une `div` avec un clic, à la place d'un `button` | le clic marche à la souris, plus au clavier | remplacer par l'élément qui porte le rôle |
+| une couleur écrite en dur, à un seul endroit | le jeton de style n'a pas survécu au passage | remplacer par le jeton, ou créer le jeton |
+| le même composant recopié avec une classe de différence | la machine a ressemblé, elle n'a pas réutilisé | extraire, nommer, vérifier les deux usages |
+| un nom, un prix, une date figés dans le corps | donnée de démonstration sans permission | la déplacer là où vivent les données |
+| `TODO`, « bientôt disponible », un bouton sans effet | fonctionnalité fantaisie | le bouton part, ou la fonction arrive |
+| une clé recopiée dans un fichier du client | elle est lisible dans le navigateur de n'importe qui | elle repasse côté serveur, traitée comme compromise |
+| aucun état de chargement, aucun traitement d'erreur | l'écran n'existe que dans le monde où tout marche | reporter ici les états du chapitre 04 |
+| `Component1`, `NewFile`, `test2` | les noms ne portent aucune information | renommer avec le mot du métier, maintenant |
+
+**Vingt-cinq minutes : les huit signes sont cherchés un par un dans votre dossier, en binôme.**
+
+---
+
 <!-- _class: exercise -->
 
 ## EX-05 - Trois écrans, un dossier, une relecture
@@ -1678,7 +1725,7 @@ Le code ne récupère pas une apparence,
 
 il récupère des engagements.
 
-<!-- 23 diapositives · ~10 min de projection (créneau 45 min dont 35 min d'atelier EX-05) · exercices projetés : EX-05 (énoncé + correction) -->
+<!-- 25 diapositives · ~14 min de projection (jour 2 : reprise 40 min à 09:00, cours 35 min à 09:40 dont les huit signes, EX-05 joué 55 min à 10:30) · exercices projetés : EX-05 (énoncé + correction) · la reprise du jour 2 (1 diapo) compte dans ce bloc -->
 ---
 
 <!-- _class: lead -->
@@ -1704,7 +1751,7 @@ il récupère des engagements.
 | La logique | les tests | un calcul faux qui passe inaperçu |
 | Les formes des données | le typage | un champ manquant découvert à l'exécution |
 | La forme du code | le linter | l'accumulation de styles et les erreurs connues |
-| **L'écran** | **vos yeux, une fois, ce matin** | **rien de durable** |
+| **L'écran** | **vos yeux, une fois, puis plus rien** | **rien de durable** |
 
 - L'écran est la partie du logiciel que vos utilisateurs touchent
 - Il est généré : il porte les hypothèses de la machine, et il est beau
@@ -1867,7 +1914,7 @@ cd rendus/02-recherche-produits && python -m http.server 8000
 4. Rendez **une seule correction** : la plus grave, le fichier, la ligne, ce qui change
 5. Ajoutez une ligne sur ce qu'aucun capteur n'a trouvé et que vous avez vu, vous
 
-Vous regardez ce rendu depuis ce matin. Le binôme d'à côté n'a pas écrit ce code : c'est la seule objectivité disponible en salle.
+Vous connaissez ce rendu : vous l'avez vu naître. Le binôme d'à côté n'a pas écrit ce code : c'est la seule objectivité disponible en salle.
 
 ---
 
@@ -1900,7 +1947,7 @@ Vous regardez ce rendu depuis ce matin. Le binôme d'à côté n'a pas écrit ce
 
 </div>
 
-Deux capteurs, une correction justifiée, une ligne sur ce qu'ils n'ont pas vu : c'est le format de travail que vous gardez après la journée.
+Deux capteurs, une correction justifiée, une ligne sur ce qu'ils n'ont pas vu : c'est le format de travail que vous gardez après le cours.
 
 ---
 
@@ -1969,7 +2016,39 @@ Le dépôt ne garde pas ce que l'outil a dessiné : il garde ce que vous avez d
 Sans l'outil, le dossier répond quand même : d'où vient chaque couche, ce qui a été contrôlé, ce qui ne l'a pas été.
 </div>
 
-<!-- 22 diapositives · ~30 min de projection pour un créneau de 40 min dont 20 d'atelier · exercices projetés : EX-06 (énoncé + correction) -->
+---
+
+<!-- _class: exercise -->
+
+## EX-07 - Un écran neuf, de la spec à la trace (60 min, binôme)
+
+**Sujet : « Ce qui sort cette semaine »** — un second écran de *Panier Local*, la demande de Youssef au comptoir : tablette à plat, gants aux mains, une minute pour répondre.
+
+- **12 min** la spec en trois blocs, la valeur de contrôle, les quatre états — l'outil reste fermé.
+- **6 min** la demande : spec collée, `DESIGN.md` du chapitre 03 réutilisé sans y toucher.
+- **14 min** la sortie contre la spec : en local, servie en HTTP, relue ligne à ligne.
+- **10 min** les deux capteurs, **une** correction justifiée.
+- **8 min** les trois temps du dépôt ; **10 min** la liste des décisions, et ce qui a été écarté.
+
+**La trace rendue :** la spec versionnée, le dossier généré et vos trois commits datés, les deux sorties de capteurs dans `audits/`, la liste des décisions. Rien n'est noté : le QCM qui suit est la seule note. La correction est collective et projetée avant le QCM.
+
+---
+
+<!-- _class: correction -->
+
+## EX-07 - Sept points de contrôle (correction projetée avant le QCM)
+
+Des points de contrôle, pas des points : l'atelier ne se note pas.
+
+- **L'ordre des commits.** La spec précède la sortie : dans six mois, on saura qui a décidé.
+- **La valeur de contrôle.** Neuf lignes sur dix en vente cette semaine ; dix affichées = rien n'a filtré.
+- **Le producteur nommé.** Deux « Œufs plein air » chez deux producteurs, à 4,20 € et 4,60 €.
+- **Les mots défendus.** Une quantité, « en stock », « épuisé », un total : la base ne sait pas.
+- **Vide n'est pas panne.** « Rien ne sort cette semaine » doit donner une issue.
+- **Le trajet au comptoir.** Une action par produit, un seul appui, rien sous un survol.
+- **La liste des décisions.** Ce qui a été écarté avec sa raison, et ce qui reste non vérifié.
+
+<!-- 24 diapositives · ~34 min de projection (jour 2 : cours 35 min à 11:40 et 30 min à 14:30, EX-06 joué 45 min à 13:30, EX-07 60 min à 15:00) · exercices projetés : EX-06 (énoncé + correction), EX-07 (énoncé + sept points de contrôle) -->
 
 ---
 
@@ -1983,10 +2062,10 @@ Le QCM, la relecture qui reste, et ce que vous emportez.
 
 ## Le QCM : ce qu'il est
 
-- Seule note de la journée ; le livrable de salle reste une trace de travail.
+- Seule note du cours, en clôture du jour 2 ; le livrable de salle reste une trace de travail.
 - Questions et réponses mélangées à l'affichage : 15 items, dont trois à réponses multiples.
 - Une seule tentative, sans IA — consigne de salle, pas verrou technique.
-- Vingt minutes sur la plateforme, minuteur annoncé en salle.
+- Trente minutes sur la plateforme, minuteur annoncé en salle.
 
 ---
 
@@ -2033,6 +2112,6 @@ Dossier ouvert et rendu lancé ; les quatre réponses se gardent dans le dépô
 
 <!-- _class: statement -->
 
-Ce matin, un écran et personne pour dire s'il était bon. Maintenant, vous savez quoi demander, et où le montrer.
+Le premier matin, un écran et personne pour dire s'il était bon. Maintenant, vous savez quoi demander, et où le montrer.
 
-<!-- 7 diapositives · ~10 min de projection (hors QCM de 20 min) · exercices projetés : aucun -->
+<!-- 7 diapositives · ~10 min de projection (hors QCM de 30 min, à 16:20 le jour 2) · exercices projetés : aucun -->
